@@ -30,11 +30,9 @@ O jogo foi feito para a [Gamejam Halloween Carol Carvalho](https://itch.io/jam/h
 e está publicado no [itch.io](https://emanuelcandido.itch.io/porta-a-porta), com versão para navegador
 e downloads para Windows e Linux.
 
-<div align="center">
-<img src="docs/media/gameplay.gif" alt="Gameplay: a Bruxinha andando e lutando na Vila das Lanternas" width="720">
+Trecho de gameplay gravado do build de produção, na primeira rua do bairro:
 
-<sub>Trecho de gameplay gravado do build de produção. <a href="docs/media/gameplay.webm">Vídeo em melhor qualidade (WebM)</a>.</sub>
-</div>
+https://github.com/user-attachments/assets/32cd2584-1092-43a7-a3dc-f61ebb3ff73a
 
 ### Pilares do design
 
