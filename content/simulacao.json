@@ -1,0 +1,7 @@
+{
+  "ticksPorSegundo": 60,
+  "maxTicksPorQuadro": 5,
+  "celulaGradeTiles": 2,
+  "iteracoesColisao": 4,
+  "sementePadrao": 1
+}

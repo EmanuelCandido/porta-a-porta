@@ -1,0 +1,59 @@
+{
+  "rua": {
+    "duracaoS": 90,
+    "porDicaS": 15,
+    "esperaInicialS": 2.5,
+    "andarTiles": 1.5,
+    "passos": [
+      {
+        "id": "andar",
+        "texto": "WASD: andar (as setas também)"
+      },
+      {
+        "id": "atacar",
+        "texto": "Botão esquerdo: atacar na direção do mouse. Segure para golpes seguidos"
+      },
+      {
+        "id": "q",
+        "texto": "Botão direito: lança a habilidade principal no mouse (Q, E e R são as outras)"
+      },
+      {
+        "id": "rolar",
+        "texto": "Espaço: rolar. Rolando, você não leva dano"
+      },
+      {
+        "id": "lanterna",
+        "texto": "Shift: pulso da lanterna. A luz dos postes recarrega a lanterna"
+      },
+      {
+        "id": "poste",
+        "texto": "Derrube os Postes Corrompidos (os roxos) para abrir o portão"
+      },
+      {
+        "id": "portao",
+        "texto": "Com os Postes no chão, o portão abre: saia por ele"
+      }
+    ]
+  },
+  "linhaS": 6,
+  "susto": "Susto: golpes e derrotas enchem a barra. Cheia, vem o Frenesi (mais dano por uns segundos)",
+  "evolucao": "Evolução: escolha uma das duas formas novas da habilidade. A escolha vale até o fim da run",
+  "marcas": "Cada trato tem uma marca. Junte 2 ou 4 tratos da mesma marca para ativar um Conjunto",
+  "pausa": {
+    "susto": [
+      "Acertar sem ser acertado enche a barra de Susto (embaixo das habilidades); derrubar inimigos e elites enche mais.",
+      "Levar um golpe anunciado tira parte da barra, e ficar sem acertar faz ela esvaziar aos poucos."
+    ],
+    "controles": [
+      ["WASD ou setas", "andar"],
+      ["Botão esquerdo", "atacar na direção do mouse (segure para golpes seguidos)"],
+      ["Ctrl + tecla", "subir o posto da habilidade (com ponto de nível)"],
+      ["1 e 2", "usar os consumíveis"],
+      ["Tab ou clique no minimapa", "mapa inteiro"],
+      ["M", "ligar e desligar o som"],
+      ["Esc ou P", "pausa"],
+      ["Controle", "analógico anda · RT ataca · X, Y, B e LT habilidades · A rola"],
+      ["Controle: RB, ↑, ← →", "interagir, travessura, consumíveis · Back mapa · Start pausa"]
+    ]
+  }
+}

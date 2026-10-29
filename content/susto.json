@@ -1,0 +1,40 @@
+{
+  "maximo": 100,
+  "eventos": {
+    "acertoHabilidade": 4,
+    "acertosPorLancamento": 3,
+    "acertoAuto": 1,
+    "derrota": 6,
+    "derrotaElite": 20,
+    "interromper": 10,
+    "quaseAcerto": 5
+  },
+  "fracaoPerdidaAoSerAtingido": 0.5,
+  "esvaziaDepoisDe": 3,
+  "esvaziaPorS": 8,
+  "faixas": [
+    {
+      "nome": "Calmo",
+      "desde": 0,
+      "doces": 1,
+      "velocidade": 0
+    },
+    {
+      "nome": "Arrepio",
+      "desde": 25,
+      "doces": 1.25,
+      "velocidade": 0
+    },
+    {
+      "nome": "Pavor",
+      "desde": 50,
+      "doces": 1.5,
+      "velocidade": 0.1
+    }
+  ],
+  "frenesi": {
+    "duracao": 6,
+    "velocidadeRecarga": 0.5,
+    "doces": 2
+  }
+}

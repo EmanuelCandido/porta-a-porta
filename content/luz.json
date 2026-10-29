@@ -1,0 +1,17 @@
+{
+  "poste": {
+    "raio": 3
+  },
+  "janela": {
+    "comprimento": 2.6,
+    "abertura": 0.35,
+    "inicioPorAndar": 0.8,
+    "iluminaChao": false
+  },
+  "posteCorrompido": {
+    "raio": 2
+  },
+  "cura": {
+    "postePorS": 0.03
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "runsPorPerfil": 16,
+  "campeoes": ["bruxinha", "fantasma", "esqueleto", "vampirinho"],
+  "bairros": 3,
+  "decisaoS": 0.1,
+  "limiteRuaS": 720,
+  "limiteChefeS": 720,
+  "portaS": 50,
+  "raioCombate": 8,
+  "alcanceAtaque": 4.6,
+  "distanciaKite": 1.7,
+  "distanciaDoChefe": 4,
+  "pesoDistanciaDeLonge": 0.35,
+  "pesoDistanciaCorpoACorpo": 1,
+  "folgaDaLuzSegura": 1,
+  "perseguicaoS": 5,
+  "bonusDoLendario": 3,
+  "surpresas": {
+    "runs": 500,
+    "semEncontroMax": 0.1
+  },
+  "minijogo": {
+    "chancePerfeito": 0.3,
+    "atrasoToque": 0.75,
+    "atrasoOlhoS": 0.8,
+    "atrasoQuemS": 1.3,
+    "vaoDaFresta": 0.45
+  },
+  "luzCuraAbaixo": 0.4,
+  "luzCuraAte": 0.85,
+  "raioBuscaLuz": 14,
+  "caminhoACadaS": 2.5,
+  "presoS": 4,
+  "raioBau": 7,
+  "perfis": {
+    "iniciante": {
+      "nome": "Iniciante",
+      "reacaoS": 0.45,
+      "erroMira": 0.25,
+      "chanceDesvio": 0.2,
+      "usaE": false,
+      "usaLuz": false,
+      "usaLanterna": false,
+      "miraFutura": false,
+      "recua": false,
+      "compra": false,
+      "abreBaus": false,
+      "bateNasCasas": false,
+      "acertoMinijogo": 0.4,
+      "tratos": "acaso",
+      "rotas": "acaso",
+      "evolucoes": "acaso",
+      "pontos": "acaso"
+    },
+    "medio": {
+      "nome": "Médio",
+      "reacaoS": 0.3,
+      "erroMira": 0.12,
+      "chanceDesvio": 0.7,
+      "usaE": true,
+      "usaLuz": true,
+      "usaLanterna": true,
+      "miraFutura": false,
+      "recua": true,
+      "compra": true,
+      "abreBaus": true,
+      "bateNasCasas": true,
+      "acertoMinijogo": 0.7,
+      "tratos": "acaso",
+      "rotas": "acaso",
+      "evolucoes": "acaso",
+      "pontos": "ordem"
+    },
+    "experiente": {
+      "nome": "Experiente",
+      "reacaoS": 0.2,
+      "erroMira": 0.05,
+      "chanceDesvio": 0.95,
+      "usaE": true,
+      "usaLuz": true,
+      "usaLanterna": true,
+      "miraFutura": true,
+      "recua": true,
+      "compra": true,
+      "abreBaus": true,
+      "bateNasCasas": true,
+      "acertoMinijogo": 0.85,
+      "tratos": "sinergia",
+      "rotas": "preferencia",
+      "evolucoes": "preferencia",
+      "pontos": "ordem"
+    }
+  },
+  "chanceDaEvolucaoA": {
+    "bruxinha_q": 0.55,
+    "bruxinha_w": 0.5,
+    "bruxinha_e": 0.45,
+    "bruxinha_r": 0.5
+  },
+  "pesoDaCondicao": {
+    "noite_comum": 1,
+    "lua_vermelha": 0.8,
+    "neblina": 0.7,
+    "festa": 0.9,
+    "ventania": 0.8,
+    "silencio": 1.1,
+    "chuva_de_doces": 1.3,
+    "apagao": 0.7
+  },
+  "minRunsPorBuild": 3,
+  "retornoMaxS": 10,
+  "metas": [
+    {
+      "id": "vitoriaIniciante",
+      "nome": "Bot iniciante vence",
+      "perfil": "iniciante",
+      "metrica": "vitorias",
+      "max": 0.1,
+      "runCompleta": true
+    },
+    {
+      "id": "vitoriaMedio",
+      "nome": "Bot médio vence",
+      "perfil": "medio",
+      "metrica": "vitorias",
+      "min": 0.3,
+      "max": 0.45,
+      "runCompleta": true
+    },
+    {
+      "id": "diferencaEntreCampeoes",
+      "nome": "Diferença de vitórias entre campeões, bot médio",
+      "perfil": "medio",
+      "metrica": "diferencaEntreCampeoes",
+      "max": 0.1,
+      "nota": "só o acaso já espalha quatro campeões iguais em cerca de 18 pontos com 32 runs cada e 9 com 128; a meta pede 128 runs por campeão"
+    },
+    {
+      "id": "campeaoQueMenosVence",
+      "nome": "Campeão que menos vence o bairro 1, bot experiente",
+      "perfil": "experiente",
+      "metrica": "campeaoQueMenosVence",
+      "bairro": 1,
+      "min": 0.5,
+      "nota": "critério da tarefa 11: os bots vencem o bairro 1 com os 4 campeões"
+    },
+    {
+      "id": "campeaoQueMenosVenceARun",
+      "nome": "Campeão que menos vence a run inteira, bot experiente",
+      "perfil": "experiente",
+      "metrica": "campeaoQueMenosVence",
+      "min": 0.25,
+      "nota": "critério da tarefa 12: os bots vencem a run inteira com os 4 campeões; as metas do GDD para a run ficam para o balanceamento final (tarefa 14)"
+    },
+    {
+      "id": "vitoriaExperiente",
+      "nome": "Bot experiente vence",
+      "perfil": "experiente",
+      "metrica": "vitorias",
+      "min": 0.6,
+      "max": 0.75,
+      "runCompleta": true
+    },
+    {
+      "id": "duracaoRua",
+      "nome": "Duração de uma rua (min), bot médio",
+      "perfil": "medio",
+      "metrica": "duracaoRuaMin",
+      "min": 2.5,
+      "max": 3.5
+    },
+    {
+      "id": "duracaoChefe",
+      "nome": "Duração do chefe (min), bot médio",
+      "perfil": "medio",
+      "metrica": "duracaoChefeMin",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "id": "frenesiMedio",
+      "nome": "Frenesis por rua, bot médio",
+      "perfil": "medio",
+      "metrica": "frenesisPorRua",
+      "min": 1,
+      "max": 2
+    },
+    {
+      "id": "frenesiExperiente",
+      "nome": "Frenesis por rua, bot experiente",
+      "perfil": "experiente",
+      "metrica": "frenesisPorRua",
+      "min": 3,
+      "max": 4
+    },
+    {
+      "id": "susto50",
+      "nome": "Rua com o Susto em 50 ou mais, bot experiente",
+      "perfil": "experiente",
+      "metrica": "fracaoSusto50",
+      "min": 0.3,
+      "max": 0.5
+    },
+    {
+      "id": "pedidos",
+      "nome": "Pedidos cumpridos, bot médio",
+      "perfil": "medio",
+      "metrica": "pedidosCumpridos",
+      "min": 0.35,
+      "max": 0.6
+    },
+    {
+      "id": "evolucoes",
+      "nome": "Escolha de cada evolução (a menos escolhida do par), todos os bots",
+      "perfil": "todos",
+      "metrica": "evolucaoMenosEscolhida",
+      "min": 0.25
+    },
+    {
+      "id": "condicoes",
+      "nome": "Escolha de cada condição oferecida (faixa), bot experiente",
+      "perfil": "experiente",
+      "metrica": "condicaoEscolhida",
+      "min": 0.1,
+      "max": 0.3,
+      "nota": "com 2 portões a escolha neutra é 50%; a meta do complemento vale com mais portões"
+    },
+    {
+      "id": "tratoNasVitorias",
+      "nome": "Trato mais presente nas vitórias, bot experiente",
+      "perfil": "experiente",
+      "metrica": "tratoMaisPresente",
+      "max": 0.45
+    },
+    {
+      "id": "conjuntoDe4",
+      "nome": "Runs com ao menos 1 Conjunto de 4 completo, bot experiente",
+      "perfil": "experiente",
+      "metrica": "runsComConjuntoDe4",
+      "min": 0.5,
+      "max": 0.7
+    },
+    {
+      "id": "conjuntoQueMenosVence",
+      "nome": "Conjunto de 4 que menos vence, bot experiente",
+      "perfil": "experiente",
+      "metrica": "conjuntoQueMenosVence",
+      "min": 0.45
+    },
+    {
+      "id": "conjuntoQueMaisVence",
+      "nome": "Conjunto de 4 que mais vence, bot experiente",
+      "perfil": "experiente",
+      "metrica": "conjuntoQueMaisVence",
+      "max": 0.75
+    },
+    {
+      "id": "conjuntoNasVitorias",
+      "nome": "Conjunto de 4 mais presente nas vitórias, bot experiente",
+      "perfil": "experiente",
+      "metrica": "conjuntoMaisPresenteNasVitorias",
+      "max": 0.3
+    },
+    {
+      "id": "bomVizinho",
+      "nome": "Vitórias da rota do Bom Vizinho (até 1 trato), bot experiente",
+      "perfil": "experiente",
+      "metrica": "vitoriasBomVizinho",
+      "maxTratos": 1,
+      "min": 0.1,
+      "max": 0.25
+    },
+    {
+      "id": "docesDaDesconfiada",
+      "nome": "Doces da Casa Desconfiada na run, bot médio",
+      "perfil": "medio",
+      "metrica": "docesDaDesconfiada",
+      "min": 0.08,
+      "max": 0.15
+    },
+    {
+      "id": "minijogosVencidos",
+      "nome": "Minijogos da Casa Desconfiada vencidos, bot médio",
+      "perfil": "medio",
+      "metrica": "minijogosVencidos",
+      "min": 0.6,
+      "max": 0.8
+    }
+  ],
+  "ordemDosPontos": ["Q", "W", "E", "Q", "Q", "W", "W", "E", "E", "Q", "Q", "W", "W", "E", "E"],
+  "usos": {
+    "bruxinha_q": "disparo",
+    "bruxinha_w": "area",
+    "bruxinha_e": "fuga",
+    "bruxinha_r": "area",
+    "fantasma_q": "disparo",
+    "fantasma_w": "fuga",
+    "fantasma_e": "sumir",
+    "fantasma_r": "execucao",
+    "esqueleto_q": "perto",
+    "esqueleto_w": "escudo",
+    "esqueleto_e": "investida",
+    "esqueleto_r": "emVolta",
+    "vampirinho_q": "alvo",
+    "vampirinho_w": "fuga",
+    "vampirinho_e": "emVolta",
+    "vampirinho_r": "buff"
+  }
+}

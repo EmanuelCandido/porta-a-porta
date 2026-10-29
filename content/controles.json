@@ -1,0 +1,19 @@
+{
+  "zonaMortaAnalogico": 0.2,
+  "lancamento": "soltar",
+  "habilidades": { "Q": "BOTAO_DIREITO", "W": "Q", "E": "E", "R": "R" },
+  "rolar": "SPACE",
+  "lanterna": "SHIFT",
+  "interagir": "F",
+  "travessura": "G",
+  "controle": {
+    "menus": { "limiarAnalogico": 0.5, "repeticaoInicialS": 0.4, "repeticaoS": 0.15 },
+    "miraAFrente": 4,
+    "miraAutomatica": {
+      "graus": 70,
+      "grausAnalogico": 35,
+      "qualquerLadoAte": 6,
+      "semAlvoTiles": 3.5
+    }
+  }
+}

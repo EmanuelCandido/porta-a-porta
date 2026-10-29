@@ -1,0 +1,731 @@
+{
+  "ruas": [
+    {
+      "id": "rua_teste",
+      "nome": "Rua de teste (estática)",
+      "largura": 24,
+      "profundidade": 22,
+      "entrada": {
+        "x": 12,
+        "y": 20.5
+      },
+      "objetos": [
+        {
+          "modelo": "casa_terrea",
+          "x": 5,
+          "y": 0.5
+        },
+        {
+          "modelo": "sobrado",
+          "x": 5.25,
+          "y": 5.5
+        },
+        {
+          "modelo": "casa_grande",
+          "x": 4.15,
+          "y": 9.3
+        },
+        {
+          "modelo": "casa_terrea",
+          "x": 5,
+          "y": 15
+        },
+        {
+          "modelo": "sobrado",
+          "x": 5.25,
+          "y": 19.2
+        },
+        {
+          "modelo": "sobrado",
+          "x": 16,
+          "y": 0.8,
+          "rot": 180
+        },
+        {
+          "modelo": "casa_grande",
+          "x": 16,
+          "y": 4.4,
+          "rot": 180
+        },
+        {
+          "modelo": "casa_terrea",
+          "x": 16,
+          "y": 10.2,
+          "rot": 180
+        },
+        {
+          "modelo": "sobrado",
+          "x": 16,
+          "y": 15,
+          "rot": 180
+        },
+        {
+          "modelo": "casa_terrea",
+          "x": 16,
+          "y": 18.2,
+          "rot": 180
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 8.1,
+          "y": 4.5
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 8.1,
+          "y": 14.2
+        },
+        {
+          "modelo": "poste",
+          "estado": "apagado",
+          "x": 14.9,
+          "y": 9.6
+        },
+        {
+          "modelo": "poste",
+          "estado": "corrompido",
+          "x": 14.9,
+          "y": 3.6
+        },
+        {
+          "modelo": "poste",
+          "estado": "corrompido",
+          "x": 14.9,
+          "y": 16.8
+        },
+        {
+          "modelo": "lixeira",
+          "x": 8.2,
+          "y": 8.4
+        },
+        {
+          "modelo": "lixeira",
+          "x": 15,
+          "y": 13.5
+        },
+        {
+          "modelo": "banco",
+          "x": 8.1,
+          "y": 11.2
+        },
+        {
+          "modelo": "banco",
+          "x": 14.9,
+          "y": 6.2,
+          "rot": 180
+        },
+        {
+          "modelo": "arvore",
+          "x": 8.1,
+          "y": 18.7
+        },
+        {
+          "modelo": "arvore",
+          "x": 15,
+          "y": 0.2
+        },
+        {
+          "modelo": "arvore",
+          "x": 2.5,
+          "y": 3
+        },
+        {
+          "modelo": "arvore",
+          "x": 2.2,
+          "y": 12
+        },
+        {
+          "modelo": "arvore",
+          "x": 3,
+          "y": 19.5
+        },
+        {
+          "modelo": "arvore",
+          "x": 21,
+          "y": 6
+        },
+        {
+          "modelo": "arvore",
+          "x": 21.3,
+          "y": 16
+        }
+      ],
+      "bonecos": [
+        {
+          "x": 10.2,
+          "y": 14
+        },
+        {
+          "x": 13.2,
+          "y": 17.5
+        },
+        {
+          "x": 10.4,
+          "y": 9.5
+        }
+      ],
+      "figurantes": [
+        {
+          "modelo": "bruxinha",
+          "x": 11.2,
+          "y": 10.5
+        },
+        {
+          "modelo": "pestinha_lencol",
+          "x": 12.6,
+          "y": 8.2,
+          "rot": 90
+        },
+        {
+          "modelo": "pestinha_lencol",
+          "x": 13,
+          "y": 12.6,
+          "rot": 90
+        }
+      ]
+    },
+    {
+      "id": "vitrine",
+      "nome": "Vitrine na composição da imagem de referência",
+      "largura": 18,
+      "profundidade": 16,
+      "entrada": {
+        "x": 11,
+        "y": 11
+      },
+      "objetos": [
+        {
+          "modelo": "casa_terrea",
+          "x": 4,
+          "y": 9
+        },
+        {
+          "modelo": "sobrado",
+          "x": 7.8,
+          "y": 5.6
+        },
+        {
+          "modelo": "casa_grande",
+          "x": 11.6,
+          "y": 0.4
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 7.9,
+          "y": 12.3
+        },
+        {
+          "modelo": "lixeira",
+          "x": 5.6,
+          "y": 7.9
+        },
+        {
+          "modelo": "arvore",
+          "x": 8.9,
+          "y": 3.1
+        },
+        {
+          "modelo": "banco",
+          "x": 14.3,
+          "y": 8.1
+        }
+      ],
+      "figurantes": []
+    },
+    {
+      "id": "catalogo",
+      "nome": "Catálogo dos modelos do passe de design",
+      "largura": 42,
+      "profundidade": 65,
+      "entrada": {
+        "x": 1,
+        "y": 1
+      },
+      "objetos": [
+        {
+          "modelo": "casa_varanda",
+          "x": 1.0,
+          "y": 1.0
+        },
+        {
+          "modelo": "geminado",
+          "x": 1.0,
+          "y": 6.8
+        },
+        {
+          "modelo": "chale",
+          "x": 1.0,
+          "y": 13.6
+        },
+        {
+          "modelo": "casa_torre",
+          "x": 1.0,
+          "y": 19.0
+        },
+        {
+          "modelo": "loja",
+          "x": 1.0,
+          "y": 25.2,
+          "variante": "mercadinho"
+        },
+        {
+          "modelo": "loja",
+          "x": 1.0,
+          "y": 31.4,
+          "variante": "padaria"
+        },
+        {
+          "modelo": "loja",
+          "x": 1.0,
+          "y": 37.6,
+          "variante": "farmacia"
+        },
+        {
+          "modelo": "predio",
+          "x": 10.9,
+          "y": 1.0,
+          "variante": "baixo"
+        },
+        {
+          "modelo": "igreja",
+          "x": 10.9,
+          "y": 8.6
+        },
+        {
+          "modelo": "galpao",
+          "x": 10.9,
+          "y": 15.2
+        },
+        {
+          "modelo": "caixa_dagua",
+          "x": 10.9,
+          "y": 22.0
+        },
+        {
+          "modelo": "escola",
+          "x": 10.9,
+          "y": 27.0
+        },
+        {
+          "modelo": "chafariz",
+          "x": 22.9,
+          "y": 1.0
+        },
+        {
+          "modelo": "coreto",
+          "x": 22.9,
+          "y": 6.6
+        },
+        {
+          "modelo": "balanco",
+          "x": 22.9,
+          "y": 12.8
+        },
+        {
+          "modelo": "escorregador",
+          "x": 22.9,
+          "y": 17.6
+        },
+        {
+          "modelo": "floreira",
+          "x": 22.9,
+          "y": 22.8
+        },
+        {
+          "modelo": "arbusto",
+          "x": 22.9,
+          "y": 26.0
+        },
+        {
+          "modelo": "pinheiro",
+          "x": 22.9,
+          "y": 29.6
+        },
+        {
+          "modelo": "arvore_seca",
+          "x": 22.9,
+          "y": 33.2
+        },
+        {
+          "modelo": "carro",
+          "x": 22.9,
+          "y": 36.8,
+          "variante": "sedan"
+        },
+        {
+          "modelo": "carro",
+          "x": 22.9,
+          "y": 40.5,
+          "variante": "perua"
+        },
+        {
+          "modelo": "hidrante",
+          "x": 32.5,
+          "y": 1.0
+        },
+        {
+          "modelo": "caixa_correio",
+          "x": 32.5,
+          "y": 4.6
+        },
+        {
+          "modelo": "orelhao",
+          "x": 32.5,
+          "y": 8.2
+        },
+        {
+          "modelo": "ponto_onibus",
+          "x": 32.5,
+          "y": 11.8
+        },
+        {
+          "modelo": "banca",
+          "x": 32.5,
+          "y": 16.8
+        },
+        {
+          "modelo": "cacamba",
+          "x": 32.5,
+          "y": 21.2
+        },
+        {
+          "modelo": "semaforo",
+          "x": 32.5,
+          "y": 24.8
+        },
+        {
+          "modelo": "placa_rua",
+          "x": 32.5,
+          "y": 28.4
+        },
+        {
+          "modelo": "muro",
+          "x": 32.5,
+          "y": 32.0
+        },
+        {
+          "modelo": "tapume",
+          "x": 32.5,
+          "y": 34.9
+        },
+        {
+          "modelo": "cavalete",
+          "x": 32.5,
+          "y": 37.7
+        },
+        {
+          "modelo": "cone",
+          "x": 32.5,
+          "y": 40.7
+        },
+        {
+          "modelo": "abobora_decor",
+          "x": 32.5,
+          "y": 44.3
+        },
+        {
+          "modelo": "lapide",
+          "x": 32.5,
+          "y": 47.9
+        },
+        {
+          "modelo": "varal",
+          "x": 32.5,
+          "y": 51.5
+        },
+        {
+          "modelo": "cerca_viva",
+          "x": 32.5,
+          "y": 56.3
+        }
+      ],
+      "figurantes": [
+        {
+          "modelo": "bruxinha",
+          "x": 3,
+          "y": 1.5
+        }
+      ]
+    },
+    {
+      "id": "acervo",
+      "nome": "Acervo do Codex: casas, comércio, veículos e objetos de rua",
+      "largura": 21,
+      "profundidade": 43,
+      "entrada": {
+        "x": 9.5,
+        "y": 1
+      },
+      "objetos": [
+        {
+          "modelo": "casa_varanda",
+          "x": 1,
+          "y": 1,
+          "rot": 0
+        },
+        {
+          "modelo": "casa_sotao",
+          "x": 1,
+          "y": 4.95,
+          "rot": 0
+        },
+        {
+          "modelo": "casa_laje",
+          "x": 1,
+          "y": 9,
+          "rot": 0
+        },
+        {
+          "modelo": "geminadas",
+          "x": 1,
+          "y": 13.1,
+          "rot": 0
+        },
+        {
+          "modelo": "sobrado_atelie",
+          "x": 1,
+          "y": 17.7,
+          "rot": 0
+        },
+        {
+          "modelo": "vilinha",
+          "x": 1,
+          "y": 21.85,
+          "rot": 0
+        },
+        {
+          "modelo": "padaria",
+          "x": 1,
+          "y": 26.950000000000003,
+          "rot": 0
+        },
+        {
+          "modelo": "mercado",
+          "x": 1,
+          "y": 31.550000000000004,
+          "rot": 0
+        },
+        {
+          "modelo": "oficina",
+          "x": 1,
+          "y": 36.1,
+          "rot": 0
+        },
+        {
+          "modelo": "cinema",
+          "x": 15.5,
+          "y": 1,
+          "rot": 180
+        },
+        {
+          "modelo": "edificio",
+          "x": 15.5,
+          "y": 5.95,
+          "rot": 180
+        },
+        {
+          "modelo": "coreto",
+          "x": 15.5,
+          "y": 10.8,
+          "rot": 180
+        },
+        {
+          "modelo": "casa_laje",
+          "x": 15.5,
+          "y": 15.200000000000001,
+          "rot": 180
+        },
+        {
+          "modelo": "vilinha",
+          "x": 15.5,
+          "y": 19.3,
+          "rot": 180
+        },
+        {
+          "modelo": "sobrado_atelie",
+          "x": 15.5,
+          "y": 24.400000000000002,
+          "rot": 180
+        },
+        {
+          "modelo": "mercado",
+          "x": 15.5,
+          "y": 28.550000000000004,
+          "rot": 180
+        },
+        {
+          "modelo": "padaria",
+          "x": 15.5,
+          "y": 33.1,
+          "rot": 180
+        },
+        {
+          "modelo": "carro",
+          "variante": "sedan",
+          "x": 6.3,
+          "y": 1.5,
+          "rot": 90
+        },
+        {
+          "modelo": "carro",
+          "variante": "perua",
+          "x": 6.3,
+          "y": 5.5,
+          "rot": 90
+        },
+        {
+          "modelo": "carro",
+          "variante": "compacto",
+          "x": 6.3,
+          "y": 9.5,
+          "rot": 90
+        },
+        {
+          "modelo": "carro",
+          "variante": "retro",
+          "x": 6.3,
+          "y": 13.5,
+          "rot": 90
+        },
+        {
+          "modelo": "onibus",
+          "x": 6.3,
+          "y": 17.5,
+          "rot": 90
+        },
+        {
+          "modelo": "carro",
+          "variante": "picape",
+          "x": 6.3,
+          "y": 22.7,
+          "rot": 90
+        },
+        {
+          "modelo": "carro",
+          "variante": "van",
+          "x": 6.3,
+          "y": 26.7,
+          "rot": 90
+        },
+        {
+          "modelo": "carro",
+          "variante": "furgao",
+          "x": 6.3,
+          "y": 30.7,
+          "rot": 90
+        },
+        {
+          "modelo": "banca",
+          "x": 5.2,
+          "y": 35.2,
+          "rot": 0
+        },
+        {
+          "modelo": "ponto_onibus",
+          "x": 13.6,
+          "y": 4,
+          "rot": 180
+        },
+        {
+          "modelo": "carrinho_de_rua",
+          "x": 13.2,
+          "y": 12,
+          "rot": 180
+        },
+        {
+          "modelo": "pracinha",
+          "x": 13.4,
+          "y": 16,
+          "rot": 180
+        },
+        {
+          "modelo": "pracinha",
+          "x": 5.2,
+          "y": 38.1,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 5.4,
+          "y": 3,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 13.4,
+          "y": 7,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 5.4,
+          "y": 11,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 13.4,
+          "y": 15,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 5.4,
+          "y": 19,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 13.4,
+          "y": 23,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 5.4,
+          "y": 27,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 13.4,
+          "y": 31,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 5.4,
+          "y": 35,
+          "rot": 0
+        },
+        {
+          "modelo": "poste",
+          "estado": "amigo",
+          "x": 13.4,
+          "y": 39,
+          "rot": 0
+        }
+      ],
+      "figurantes": [
+        {
+          "modelo": "bruxinha",
+          "x": 9,
+          "y": 6,
+          "rot": 0
+        }
+      ]
+    }
+  ]
+}

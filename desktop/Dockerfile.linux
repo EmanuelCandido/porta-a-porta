@@ -1,0 +1,10 @@
+FROM node:24-bookworm-slim
+
+# Ambiente de empacotamento e teste; nenhuma destas ferramentas acompanha o jogo.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates dpkg libgtk-3-0 libnss3 libasound2 libgbm1 libx11-xcb1 \
+    libdrm2 libxshmfence1 libxss1 fonts-liberation xvfb xauth openbox \
+    desktop-file-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /trabalho

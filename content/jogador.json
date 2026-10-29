@@ -1,0 +1,6 @@
+{
+  "raio": 0.4,
+  "velocidade": 3.5,
+  "aceleracao": { "arranqueS": 0.08, "freioS": 0.06 },
+  "rolamento": { "distancia": 2.5, "velocidade": 12, "imuneS": 0.3, "recargaS": 1.2, "tontoS": 0.4 }
+}

@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Screenshots do Playwright
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: screenshots
+          path: test-results/screenshots
+          if-no-files-found: ignore
+      - name: Build estático
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist
+
+  # Publica no itch.io com o butler. Precisa do segredo BUTLER_API_KEY e da
+  # variável ITCH_PROJECT (ex.: "usuario/porta-a-porta"); sem eles, o passo é pulado.
+  itch:
+    needs: verificar
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+      ITCH_PROJECT: ${{ vars.ITCH_PROJECT }}
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist
+      - name: Enviar com o butler
+        if: env.BUTLER_API_KEY != '' && env.ITCH_PROJECT != ''
+        run: |
+          curl -fsSL -o butler.zip https://broth.itch.zone/butler/linux-amd64/LATEST/archive/default
+          unzip -q butler.zip -d butler
+          chmod +x butler/butler
+          ./butler/butler push dist "$ITCH_PROJECT:html5" --userversion "${GITHUB_SHA::7}"
+
+  # Cópia de segurança no GitHub Pages (ative Pages com a fonte "GitHub Actions").
+  pages:
+    needs: verificar
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,2367 @@
+{
+  "volumes": {
+    "geral": 0.7,
+    "efeitos": 0.8,
+    "interface": 0.6
+  },
+  "acertoSeguido": {
+    "janelaS": 2,
+    "degraus": 3,
+    "semitonsPorDegrau": 2
+  },
+  "semitonsPorTecla": {
+    "Q": 0,
+    "W": 2,
+    "E": 4,
+    "R": -5
+  },
+  "golpeFinalNoCombo": 2,
+  "semitonsPorGolpe": 2,
+  "sons": {
+    "surpresa": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.2,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 600,
+          "duracaoS": 0.15,
+          "volume": 0.2,
+          "filtroTipo": "banda",
+          "ressonancia": 3
+        },
+        {
+          "onda": "seno",
+          "freq": 300,
+          "duracaoS": 0.2,
+          "volume": 0.12,
+          "freqFim": 150
+        }
+      ]
+    },
+    "escudo": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.06,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 1600,
+          "freqFim": 1400,
+          "duracaoS": 0.12,
+          "volume": 0.12
+        },
+        {
+          "onda": "seno",
+          "freq": 3200,
+          "duracaoS": 0.08,
+          "volume": 0.05
+        }
+      ]
+    },
+    "alarme_carro": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.9,
+      "camadas": [
+        {
+          "onda": "quadrada",
+          "freq": 880,
+          "duracaoS": 0.22,
+          "volume": 0.06,
+          "filtro": 2500
+        },
+        {
+          "onda": "quadrada",
+          "freq": 660,
+          "duracaoS": 0.22,
+          "volume": 0.06,
+          "inicioS": 0.25,
+          "filtro": 2500
+        },
+        {
+          "onda": "quadrada",
+          "freq": 880,
+          "duracaoS": 0.22,
+          "volume": 0.06,
+          "inicioS": 0.5,
+          "filtro": 2500
+        },
+        {
+          "onda": "quadrada",
+          "freq": 660,
+          "duracaoS": 0.22,
+          "volume": 0.06,
+          "inicioS": 0.75,
+          "filtro": 2500
+        }
+      ]
+    },
+    "fio_caiu": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 120,
+          "freqFim": 60,
+          "duracaoS": 0.4,
+          "volume": 0.12,
+          "filtro": 1200
+        },
+        {
+          "onda": "ruido",
+          "freq": 5000,
+          "duracaoS": 0.3,
+          "volume": 0.12
+        },
+        {
+          "onda": "quadrada",
+          "freq": 2000,
+          "freqFim": 600,
+          "duracaoS": 0.05,
+          "volume": 0.04,
+          "inicioS": 0.05
+        }
+      ]
+    },
+    "faisca": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.2,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 6000,
+          "duracaoS": 0.06,
+          "volume": 0.08
+        },
+        {
+          "onda": "quadrada",
+          "freq": 1800,
+          "freqFim": 900,
+          "duracaoS": 0.04,
+          "volume": 0.03
+        }
+      ]
+    },
+    "jato": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1800,
+          "duracaoS": 0.35,
+          "volume": 0.1
+        },
+        {
+          "onda": "ruido",
+          "freq": 700,
+          "duracaoS": 0.3,
+          "volume": 0.06
+        }
+      ]
+    },
+    "pavio": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 7000,
+          "duracaoS": 0.55,
+          "volume": 0.07
+        },
+        {
+          "onda": "seno",
+          "freq": 900,
+          "freqFim": 1600,
+          "duracaoS": 0.55,
+          "volume": 0.03
+        }
+      ]
+    },
+    "explosao": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.12,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 2500,
+          "duracaoS": 0.25,
+          "volume": 0.25
+        },
+        {
+          "onda": "seno",
+          "freq": 110,
+          "freqFim": 35,
+          "duracaoS": 0.4,
+          "volume": 0.3
+        },
+        {
+          "onda": "serra",
+          "freq": 220,
+          "freqFim": 60,
+          "duracaoS": 0.2,
+          "volume": 0.08,
+          "filtro": 700
+        }
+      ]
+    },
+    "bater_metal": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 900,
+          "freqFim": 700,
+          "duracaoS": 0.08,
+          "volume": 0.14
+        },
+        {
+          "onda": "ruido",
+          "freq": 4000,
+          "duracaoS": 0.04,
+          "volume": 0.08
+        }
+      ]
+    },
+    "quebrar_metal": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 700,
+          "freqFim": 300,
+          "duracaoS": 0.25,
+          "volume": 0.16
+        },
+        {
+          "onda": "ruido",
+          "freq": 3000,
+          "duracaoS": 0.15,
+          "volume": 0.15
+        },
+        {
+          "onda": "quadrada",
+          "freq": 1200,
+          "freqFim": 800,
+          "duracaoS": 0.08,
+          "volume": 0.04,
+          "filtro": 2000
+        }
+      ]
+    },
+    "bater_madeira": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1200,
+          "duracaoS": 0.05,
+          "volume": 0.12
+        },
+        {
+          "onda": "seno",
+          "freq": 300,
+          "freqFim": 200,
+          "duracaoS": 0.06,
+          "volume": 0.1
+        }
+      ]
+    },
+    "quebrar_madeira": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 900,
+          "duracaoS": 0.18,
+          "volume": 0.2
+        },
+        {
+          "onda": "seno",
+          "freq": 180,
+          "freqFim": 90,
+          "duracaoS": 0.15,
+          "volume": 0.15
+        },
+        {
+          "onda": "ruido",
+          "freq": 2000,
+          "duracaoS": 0.06,
+          "volume": 0.1,
+          "inicioS": 0.05
+        }
+      ]
+    },
+    "bater_abobora": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 220,
+          "freqFim": 160,
+          "duracaoS": 0.08,
+          "volume": 0.14
+        },
+        {
+          "onda": "ruido",
+          "freq": 600,
+          "duracaoS": 0.05,
+          "volume": 0.06
+        }
+      ]
+    },
+    "quebrar_abobora": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 260,
+          "freqFim": 90,
+          "duracaoS": 0.2,
+          "volume": 0.2
+        },
+        {
+          "onda": "ruido",
+          "freq": 500,
+          "duracaoS": 0.2,
+          "volume": 0.15
+        },
+        {
+          "onda": "seno",
+          "freq": 400,
+          "freqFim": 150,
+          "duracaoS": 0.1,
+          "volume": 0.06,
+          "inicioS": 0.06
+        }
+      ]
+    },
+    "bater_vidro": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 2200,
+          "freqFim": 1900,
+          "duracaoS": 0.05,
+          "volume": 0.1
+        }
+      ]
+    },
+    "quebrar_vidro": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 2600,
+          "freqFim": 900,
+          "duracaoS": 0.14,
+          "volume": 0.12
+        },
+        {
+          "onda": "ruido",
+          "freq": 5000,
+          "duracaoS": 0.1,
+          "volume": 0.12
+        }
+      ]
+    },
+    "bater_plastico": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 1400,
+          "freqFim": 1200,
+          "duracaoS": 0.05,
+          "volume": 0.1
+        }
+      ]
+    },
+    "quebrar_plastico": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 1600,
+          "freqFim": 600,
+          "duracaoS": 0.12,
+          "volume": 0.12
+        },
+        {
+          "onda": "ruido",
+          "freq": 2500,
+          "duracaoS": 0.08,
+          "volume": 0.1
+        }
+      ]
+    },
+    "bruxinha_golpe": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.04,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 1320,
+          "duracaoS": 0.12,
+          "volume": 0.18,
+          "freqFim": 1980
+        },
+        {
+          "onda": "triangulo",
+          "freq": 2640,
+          "duracaoS": 0.08,
+          "volume": 0.06,
+          "freqFim": 3500,
+          "inicioS": 0.01
+        },
+        {
+          "onda": "ruido",
+          "freq": 6000,
+          "duracaoS": 0.1,
+          "volume": 0.05,
+          "freqFim": 9000,
+          "filtroTipo": "alta"
+        }
+      ]
+    },
+    "bruxinha_golpeFinal": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.08,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 1320,
+          "duracaoS": 0.14,
+          "volume": 0.16
+        },
+        {
+          "onda": "seno",
+          "freq": 1660,
+          "duracaoS": 0.14,
+          "volume": 0.16,
+          "inicioS": 0.04
+        },
+        {
+          "onda": "seno",
+          "freq": 1980,
+          "duracaoS": 0.18,
+          "volume": 0.16,
+          "inicioS": 0.08
+        },
+        {
+          "onda": "ruido",
+          "freq": 3000,
+          "duracaoS": 0.22,
+          "volume": 0.07,
+          "freqFim": 7000,
+          "filtroTipo": "banda",
+          "ressonancia": 1.5
+        }
+      ]
+    },
+    "bruxinha_lancar_Q": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 500,
+          "duracaoS": 0.45,
+          "volume": 0.35,
+          "freqFim": 2500,
+          "filtroTipo": "banda",
+          "ressonancia": 3,
+          "ataqueS": 0.08
+        },
+        {
+          "onda": "ruido",
+          "freq": 900,
+          "duracaoS": 0.35,
+          "volume": 0.12,
+          "freqFim": 3200,
+          "filtroTipo": "banda",
+          "ressonancia": 6,
+          "inicioS": 0.05
+        },
+        {
+          "onda": "ruido",
+          "freq": 4000,
+          "duracaoS": 0.03,
+          "volume": 0.06,
+          "filtroTipo": "alta",
+          "inicioS": 0.08,
+          "repetir": {
+            "vezes": 6,
+            "intervaloS": 0.05,
+            "variacaoS": 0.02,
+            "variacaoTom": 4,
+            "cair": 0.85
+          }
+        }
+      ]
+    },
+    "bruxinha_estouro_Q": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.08,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 2500,
+          "duracaoS": 0.25,
+          "volume": 0.25,
+          "freqFim": 6000,
+          "filtroTipo": "banda",
+          "ressonancia": 1.2
+        },
+        {
+          "onda": "seno",
+          "freq": 1760,
+          "duracaoS": 0.2,
+          "volume": 0.12,
+          "freqFim": 2640
+        },
+        {
+          "onda": "triangulo",
+          "freq": 2200,
+          "duracaoS": 0.3,
+          "volume": 0.06,
+          "repetir": {
+            "vezes": 4,
+            "intervaloS": 0.04,
+            "variacaoTom": 5,
+            "cair": 0.7
+          }
+        }
+      ]
+    },
+    "bruxinha_lancar_W": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 700,
+          "duracaoS": 0.25,
+          "volume": 0.2,
+          "freqFim": 1800,
+          "filtroTipo": "banda",
+          "ressonancia": 2,
+          "ataqueS": 0.05
+        },
+        {
+          "onda": "ruido",
+          "freq": 900,
+          "duracaoS": 0.5,
+          "volume": 0.08,
+          "inicioS": 0.4,
+          "ataqueS": 0.1
+        },
+        {
+          "onda": "seno",
+          "freq": 300,
+          "duracaoS": 0.05,
+          "volume": 0.14,
+          "freqFim": 900,
+          "inicioS": 0.45,
+          "repetir": {
+            "vezes": 7,
+            "intervaloS": 0.07,
+            "variacaoS": 0.04,
+            "variacaoTom": 5,
+            "cair": 0.85
+          }
+        }
+      ]
+    },
+    "bruxinha_lancar_E": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 90,
+          "duracaoS": 0.4,
+          "volume": 0.2,
+          "freqFim": 320,
+          "filtro": 900,
+          "ataqueS": 0.05
+        },
+        {
+          "onda": "ruido",
+          "freq": 400,
+          "duracaoS": 0.4,
+          "volume": 0.2,
+          "freqFim": 2000,
+          "filtroTipo": "banda",
+          "ressonancia": 1.5,
+          "ataqueS": 0.1
+        },
+        {
+          "onda": "seno",
+          "freq": 2600,
+          "duracaoS": 0.12,
+          "volume": 0.05,
+          "inicioS": 0.1,
+          "repetir": {
+            "vezes": 5,
+            "intervaloS": 0.05,
+            "variacaoTom": 6,
+            "cair": 0.8
+          }
+        }
+      ]
+    },
+    "bruxinha_estouro_E": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 500,
+          "duracaoS": 0.2,
+          "volume": 0.2
+        },
+        {
+          "onda": "seno",
+          "freq": 1500,
+          "duracaoS": 0.3,
+          "volume": 0.1,
+          "freqFim": 900
+        }
+      ]
+    },
+    "bruxinha_lancar_R": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 200,
+          "duracaoS": 0.9,
+          "volume": 0.2,
+          "freqFim": 1500,
+          "filtroTipo": "banda",
+          "ressonancia": 1.5,
+          "ataqueS": 0.4
+        },
+        {
+          "onda": "seno",
+          "freq": 110,
+          "duracaoS": 1.0,
+          "volume": 0.15,
+          "freqFim": 55,
+          "ataqueS": 0.2
+        }
+      ]
+    },
+    "bruxinha_pulso_R": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 2500,
+          "duracaoS": 0.25,
+          "volume": 0.25,
+          "freqFim": 400
+        },
+        {
+          "onda": "triangulo",
+          "freq": 80,
+          "duracaoS": 0.3,
+          "volume": 0.25,
+          "freqFim": 40
+        },
+        {
+          "onda": "ruido",
+          "freq": 5000,
+          "duracaoS": 0.02,
+          "volume": 0.06,
+          "filtroTipo": "alta",
+          "inicioS": 0.05,
+          "repetir": {
+            "vezes": 6,
+            "intervaloS": 0.03,
+            "variacaoS": 0.02,
+            "variacaoTom": 5,
+            "cair": 0.8
+          }
+        }
+      ]
+    },
+    "acerto": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.04,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 660,
+          "freqFim": 520,
+          "duracaoS": 0.07,
+          "volume": 0.25
+        },
+        {
+          "onda": "ruido",
+          "freq": 3000,
+          "duracaoS": 0.03,
+          "volume": 0.1
+        }
+      ]
+    },
+    "critico": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.06,
+      "camadas": [
+        {
+          "onda": "quadrada",
+          "freq": 880,
+          "freqFim": 1320,
+          "duracaoS": 0.1,
+          "volume": 0.16,
+          "filtro": 3500
+        },
+        {
+          "onda": "triangulo",
+          "freq": 1320,
+          "duracaoS": 0.14,
+          "volume": 0.16,
+          "inicioS": 0.03
+        },
+        {
+          "onda": "ruido",
+          "freq": 5000,
+          "duracaoS": 0.04,
+          "volume": 0.12
+        }
+      ]
+    },
+    "acertoAuto": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 440,
+          "freqFim": 330,
+          "duracaoS": 0.05,
+          "volume": 0.12
+        }
+      ]
+    },
+    "danoJogador": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.15,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 180,
+          "freqFim": 90,
+          "duracaoS": 0.18,
+          "volume": 0.22,
+          "filtro": 1200
+        },
+        {
+          "onda": "ruido",
+          "freq": 800,
+          "duracaoS": 0.1,
+          "volume": 0.15
+        }
+      ]
+    },
+    "posteCaiu": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.2,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 4000,
+          "duracaoS": 0.08,
+          "volume": 0.5
+        },
+        {
+          "onda": "seno",
+          "freq": 120,
+          "freqFim": 40,
+          "duracaoS": 0.35,
+          "volume": 0.4
+        },
+        {
+          "onda": "serra",
+          "freq": 300,
+          "freqFim": 60,
+          "duracaoS": 0.25,
+          "volume": 0.12,
+          "filtro": 900,
+          "inicioS": 0.02
+        }
+      ]
+    },
+    "golpe": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.04,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1200,
+          "duracaoS": 0.16,
+          "volume": 0.25,
+          "freqFim": 400,
+          "filtroTipo": "banda",
+          "ressonancia": 1.5,
+          "ataqueS": 0.03
+        }
+      ]
+    },
+    "golpeFinal": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.08,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1500,
+          "duracaoS": 0.22,
+          "volume": 0.35,
+          "freqFim": 300,
+          "filtroTipo": "banda",
+          "ressonancia": 1.5,
+          "ataqueS": 0.04
+        },
+        {
+          "onda": "triangulo",
+          "freq": 120,
+          "duracaoS": 0.15,
+          "volume": 0.1,
+          "freqFim": 60
+        }
+      ]
+    },
+    "rolar": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.2,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1400,
+          "duracaoS": 0.16,
+          "volume": 0.14
+        },
+        {
+          "onda": "seno",
+          "freq": 240,
+          "freqFim": 160,
+          "duracaoS": 0.12,
+          "volume": 0.1
+        }
+      ]
+    },
+    "doce": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.06,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 3500,
+          "duracaoS": 0.02,
+          "volume": 0.1,
+          "filtroTipo": "alta",
+          "repetir": {
+            "vezes": 3,
+            "intervaloS": 0.025,
+            "variacaoTom": 6
+          }
+        },
+        {
+          "onda": "seno",
+          "freq": 1760,
+          "duracaoS": 0.07,
+          "volume": 0.12,
+          "freqFim": 2093,
+          "inicioS": 0.03
+        },
+        {
+          "onda": "seno",
+          "freq": 2637,
+          "duracaoS": 0.05,
+          "volume": 0.06,
+          "inicioS": 0.06
+        }
+      ]
+    },
+    "frenesi": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 1,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 220,
+          "freqFim": 880,
+          "duracaoS": 0.45,
+          "volume": 0.16,
+          "filtro": 2400
+        },
+        {
+          "onda": "quadrada",
+          "freq": 440,
+          "freqFim": 1760,
+          "duracaoS": 0.45,
+          "volume": 0.08,
+          "filtro": 3000
+        }
+      ]
+    },
+    "aviso": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.25,
+      "camadas": [
+        {
+          "onda": "quadrada",
+          "freq": 520,
+          "duracaoS": 0.09,
+          "volume": 0.12,
+          "filtro": 2000
+        },
+        {
+          "onda": "quadrada",
+          "freq": 520,
+          "duracaoS": 0.09,
+          "volume": 0.12,
+          "filtro": 2000,
+          "inicioS": 0.14
+        }
+      ]
+    },
+    "nivel": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 523,
+          "duracaoS": 0.1,
+          "volume": 0.18
+        },
+        {
+          "onda": "triangulo",
+          "freq": 659,
+          "duracaoS": 0.1,
+          "volume": 0.18,
+          "inicioS": 0.08
+        },
+        {
+          "onda": "triangulo",
+          "freq": 784,
+          "duracaoS": 0.2,
+          "volume": 0.18,
+          "inicioS": 0.16
+        }
+      ]
+    },
+    "portao": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.5,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 110,
+          "freqFim": 165,
+          "duracaoS": 0.6,
+          "volume": 0.1,
+          "filtro": 700
+        },
+        {
+          "onda": "ruido",
+          "freq": 500,
+          "duracaoS": 0.4,
+          "volume": 0.06
+        }
+      ]
+    },
+    "trato": {
+      "canal": "interface",
+      "intervaloMinimoS": 0.5,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 98,
+          "duracaoS": 1.4,
+          "volume": 0.18,
+          "ataqueS": 0.3,
+          "inicioS": 0.3
+        },
+        {
+          "onda": "triangulo",
+          "freq": 196,
+          "duracaoS": 1.2,
+          "volume": 0.06,
+          "freqFim": 185,
+          "inicioS": 0.3
+        },
+        {
+          "onda": "seno",
+          "freq": 392,
+          "duracaoS": 1.5,
+          "volume": 0.12,
+          "inicioS": 0.35
+        },
+        {
+          "onda": "seno",
+          "freq": 466,
+          "duracaoS": 1.3,
+          "volume": 0.07,
+          "inicioS": 0.35
+        },
+        {
+          "onda": "seno",
+          "freq": 587,
+          "duracaoS": 1.0,
+          "volume": 0.05,
+          "inicioS": 0.35
+        }
+      ]
+    },
+    "compra": {
+      "canal": "interface",
+      "intervaloMinimoS": 0.2,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1500,
+          "duracaoS": 0.04,
+          "volume": 0.15,
+          "filtroTipo": "banda",
+          "ressonancia": 1,
+          "repetir": {
+            "vezes": 5,
+            "intervaloS": 0.05,
+            "variacaoS": 0.02,
+            "variacaoTom": 3,
+            "cair": 0.8
+          }
+        },
+        {
+          "onda": "seno",
+          "freq": 1318,
+          "duracaoS": 0.3,
+          "volume": 0.1,
+          "inicioS": 0.2
+        },
+        {
+          "onda": "seno",
+          "freq": 1975,
+          "duracaoS": 0.35,
+          "volume": 0.08,
+          "inicioS": 0.28
+        }
+      ]
+    },
+    "foco": {
+      "canal": "interface",
+      "intervaloMinimoS": 0.04,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 1500,
+          "freqFim": 1900,
+          "duracaoS": 0.035,
+          "volume": 0.045,
+          "filtro": 4000
+        }
+      ]
+    },
+    "clique": {
+      "canal": "interface",
+      "intervaloMinimoS": 0.03,
+      "camadas": [
+        {
+          "onda": "quadrada",
+          "freq": 900,
+          "duracaoS": 0.03,
+          "volume": 0.08,
+          "filtro": 2500
+        }
+      ]
+    },
+    "lancar_bruxinha": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.08,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 800,
+          "duracaoS": 0.3,
+          "volume": 0.2,
+          "freqFim": 3000,
+          "filtroTipo": "banda",
+          "ressonancia": 2,
+          "ataqueS": 0.05
+        },
+        {
+          "onda": "seno",
+          "freq": 1320,
+          "duracaoS": 0.2,
+          "volume": 0.08,
+          "freqFim": 1760
+        }
+      ]
+    },
+    "lancar_fantasma": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 600,
+          "duracaoS": 0.6,
+          "volume": 0.25,
+          "freqFim": 300,
+          "filtroTipo": "banda",
+          "ressonancia": 8,
+          "ataqueS": 0.12
+        },
+        {
+          "onda": "seno",
+          "freq": 520,
+          "duracaoS": 0.6,
+          "volume": 0.08,
+          "freqFim": 330,
+          "ataqueS": 0.1
+        },
+        {
+          "onda": "triangulo",
+          "freq": 1040,
+          "duracaoS": 0.5,
+          "volume": 0.03,
+          "freqFim": 660,
+          "ataqueS": 0.1
+        }
+      ]
+    },
+    "lancar_esqueleto": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 2500,
+          "duracaoS": 0.025,
+          "volume": 0.14,
+          "filtroTipo": "banda",
+          "ressonancia": 4,
+          "repetir": {
+            "vezes": 7,
+            "intervaloS": 0.035,
+            "variacaoS": 0.02,
+            "variacaoTom": 4,
+            "cair": 0.85
+          }
+        },
+        {
+          "onda": "triangulo",
+          "freq": 160,
+          "duracaoS": 0.15,
+          "volume": 0.12,
+          "freqFim": 90
+        }
+      ]
+    },
+    "lancar_vampirinho": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.1,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 900,
+          "duracaoS": 0.06,
+          "volume": 0.2,
+          "ataqueS": 0.02,
+          "repetir": {
+            "vezes": 5,
+            "intervaloS": 0.07,
+            "variacaoTom": 3,
+            "cair": 0.8
+          }
+        },
+        {
+          "onda": "seno",
+          "freq": 220,
+          "duracaoS": 0.4,
+          "volume": 0.06,
+          "freqFim": 110
+        },
+        {
+          "onda": "ruido",
+          "freq": 6000,
+          "duracaoS": 0.2,
+          "volume": 0.05,
+          "freqFim": 3000,
+          "filtroTipo": "alta"
+        }
+      ]
+    },
+    "campainha": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.5,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 659,
+          "duracaoS": 0.9,
+          "volume": 0.22
+        },
+        {
+          "onda": "triangulo",
+          "freq": 1318,
+          "duracaoS": 0.5,
+          "volume": 0.05
+        },
+        {
+          "onda": "seno",
+          "freq": 523,
+          "duracaoS": 1.1,
+          "volume": 0.22,
+          "inicioS": 0.45
+        },
+        {
+          "onda": "triangulo",
+          "freq": 1046,
+          "duracaoS": 0.6,
+          "volume": 0.05,
+          "inicioS": 0.45
+        }
+      ]
+    },
+    "lanterna": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.2,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 800,
+          "duracaoS": 0.35,
+          "volume": 0.2,
+          "freqFim": 4000,
+          "filtroTipo": "banda",
+          "ressonancia": 2,
+          "ataqueS": 0.05
+        },
+        {
+          "onda": "seno",
+          "freq": 880,
+          "duracaoS": 0.3,
+          "volume": 0.07,
+          "freqFim": 1760
+        },
+        {
+          "onda": "triangulo",
+          "freq": 2637,
+          "duracaoS": 0.4,
+          "volume": 0.04,
+          "repetir": {
+            "vezes": 3,
+            "intervaloS": 0.06,
+            "variacaoTom": 3,
+            "cair": 0.8
+          }
+        }
+      ]
+    },
+    "bauAberto": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 1568,
+          "duracaoS": 0.25,
+          "volume": 0.08,
+          "inicioS": 0.25
+        },
+        {
+          "onda": "seno",
+          "freq": 2093,
+          "duracaoS": 0.3,
+          "volume": 0.07,
+          "inicioS": 0.32
+        },
+        {
+          "onda": "ruido",
+          "freq": 3500,
+          "duracaoS": 0.02,
+          "volume": 0.08,
+          "filtroTipo": "alta",
+          "inicioS": 0.3,
+          "repetir": {
+            "vezes": 5,
+            "intervaloS": 0.04,
+            "variacaoS": 0.02,
+            "variacaoTom": 6,
+            "cair": 0.85
+          }
+        }
+      ]
+    },
+    "bauRaro": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.5,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 1046,
+          "duracaoS": 0.3,
+          "volume": 0.1
+        },
+        {
+          "onda": "seno",
+          "freq": 1318,
+          "duracaoS": 0.3,
+          "volume": 0.1,
+          "inicioS": 0.07
+        },
+        {
+          "onda": "seno",
+          "freq": 1568,
+          "duracaoS": 0.3,
+          "volume": 0.1,
+          "inicioS": 0.14
+        },
+        {
+          "onda": "seno",
+          "freq": 2093,
+          "duracaoS": 0.5,
+          "volume": 0.1,
+          "inicioS": 0.21
+        }
+      ]
+    },
+    "bauAmaldicoado": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.5,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 73,
+          "duracaoS": 1.0,
+          "volume": 0.12,
+          "filtro": 500,
+          "ataqueS": 0.3
+        },
+        {
+          "onda": "seno",
+          "freq": 146,
+          "duracaoS": 1.0,
+          "volume": 0.06,
+          "freqFim": 138,
+          "ataqueS": 0.3
+        }
+      ]
+    },
+    "segredo": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 1046,
+          "duracaoS": 0.3,
+          "volume": 0.12
+        },
+        {
+          "onda": "seno",
+          "freq": 1318,
+          "duracaoS": 0.3,
+          "volume": 0.12,
+          "inicioS": 0.06
+        },
+        {
+          "onda": "seno",
+          "freq": 1568,
+          "duracaoS": 0.3,
+          "volume": 0.12,
+          "inicioS": 0.12
+        },
+        {
+          "onda": "seno",
+          "freq": 2093,
+          "duracaoS": 0.45,
+          "volume": 0.12,
+          "inicioS": 0.18
+        },
+        {
+          "onda": "ruido",
+          "freq": 6000,
+          "duracaoS": 0.3,
+          "volume": 0.04,
+          "filtroTipo": "alta",
+          "inicioS": 0.18
+        }
+      ]
+    },
+    "derrotado": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1800,
+          "duracaoS": 0.2,
+          "volume": 0.15,
+          "freqFim": 600,
+          "filtroTipo": "banda",
+          "ressonancia": 1.5
+        },
+        {
+          "onda": "seno",
+          "freq": 600,
+          "duracaoS": 0.15,
+          "volume": 0.06,
+          "freqFim": 200
+        }
+      ]
+    },
+    "interrompeu": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.08,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 1500,
+          "duracaoS": 0.15,
+          "volume": 0.12,
+          "freqFim": 1200
+        },
+        {
+          "onda": "ruido",
+          "freq": 4000,
+          "duracaoS": 0.08,
+          "volume": 0.1,
+          "filtroTipo": "alta"
+        }
+      ]
+    },
+    "onda": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 1.0,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 110,
+          "duracaoS": 0.8,
+          "volume": 0.12,
+          "freqFim": 165,
+          "ataqueS": 0.15
+        },
+        {
+          "onda": "ruido",
+          "freq": 300,
+          "duracaoS": 0.6,
+          "volume": 0.1,
+          "ataqueS": 0.2
+        }
+      ]
+    },
+    "faseChefe": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 1.0,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 200,
+          "duracaoS": 1.5,
+          "volume": 0.3,
+          "ataqueS": 0.2
+        },
+        {
+          "onda": "seno",
+          "freq": 55,
+          "duracaoS": 1.5,
+          "volume": 0.2,
+          "ataqueS": 0.1
+        },
+        {
+          "onda": "serra",
+          "freq": 82,
+          "duracaoS": 1.2,
+          "volume": 0.08,
+          "filtro": 400,
+          "ataqueS": 0.2
+        }
+      ]
+    },
+    "grito": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.5,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 110,
+          "duracaoS": 0.5,
+          "volume": 0.18,
+          "freqFim": 80,
+          "filtro": 700,
+          "ataqueS": 0.05
+        },
+        {
+          "onda": "ruido",
+          "freq": 700,
+          "duracaoS": 0.4,
+          "volume": 0.1,
+          "filtroTipo": "banda",
+          "ressonancia": 2
+        }
+      ]
+    },
+    "aviso_area": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.15,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 70,
+          "duracaoS": 0.6,
+          "volume": 0.15,
+          "freqFim": 140,
+          "filtro": 400,
+          "ataqueS": 0.3
+        }
+      ]
+    },
+    "aviso_linha": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.15,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 600,
+          "duracaoS": 0.45,
+          "volume": 0.1,
+          "freqFim": 1400,
+          "ataqueS": 0.2
+        },
+        {
+          "onda": "ruido",
+          "freq": 1500,
+          "duracaoS": 0.45,
+          "volume": 0.05,
+          "filtroTipo": "banda",
+          "ressonancia": 8
+        }
+      ]
+    },
+    "aviso_investida": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.15,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 60,
+          "duracaoS": 0.5,
+          "volume": 0.2,
+          "freqFim": 90,
+          "filtro": 300,
+          "ataqueS": 0.15
+        },
+        {
+          "onda": "ruido",
+          "freq": 400,
+          "duracaoS": 0.5,
+          "volume": 0.1
+        }
+      ]
+    },
+    "aviso_golpe": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.12,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 3000,
+          "duracaoS": 0.25,
+          "volume": 0.12,
+          "freqFim": 6000,
+          "filtroTipo": "alta",
+          "ataqueS": 0.05
+        }
+      ]
+    },
+    "aviso_chefe": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 55,
+          "duracaoS": 0.9,
+          "volume": 0.2,
+          "freqFim": 52,
+          "filtro": 500,
+          "ataqueS": 0.2
+        },
+        {
+          "onda": "seno",
+          "freq": 110,
+          "duracaoS": 0.9,
+          "volume": 0.1,
+          "ataqueS": 0.2
+        }
+      ]
+    },
+    "recusado": {
+      "canal": "interface",
+      "intervaloMinimoS": 0.15,
+      "camadas": [
+        {
+          "onda": "triangulo",
+          "freq": 200,
+          "duracaoS": 0.08,
+          "volume": 0.08,
+          "freqFim": 150
+        }
+      ]
+    },
+    "aldrava": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.05,
+      "camadas": [
+        {
+          "onda": "ruido",
+          "freq": 1800,
+          "duracaoS": 0.04,
+          "volume": 0.12
+        },
+        {
+          "onda": "triangulo",
+          "freq": 220,
+          "freqFim": 160,
+          "duracaoS": 0.09,
+          "volume": 0.14
+        }
+      ]
+    },
+    "minijogoAcerto": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "seno",
+          "freq": 523,
+          "duracaoS": 0.14,
+          "volume": 0.18
+        },
+        {
+          "onda": "seno",
+          "freq": 784,
+          "duracaoS": 0.22,
+          "volume": 0.18,
+          "inicioS": 0.12
+        }
+      ]
+    },
+    "minijogoErro": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 0.3,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 180,
+          "freqFim": 90,
+          "duracaoS": 0.4,
+          "volume": 0.1,
+          "filtro": 900
+        }
+      ]
+    },
+    "casaAcordou": {
+      "canal": "efeitos",
+      "intervaloMinimoS": 1,
+      "camadas": [
+        {
+          "onda": "serra",
+          "freq": 60,
+          "freqFim": 95,
+          "duracaoS": 1.2,
+          "volume": 0.14,
+          "filtro": 400
+        },
+        {
+          "onda": "ruido",
+          "freq": 300,
+          "duracaoS": 0.8,
+          "volume": 0.08,
+          "inicioS": 0.3
+        }
+      ]
+    }
+  },
+  "musica": {
+    "volume": 0.5,
+    "tonica": 45,
+    "escala": [0, 2, 3, 5, 7, 8, 11],
+    "transicaoS": 1.5,
+    "combate": {
+      "raioTiles": 9,
+      "minimo": 2
+    },
+    "instrumentos": {
+      "caixinha": {
+        "onda": "triangulo",
+        "volume": 0.15,
+        "oitava": 24,
+        "ataqueS": 0.005,
+        "soltarS": 0.45,
+        "filtro": 4000
+      },
+      "pad": {
+        "onda": "triangulo",
+        "volume": 0.06,
+        "oitava": 12,
+        "ataqueS": 0.35,
+        "soltarS": 0.8,
+        "filtro": 900
+      },
+      "baixo": {
+        "onda": "triangulo",
+        "volume": 0.22,
+        "oitava": 0,
+        "ataqueS": 0.01,
+        "soltarS": 0.15
+      },
+      "baixoForte": {
+        "onda": "serra",
+        "volume": 0.11,
+        "oitava": 0,
+        "ataqueS": 0.005,
+        "soltarS": 0.08,
+        "filtro": 700
+      },
+      "sino": {
+        "onda": "seno",
+        "volume": 0.11,
+        "oitava": 24,
+        "ataqueS": 0.002,
+        "soltarS": 1.1
+      },
+      "arpejo": {
+        "onda": "quadrada",
+        "volume": 0.04,
+        "oitava": 12,
+        "ataqueS": 0.003,
+        "soltarS": 0.07,
+        "filtro": 2200
+      },
+      "lider": {
+        "onda": "serra",
+        "volume": 0.06,
+        "oitava": 12,
+        "ataqueS": 0.01,
+        "soltarS": 0.1,
+        "filtro": 2600
+      },
+      "bumbo": {
+        "onda": "seno",
+        "volume": 0.4,
+        "ataqueS": 0.002,
+        "soltarS": 0.16,
+        "queda": 0.3,
+        "freqBatida": 130
+      },
+      "caixa": {
+        "onda": "ruido",
+        "volume": 0.12,
+        "ataqueS": 0.001,
+        "soltarS": 0.12,
+        "freqBatida": 2200
+      },
+      "chimbal": {
+        "onda": "ruido",
+        "volume": 0.05,
+        "ataqueS": 0.001,
+        "soltarS": 0.04,
+        "freqBatida": 7500
+      }
+    },
+    "trilhas": {
+      "titulo": {
+        "bpm": 84,
+        "camadas": [
+          {
+            "instrumento": "caixinha",
+            "padrao": [
+              "7 . 9 . 11 . 9 . 7 . 6 . 4 - - .",
+              "5 . 6 . 7 . 6 . 4 - - - . . . .",
+              "7 . 9 . 11 . 12 . 13 . 11 . 9 - - .",
+              "10 . 9 . 6 . 4 . 7 - - - - - . ."
+            ]
+          },
+          {
+            "instrumento": "pad",
+            "padrao": [
+              "0 - - - - - - - - - - - - - - -",
+              "5 - - - - - - - - - - - - - - -",
+              "3 - - - - - - - - - - - - - - -",
+              "4 - - - - - - - - - - - - - - -"
+            ]
+          },
+          {
+            "instrumento": "pad",
+            "padrao": [
+              "2 - - - - - - - - - - - - - - -",
+              "7 - - - - - - - - - - - - - - -",
+              "5 - - - - - - - - - - - - - - -",
+              "6 - - - - - - - - - - - - - - -"
+            ]
+          },
+          {
+            "instrumento": "baixo",
+            "padrao": [
+              "0 . . . 4 . . . 0 . . . 4 . . .",
+              "5 . . . 2 . . . 5 . . . 2 . . .",
+              "3 . . . 0 . . . 3 . . . 0 . . .",
+              "4 . . . 6 . . . 4 . . . -1 . . ."
+            ]
+          }
+        ]
+      },
+      "rua": {
+        "bpm": 100,
+        "camadas": [
+          {
+            "instrumento": "baixo",
+            "padrao": [
+              "0 . 0 . 4 . 0 . 0 . 0 . 4 . 2 .",
+              "5 . 5 . 2 . 5 . 5 . 5 . 2 . 0 .",
+              "3 . 3 . 0 . 3 . 3 . 3 . 0 . 5 .",
+              "4 . 4 . 1 . 4 . 4 . 6 . 4 . 1 ."
+            ]
+          },
+          {
+            "instrumento": "pad",
+            "padrao": [
+              "0 - - - - - - - - - - - - - - -",
+              "5 - - - - - - - - - - - - - - -",
+              "3 - - - - - - - - - - - - - - -",
+              "4 - - - - - - - - - - - - - - -"
+            ]
+          },
+          {
+            "instrumento": "pad",
+            "padrao": [
+              "2 - - - - - - - - - - - - - - -",
+              "7 - - - - - - - - - - - - - - -",
+              "5 - - - - - - - - - - - - - - -",
+              "6 - - - - - - - - - - - - - - -"
+            ]
+          },
+          {
+            "instrumento": "sino",
+            "padrao": [
+              "7 - - - . . . . . . 6 . 7 . . .",
+              "9 - - - . . . . 8 . 7 . . . . .",
+              "10 - - - . . . . 9 . 8 . 7 . . .",
+              "6 - - - - - - - . . . . . . . ."
+            ]
+          },
+          {
+            "instrumento": "bumbo",
+            "intensa": true,
+            "padrao": [
+              "x . . . . . . . x . . . . . . .",
+              "x . . . . . x . x . . . . . . .",
+              "x . . . . . . . x . . . . . . .",
+              "x . . . . . x . x . . . x . . ."
+            ]
+          },
+          {
+            "instrumento": "caixa",
+            "intensa": true,
+            "padrao": [
+              ". . . . x . . . . . . . x . . .",
+              ". . . . x . . . . . . . x . . .",
+              ". . . . x . . . . . . . x . . .",
+              ". . . . x . . . . . . . x . . ."
+            ]
+          },
+          {
+            "instrumento": "chimbal",
+            "intensa": true,
+            "padrao": [
+              "x . x . x . x . x . x . x . x x",
+              "x . x . x . x . x . x . x . x x",
+              "x . x . x . x . x . x . x . x x",
+              "x . x . x . x . x . x . x . x x"
+            ]
+          },
+          {
+            "instrumento": "arpejo",
+            "intensa": true,
+            "padrao": [
+              "7 9 11 9 7 9 11 9 7 9 11 9 7 9 11 9",
+              "5 7 9 7 5 7 9 7 5 7 9 7 5 7 9 7",
+              "3 5 7 5 3 5 7 5 3 5 7 5 3 5 7 5",
+              "4 6 8 6 4 6 8 6 4 6 8 6 4 6 8 6"
+            ]
+          }
+        ]
+      },
+      "chefe": {
+        "bpm": 132,
+        "camadas": [
+          {
+            "instrumento": "baixoForte",
+            "padrao": [
+              "0 . 0 0 7 . 0 0 0 . 0 0 7 . 6 .",
+              "0 . 0 0 7 . 0 0 0 . 0 0 7 . 6 .",
+              "5 . 5 5 12 . 5 5 5 . 5 5 12 . 11 .",
+              "4 . 4 4 11 . 4 4 6 . 6 6 13 . 11 ."
+            ]
+          },
+          {
+            "instrumento": "lider",
+            "padrao": [
+              "7 - - 9 10 - 9 - 7 - 6 - 7 - - -",
+              "7 - - 9 10 - 12 - 13 - 12 - 10 - - -",
+              "12 - - 11 10 - 9 - 8 - 9 - 10 - - -",
+              "11 - - - 13 - - - 14 - - - - - . ."
+            ]
+          },
+          {
+            "instrumento": "bumbo",
+            "padrao": [
+              "x . . . x . . . x . . . x . . .",
+              "x . . . x . . . x . . . x . . .",
+              "x . . . x . . . x . . . x . . .",
+              "x . . . x . . . x . . . x . . ."
+            ]
+          },
+          {
+            "instrumento": "caixa",
+            "padrao": [
+              ". . . . x . . . . . . . x . x .",
+              ". . . . x . . . . . . . x . x .",
+              ". . . . x . . . . . . . x . x .",
+              ". . . . x . . . . . . . x . x ."
+            ]
+          },
+          {
+            "instrumento": "chimbal",
+            "padrao": [
+              "x x x x x x x x x x x x x x x x",
+              "x x x x x x x x x x x x x x x x",
+              "x x x x x x x x x x x x x x x x",
+              "x x x x x x x x x x x x x x x x"
+            ]
+          }
+        ]
+      }
+    },
+    "gravada": {
+      "pasta": "audio/musica/",
+      "volume": 0.55,
+      "transicaoS": 1.5,
+      "trilhas": {
+        "titulo": "titulo.flac",
+        "rua": "rua.ogg",
+        "chefe": "chefe.ogg"
+      },
+      "combate": "combate.ogg",
+      "vinhetas": {
+        "vitoria": "vitoria.ogg",
+        "derrota": "derrota.ogg"
+      },
+      "abafarNaVinheta": 0.25,
+      "mixagem": {
+        "ganhos": {
+          "titulo": 1.3,
+          "rua": 1,
+          "chefe": 1
+        },
+        "combate": 3.7,
+        "ruaEmCombate": 0.35
+      }
+    }
+  },
+  "arquivos": {
+    "pasta": "audio/efeitos/",
+    "extensao": ".ogg",
+    "sons": {
+      "acerto": {
+        "arquivos": [
+          "impactPunch_medium_000",
+          "impactPunch_medium_001",
+          "impactPunch_medium_002",
+          "impactPunch_medium_003",
+          "impactPunch_medium_004"
+        ],
+        "volume": 0.55,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "critico": {
+        "arquivos": [
+          "impactPlate_heavy_000",
+          "impactPlate_heavy_001",
+          "impactPlate_heavy_002",
+          "impactPlate_heavy_003",
+          "impactPlate_heavy_004"
+        ],
+        "volume": 0.7,
+        "tom": 0,
+        "variacaoTom": 1
+      },
+      "acertoAuto": {
+        "arquivos": [
+          "impactGeneric_light_000",
+          "impactGeneric_light_001",
+          "impactGeneric_light_002",
+          "impactGeneric_light_003",
+          "impactGeneric_light_004"
+        ],
+        "volume": 0.45,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "danoJogador": {
+        "arquivos": [
+          "impactPunch_heavy_000",
+          "impactPunch_heavy_001",
+          "impactPunch_heavy_002",
+          "impactPunch_heavy_003",
+          "impactPunch_heavy_004"
+        ],
+        "volume": 0.75,
+        "tom": -2,
+        "variacaoTom": 1
+      },
+      "rolar": {
+        "arquivos": ["clothBelt", "clothBelt2"],
+        "volume": 0.55,
+        "tom": 0,
+        "variacaoTom": 1
+      },
+      "clique": {
+        "arquivos": ["click_001", "click_002", "click_003", "click_004", "click_005"],
+        "volume": 0.5,
+        "tom": 0,
+        "variacaoTom": 0.5
+      },
+      "aviso": {
+        "arquivos": ["bong_001"],
+        "volume": 0.35,
+        "tom": 0,
+        "variacaoTom": 0
+      },
+      "portao": {
+        "arquivos": ["doorOpen_1", "doorOpen_2"],
+        "volume": 0.65,
+        "tom": -2,
+        "variacaoTom": 0.5
+      },
+      "trato": {
+        "arquivos": ["scratch_001", "scratch_002", "scratch_003", "scratch_004", "scratch_005"],
+        "volume": 0.55,
+        "tom": -3,
+        "variacaoTom": 0.5,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "nivel": {
+        "arquivos": ["jingles_PIZZI10"],
+        "volume": 0.6,
+        "tom": 0,
+        "variacaoTom": 0
+      },
+      "frenesi": {
+        "arquivos": ["jingles_PIZZI15"],
+        "volume": 0.6,
+        "tom": 0,
+        "variacaoTom": 0
+      },
+      "posteCaiu": {
+        "arquivos": [
+          "impactMetal_heavy_000",
+          "impactMetal_heavy_001",
+          "impactMetal_heavy_002",
+          "impactMetal_heavy_003",
+          "impactMetal_heavy_004"
+        ],
+        "volume": 0.85,
+        "tom": -4,
+        "variacaoTom": 1
+      },
+      "escudo": {
+        "arquivos": [
+          "impactTin_medium_000",
+          "impactTin_medium_001",
+          "impactTin_medium_002",
+          "impactTin_medium_003",
+          "impactTin_medium_004"
+        ],
+        "volume": 0.55,
+        "tom": 0,
+        "variacaoTom": 1
+      },
+      "bater_metal": {
+        "arquivos": [
+          "impactMetal_light_000",
+          "impactMetal_light_001",
+          "impactMetal_light_002",
+          "impactMetal_light_003",
+          "impactMetal_light_004"
+        ],
+        "volume": 0.5,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "quebrar_metal": {
+        "arquivos": [
+          "impactMetal_medium_000",
+          "impactMetal_medium_001",
+          "impactMetal_medium_002",
+          "impactMetal_medium_003",
+          "impactMetal_medium_004"
+        ],
+        "volume": 0.7,
+        "tom": -2,
+        "variacaoTom": 1
+      },
+      "bater_madeira": {
+        "arquivos": [
+          "impactWood_light_000",
+          "impactWood_light_001",
+          "impactWood_light_002",
+          "impactWood_light_003",
+          "impactWood_light_004"
+        ],
+        "volume": 0.5,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "quebrar_madeira": {
+        "arquivos": [
+          "impactWood_heavy_000",
+          "impactWood_heavy_001",
+          "impactWood_heavy_002",
+          "impactWood_heavy_003",
+          "impactWood_heavy_004",
+          "impactPlank_medium_000",
+          "impactPlank_medium_001",
+          "impactPlank_medium_002",
+          "impactPlank_medium_003",
+          "impactPlank_medium_004"
+        ],
+        "volume": 0.7,
+        "tom": 0,
+        "variacaoTom": 1
+      },
+      "bater_abobora": {
+        "arquivos": [
+          "impactSoft_medium_000",
+          "impactSoft_medium_001",
+          "impactSoft_medium_002",
+          "impactSoft_medium_003",
+          "impactSoft_medium_004"
+        ],
+        "volume": 0.55,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "quebrar_abobora": {
+        "arquivos": [
+          "impactSoft_heavy_000",
+          "impactSoft_heavy_001",
+          "impactSoft_heavy_002",
+          "impactSoft_heavy_003",
+          "impactSoft_heavy_004"
+        ],
+        "volume": 0.75,
+        "tom": -2,
+        "variacaoTom": 1
+      },
+      "bater_vidro": {
+        "arquivos": [
+          "impactGlass_light_000",
+          "impactGlass_light_001",
+          "impactGlass_light_002",
+          "impactGlass_light_003",
+          "impactGlass_light_004"
+        ],
+        "volume": 0.5,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "quebrar_vidro": {
+        "arquivos": [
+          "impactGlass_heavy_000",
+          "impactGlass_heavy_001",
+          "impactGlass_heavy_002",
+          "impactGlass_heavy_003",
+          "impactGlass_heavy_004"
+        ],
+        "volume": 0.7,
+        "tom": 0,
+        "variacaoTom": 1
+      },
+      "bater_plastico": {
+        "arquivos": [
+          "impactPlate_light_000",
+          "impactPlate_light_001",
+          "impactPlate_light_002",
+          "impactPlate_light_003",
+          "impactPlate_light_004"
+        ],
+        "volume": 0.5,
+        "tom": 0,
+        "variacaoTom": 1.5
+      },
+      "quebrar_plastico": {
+        "arquivos": [
+          "impactPlate_medium_000",
+          "impactPlate_medium_001",
+          "impactPlate_medium_002",
+          "impactPlate_medium_003",
+          "impactPlate_medium_004"
+        ],
+        "volume": 0.7,
+        "tom": 0,
+        "variacaoTom": 1
+      },
+      "bruxinha_lancar_W": {
+        "arquivos": [
+          "impactGlass_light_000",
+          "impactGlass_light_001",
+          "impactGlass_light_002",
+          "impactGlass_light_003",
+          "impactGlass_light_004"
+        ],
+        "volume": 0.6,
+        "tom": 2,
+        "variacaoTom": 1,
+        "atrasoS": 0.32,
+        "comSintese": true
+      },
+      "bruxinha_estouro_E": {
+        "arquivos": [
+          "impactSoft_heavy_000",
+          "impactSoft_heavy_001",
+          "impactSoft_heavy_002",
+          "impactSoft_heavy_003",
+          "impactSoft_heavy_004"
+        ],
+        "volume": 0.6,
+        "tom": 0,
+        "variacaoTom": 1,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "bruxinha_lancar_R": {
+        "arquivos": [
+          "impactBell_heavy_000",
+          "impactBell_heavy_001",
+          "impactBell_heavy_002",
+          "impactBell_heavy_003",
+          "impactBell_heavy_004"
+        ],
+        "volume": 0.55,
+        "tom": -5,
+        "variacaoTom": 0.5,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "bruxinha_pulso_R": {
+        "arquivos": [
+          "impactSoft_heavy_000",
+          "impactSoft_heavy_001",
+          "impactSoft_heavy_002",
+          "impactSoft_heavy_003",
+          "impactSoft_heavy_004"
+        ],
+        "volume": 0.6,
+        "tom": -2,
+        "variacaoTom": 1,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "lancar_esqueleto": {
+        "arquivos": [
+          "impactWood_medium_000",
+          "impactWood_medium_001",
+          "impactWood_medium_002",
+          "impactWood_medium_003",
+          "impactWood_medium_004"
+        ],
+        "volume": 0.4,
+        "tom": 3,
+        "variacaoTom": 1,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "bauAberto": {
+        "arquivos": ["doorOpen_1", "doorOpen_2"],
+        "volume": 0.5,
+        "tom": 4,
+        "variacaoTom": 0.5,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "faseChefe": {
+        "arquivos": [
+          "impactBell_heavy_000",
+          "impactBell_heavy_001",
+          "impactBell_heavy_002",
+          "impactBell_heavy_003",
+          "impactBell_heavy_004"
+        ],
+        "volume": 0.7,
+        "tom": -7,
+        "variacaoTom": 0.3,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "interrompeu": {
+        "arquivos": [
+          "impactPlate_light_000",
+          "impactPlate_light_001",
+          "impactPlate_light_002",
+          "impactPlate_light_003",
+          "impactPlate_light_004"
+        ],
+        "volume": 0.45,
+        "tom": 2,
+        "variacaoTom": 1,
+        "atrasoS": 0,
+        "comSintese": true
+      },
+      "aldrava": {
+        "arquivos": [
+          "impactMetal_medium_000",
+          "impactMetal_medium_001",
+          "impactMetal_medium_002",
+          "impactMetal_medium_003",
+          "impactMetal_medium_004"
+        ],
+        "volume": 0.55,
+        "tom": -3,
+        "variacaoTom": 0.5
+      },
+      "casaAcordou": {
+        "arquivos": ["impactWood_heavy_000", "impactWood_heavy_001", "impactWood_heavy_002"],
+        "volume": 0.7,
+        "tom": -5,
+        "variacaoTom": 0.5,
+        "atrasoS": 0,
+        "comSintese": true
+      }
+    }
+  }
+}

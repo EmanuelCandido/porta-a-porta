@@ -1,0 +1,167 @@
+{
+  "nomesDosBairros": ["Vila das Lanternas", "Ladeira do Mirante", "Alameda do Dono"],
+  "ruasPorBairro": 3,
+  "docesIniciais": 0,
+  "consumiveisIniciais": [
+    {
+      "id": "doce_isca",
+      "qtd": 2
+    }
+  ],
+  "relogio": {
+    "horaInicial": 21,
+    "horaMeiaNoite": 24,
+    "minutosDeJogoPorMinuto": 4,
+    "bonusPorMinuto": 0.1
+  },
+  "loja": {
+    "itensOferecidos": 4
+  },
+  "primeiraRun": { "tratos": 2 },
+  "noiteCurta": { "bairros": 1 },
+  "porta": {
+    "raioInteracao": 1.4
+  },
+  "bau": {
+    "raioInteracao": 1.2
+  },
+  "selvagens": {
+    "pesos": {
+      "cao_de_guarda": 1,
+      "corvo": 1
+    }
+  },
+  "baus": {
+    "pesos": {
+      "comum": 0.7,
+      "raro": 0.25,
+      "amaldicoado": 0.05
+    },
+    "docesComum": [60, 100],
+    "docesRaro": 50,
+    "rerollsRaro": 1,
+    "chanceNoQuintal": 0.65,
+    "raioRevelar": 3,
+    "rarosPorBairro": 1,
+    "forcaAmaldicoado": 3
+  },
+  "encontros": {
+    "chances": {
+      "gato_preto": 0.34,
+      "crianca_perdida": 0.1,
+      "festa_na_garagem": 0.1
+    },
+    "carrinhoDePipoca": {
+      "bairros": [1, 2],
+      "itens": 3,
+      "desconto": 0.4,
+      "duracaoS": 30,
+      "raioChegar": 5,
+      "raioAtender": 1.6,
+      "noCaminho": 0.45
+    },
+    "criancaPerdida": {
+      "doces": 150,
+      "medalhas": 1,
+      "raioAchar": 1.6,
+      "distancia": 1.1,
+      "raioChegada": 4,
+      "velocidade": 3.8,
+      "raio": 0.3,
+      "noCaminho": 0.3
+    },
+    "festaNaGaragem": {
+      "pestinhas": 8,
+      "multDoces": 3,
+      "raioAbrir": 5,
+      "desdeOCaminho": 0.2,
+      "espalhar": 1.2
+    },
+    "janelaVermelha": {
+      "chance": 0.05,
+      "precos": 2
+    }
+  },
+  "elites": {
+    "porPosicao": [
+      [
+        {
+          "opcoes": [],
+          "n": 0
+        },
+        {
+          "opcoes": ["vizinho_curioso", "casa_perseguidora"],
+          "n": 1
+        },
+        {
+          "opcoes": ["casa_perseguidora", "vizinho_curioso"],
+          "n": 1
+        }
+      ],
+      [
+        {
+          "opcoes": ["sombra_rasteira", "cobrador"],
+          "n": 1
+        },
+        {
+          "opcoes": ["cobrador", "casa_perseguidora"],
+          "n": 1
+        },
+        {
+          "opcoes": ["casa_perseguidora", "vizinho_curioso", "cobrador", "sombra_rasteira"],
+          "n": 1,
+          "reforcado": true
+        }
+      ],
+      [
+        {
+          "opcoes": ["sombra_rasteira", "vizinho_curioso"],
+          "n": 1,
+          "reforcado": true
+        },
+        {
+          "opcoes": ["cobrador", "casa_perseguidora"],
+          "n": 1,
+          "reforcado": true
+        },
+        {
+          "opcoes": ["casa_perseguidora", "vizinho_curioso", "cobrador", "sombra_rasteira"],
+          "n": 2
+        }
+      ]
+    ]
+  },
+  "chefes": ["sindico_zeloso", "viuva_do_mirante", "dono_do_bairro"],
+  "album": {
+    "fracaoDoces": 0.1,
+    "porChefe": 50,
+    "porLua": 0.1,
+    "moradora": 200
+  },
+  "chefeSecreto": "moradora_do_13",
+  "curva": [
+    [{}, {}, {}],
+    [
+      {
+        "postesApagados": 0.5
+      },
+      {},
+      {
+        "composicao": {
+          "pestinha_lencol": 2,
+          "arremessador": 1,
+          "abobora_canhao": 2
+        }
+      }
+    ],
+    [
+      {
+        "postesApagados": 0.8
+      },
+      {},
+      {
+        "postesApagados": 1
+      }
+    ]
+  ]
+}

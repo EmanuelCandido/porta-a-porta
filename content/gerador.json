@@ -1,0 +1,412 @@
+{
+  "rua": {
+    "comprimento": 36,
+    "largura": 8,
+    "calcada": 1.6,
+    "jardim": 0.8,
+    "margem": 2
+  },
+  "faixaDasCasas": 4.4,
+  "quintal": {
+    "largura": 6,
+    "profundidade": 6
+  },
+  "viela": {
+    "largura": 1.2
+  },
+  "folgaEntreCasas": [0.15, 0.6],
+  "rota": {
+    "celula": 24,
+    "colunas": 6,
+    "linhas": 8,
+    "margem": 4,
+    "encruzilhada": {
+      "margemNorte": 14,
+      "espaco": 13,
+      "pista": 4.4,
+      "calcada": 1,
+      "recuoPortao": 4.5,
+      "alemDoPortao": 1.5
+    },
+    "nos": [18, 21],
+    "chanceDeReta": 0.55,
+    "ramos": [6, 9],
+    "rua": {
+      "pista": 7.6,
+      "calcada": 1.7
+    },
+    "beco": {
+      "pista": 4,
+      "calcada": 0.9
+    },
+    "salas": {
+      "largo": 8,
+      "poste": 9,
+      "praca": 11,
+      "obras": 10,
+      "patio": 11,
+      "quintal": 6,
+      "cemiterio": 8,
+      "mirante": 6,
+      "poco": 5,
+      "velas": 6,
+      "assombrada": 7
+    },
+    "posicoes": {
+      "poste": 0.35,
+      "praca": 0.55,
+      "obras": 0.72
+    },
+    "tiposDeRamo": {
+      "quintal": 4,
+      "cemiterio": 1,
+      "mirante": 1,
+      "segredo": 2,
+      "poco": 1,
+      "velas": 1,
+      "assombrada": 1
+    },
+    "atalho": { "ativo": true, "ganhoMinimo": 4, "lixeiras": 3 },
+    "encontros": {
+      "porNo": 0.2,
+      "tamanho": [2, 4],
+      "desdeFracao": 0.3
+    },
+    "postesNasRuas": 9,
+    "chanceDeCarroNasRuas": 0.22,
+    "chanceDeAboboraGigante": 0.2,
+    "buracos": [3, 5],
+    "comercioDesde": 0.7,
+    "pontas": {
+      "obra": 2,
+      "buraco": 2,
+      "barreira": 1,
+      "deslizamento": 1
+    },
+    "chanceDeMorro": 0.3,
+    "chanceDeSerra": 0.75,
+    "alcanceDaCamera": 26,
+    "ruaDeFora": {
+      "pista": 6,
+      "calcada": 1.2
+    },
+    "juncoes": {
+      "obra": 1,
+      "barreira": 2
+    }
+  },
+  "praca": {
+    "centro": {
+      "chafariz": 2,
+      "coreto": 2,
+      "parquinho": 1
+    },
+    "postes": 2
+  },
+  "postesCorrompidos": {
+    "afastamentoDoMeio": 2.4,
+    "segundoEm": ["escola", "estacionamento"]
+  },
+  "bueiros": {
+    "distanciaDaSaida": 1.6,
+    "afastamentoDoMeio": 2.5
+  },
+  "carros": {
+    "vagas": [6, 10],
+    "folga": 2,
+    "variantes": {
+      "sedan": 4,
+      "perua": 2,
+      "compacto": 3,
+      "retro": 1,
+      "picape": 2,
+      "van": 1,
+      "furgao": 1
+    }
+  },
+  "cerca": {
+    "segmento": 1
+  },
+  "enfeites": {
+    "arvoresPorQuintal": [1, 2],
+    "arvoresNaCalcada": [7, 10],
+    "lixeiras": [4, 6],
+    "bancos": [2, 4],
+    "hidrantes": [2, 4],
+    "caixaDeCorreio": 0.6,
+    "abobora": 0.4,
+    "lapide": 0.15
+  },
+  "bairros": [
+    {
+      "casas": {
+        "casa_terrea": 4,
+        "casa_varanda": 4,
+        "casa_sotao": 3,
+        "casa_laje": 3,
+        "vilinha": 2,
+        "chale": 2,
+        "sobrado": 2,
+        "geminado": 1,
+        "geminadas": 1,
+        "casa_grande": 1,
+        "casa_torre": 1
+      },
+      "comercio": {
+        "loja": 4,
+        "padaria": 2,
+        "mercado": 2,
+        "oficina": 1,
+        "geminado": 1,
+        "sobrado": 1
+      },
+      "postesAmigos": [9, 11],
+      "arvores": {
+        "arvore": 5,
+        "pinheiro": 2,
+        "arvore_seca": 1
+      }
+    },
+    {
+      "casas": {
+        "sobrado": 4,
+        "geminado": 3,
+        "geminadas": 3,
+        "sobrado_atelie": 3,
+        "casa_torre": 2,
+        "casa_grande": 2,
+        "casa_laje": 2,
+        "vilinha": 1,
+        "casa_terrea": 1,
+        "chale": 1
+      },
+      "comercio": {
+        "loja": 3,
+        "mercado": 2,
+        "cinema": 2,
+        "oficina": 2,
+        "padaria": 1,
+        "geminado": 2,
+        "sobrado": 1
+      },
+      "postesAmigos": [7, 9],
+      "arvores": {
+        "arvore": 3,
+        "pinheiro": 3,
+        "arvore_seca": 2
+      }
+    },
+    {
+      "casas": {
+        "casa_grande": 6,
+        "casa_torre": 4,
+        "sobrado_atelie": 2,
+        "casa_sotao": 2,
+        "sobrado": 2,
+        "chale": 1,
+        "casa_varanda": 1
+      },
+      "comercio": {
+        "loja": 2,
+        "cinema": 2,
+        "oficina": 1,
+        "casa_grande": 2,
+        "casa_torre": 2
+      },
+      "postesAmigos": [5, 7],
+      "arvores": {
+        "arvore_seca": 5,
+        "pinheiro": 2,
+        "arvore": 1
+      }
+    }
+  ],
+  "cidade": {
+    "anel": 30,
+    "calcada": 1.2,
+    "pista": 5,
+    "recuo": 0.5,
+    "folgaEntreLotes": [0.3, 1.1],
+    "postesACada": 7,
+    "arvoresACada": 4.5,
+    "chanceDeCarro": 0.3,
+    "chanceDeOnibus": 0.12,
+    "chanceDeApagada": 0.3,
+    "lotes": {
+      "casa_terrea": 3,
+      "sobrado": 3,
+      "casa_varanda": 2,
+      "geminado": 3,
+      "casa_grande": 2,
+      "chale": 1,
+      "casa_torre": 1,
+      "loja": 2,
+      "predio": 2,
+      "edificio": 2,
+      "casa_sotao": 2,
+      "casa_laje": 2,
+      "geminadas": 2,
+      "sobrado_atelie": 2,
+      "vilinha": 1,
+      "padaria": 1,
+      "mercado": 1,
+      "oficina": 1,
+      "cinema": 1
+    },
+    "marcos": ["igreja", "escola", "caixa_dagua", "galpao"]
+  },
+  "arena": {
+    "largura": 15,
+    "profundidade": 15,
+    "postes": 4,
+    "bancos": 2,
+    "arvores": 4,
+    "larguraPortao": 4,
+    "patio": {
+      "sindico_zeloso": {
+        "largura": 20,
+        "profundidade": 16,
+        "guarita": [-6.5, 3.6],
+        "canteiros": [
+          [-4, -3.2],
+          [5, -3.6],
+          [3.5, 4]
+        ],
+        "cancela": true
+      },
+      "viuva_do_mirante": {
+        "largura": 18,
+        "profundidade": 18,
+        "guarita": null,
+        "canteiros": [],
+        "cancela": false,
+        "velas": [
+          [-1.5, -5.5],
+          [5.5, -5.5],
+          [-1.5, 5.5],
+          [5.5, 5.5]
+        ],
+        "patamar": true
+      },
+      "dono_do_bairro": {
+        "largura": 24,
+        "profundidade": 14,
+        "guarita": null,
+        "canteiros": [],
+        "cancela": false
+      },
+      "moradora_do_13": {
+        "largura": 26,
+        "profundidade": 10,
+        "guarita": null,
+        "canteiros": [],
+        "cancela": false,
+        "espelhos": [
+          [-8, -3.6],
+          [-2.5, 3.6],
+          [3, -3.6],
+          [8.5, 3.6]
+        ]
+      }
+    },
+    "lugarDoChefe": {
+      "viuva_do_mirante": {
+        "casa": "mirante",
+        "dx": 0.8
+      },
+      "dono_do_bairro": {
+        "casa": null,
+        "dx": -2,
+        "corpo": {
+          "x0": -3.6,
+          "x1": 0,
+          "meiaLargura": 1.6
+        }
+      }
+    }
+  },
+  "portaAPorta": {
+    "comprimento": 18,
+    "faixaDosFundos": 1,
+    "larguraDaRua": 6,
+    "faixaDoBanco": 3,
+    "casas": 3,
+    "inicioDasCasas": 1.5,
+    "espacoEntreCasas": 1.2,
+    "postes": 3,
+    "arvores": 2,
+    "afastamentoDaPorta": 0.6
+  },
+  "exploracao": {
+    "campainhas": [6, 9],
+    "casasPorRua": 4,
+    "desconfiadas": {
+      "porBairro": [
+        [3, 4],
+        [3, 5],
+        [4, 6]
+      ],
+      "modelos": ["casa_terrea", "geminado", "geminadas", "casa_grande"],
+      "distanciaEntre": 7,
+      "longeDaSaida": 8
+    },
+    "segredos": 3,
+    "distanciaEntreSegredos": 14,
+    "postesParaReligar": [3, 5]
+  },
+  "nomes": {
+    "avenidas": [
+      "Avenida das Abóboras",
+      "Avenida Lua Cheia",
+      "Avenida do Caldeirão",
+      "Avenida dos Vaga-lumes"
+    ],
+    "ruas": [
+      "Rua dos Lençóis",
+      "Rua do Corvo Manso",
+      "Rua das Velas",
+      "Rua do Gato Preto",
+      "Rua da Teia Fina",
+      "Rua do Vento Frio",
+      "Rua das Corujas",
+      "Rua da Lanterna",
+      "Rua do Morcego",
+      "Rua da Abóbora Torta",
+      "Rua do Lampião",
+      "Rua das Folhas Secas"
+    ],
+    "travessas": [
+      "Travessa da Vassoura",
+      "Travessa do Sereno",
+      "Travessa das Teias",
+      "Travessa do Chá de Sumiço",
+      "Travessa da Meia-Noite",
+      "Travessa do Morcego"
+    ],
+    "pracas": [
+      "Praça do Coreto Velho",
+      "Praça da Lanterna",
+      "Praça dos Bancos Frios",
+      "Praça da Lua Nova"
+    ],
+    "escolas": ["Escola Municipal Lua Nova", "Escola Estadual do Morro", "Colégio das Corujas"],
+    "estacionamentos": [
+      "Estacionamento do Galpão",
+      "Pátio dos Caminhões",
+      "Estacionamento da Feira"
+    ],
+    "obras": ["Obra Parada", "Canteiro de Obras", "Obra da Prefeitura"],
+    "cemiterios": ["Cemitério da Colina", "Cemitério do Silêncio", "Cemitério dos Ciprestes"],
+    "becos": [
+      "Beco do Varal",
+      "Beco da Coruja",
+      "Beco do Sereno",
+      "Beco das Velas",
+      "Beco do Gato",
+      "Beco da Lua",
+      "Beco do Cipreste",
+      "Beco da Teia"
+    ],
+    "largos": ["Largo do Ponto", "Largo da Banca", "Largo do Relógio"]
+  }
+}

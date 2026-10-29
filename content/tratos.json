@@ -1,0 +1,723 @@
+{
+  "tratos": {
+    "relogio_de_bolso": {
+      "nome": "Relógio de Bolso",
+      "morador": "Senhor do Relógio",
+      "marcas": ["eco"],
+      "poder": "+20 de Pressa",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "pressa",
+          "soma": 20
+        }
+      ],
+      "forca": 2,
+      "precos": ["ondas_famintas", "vizinhanca_atenta", "divida"]
+    },
+    "dentes_afiados": {
+      "nome": "Dentes Afiados",
+      "morador": "Dentista Sorridente",
+      "marcas": ["pacto"],
+      "poder": "Auto-ataques causam +40% de dano",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "danoAutoAtaque",
+          "mult": 0.4
+        }
+      ],
+      "forca": 1,
+      "precos": ["banco_quebrado", "meia_noite_adiantada", "vizinhanca_atenta"]
+    },
+    "segundo_folego": {
+      "nome": "Segundo Fôlego",
+      "morador": "Enfermeira da Noite",
+      "marcas": ["luz"],
+      "poder": "+60 de Coragem máxima e um escudo de 20% ao entrar em cada rua",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "coragemMax",
+          "soma": 60
+        },
+        {
+          "tipo": "escudoAoEntrar",
+          "fracao": 0.2,
+          "duracao": 30
+        }
+      ],
+      "forca": 2,
+      "precos": ["poste_apagado", "ondas_famintas", "rua_sem_luz"]
+    },
+    "mira_torta": {
+      "nome": "Mira Torta",
+      "morador": "Menino do Estilingue",
+      "marcas": ["eco"],
+      "poder": "Skillshots ganham 30% de alcance e velocidade",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "alcanceHabilidade",
+          "mult": 0.3
+        },
+        {
+          "tipo": "atributo",
+          "atributo": "velocidadeProjetil",
+          "mult": 0.3
+        }
+      ],
+      "forca": 1,
+      "precos": ["janelas_fechadas", "lanterna_fraca", "ondas_famintas"]
+    },
+    "lua_no_bolso": {
+      "nome": "Lua no Bolso",
+      "morador": "Astrônoma",
+      "marcas": ["sombra"],
+      "poder": "O R recarrega 35% mais rápido",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "velocidadeRecargaR",
+          "mult": 0.35
+        }
+      ],
+      "forca": 2,
+      "precos": ["poste_apagado", "vizinhanca_atenta", "rua_sem_luz"]
+    },
+    "sombra_amiga": {
+      "nome": "Sombra Amiga",
+      "morador": "Senhora das Cortinas",
+      "marcas": ["sombra"],
+      "poder": "Na sombra, +15% de dano e de velocidade",
+      "efeitos": [
+        {
+          "tipo": "naSombra",
+          "atributo": "dano",
+          "mult": 0.15
+        },
+        {
+          "tipo": "naSombra",
+          "atributo": "velocidade",
+          "mult": 0.15
+        }
+      ],
+      "forca": 2,
+      "precos": ["poste_apagado", "ondas_famintas", "casa_perseguidora"]
+    },
+    "eco": {
+      "nome": "Eco",
+      "morador": "Cantora da Varanda",
+      "marcas": ["eco"],
+      "poder": "O Q se repete 0,5 s depois com 40% do dano",
+      "efeitos": [
+        {
+          "tipo": "repeteHabilidade",
+          "tecla": "Q",
+          "atraso": 0.5,
+          "fracao": 0.4
+        }
+      ],
+      "forca": 2,
+      "precos": ["vizinhanca_atenta", "ondas_famintas", "casa_perseguidora"]
+    },
+    "ima_de_doces": {
+      "nome": "Ímã de Doces",
+      "morador": "Doceira",
+      "marcas": ["doce"],
+      "poder": "Doces vêm até o jogador e valem 50% mais",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "doces",
+          "mult": 0.5
+        },
+        {
+          "tipo": "atributo",
+          "atributo": "imaDoces",
+          "mult": 4
+        }
+      ],
+      "forca": 1,
+      "precos": ["banco_quebrado", "janelas_fechadas", "ondas_famintas"]
+    },
+    "corrente_de_abobora": {
+      "nome": "Corrente de Abóbora",
+      "morador": "Jardineiro",
+      "marcas": ["abobora"],
+      "poder": "Inimigos derrotados explodem com 20% da Coragem deles",
+      "efeitos": [
+        {
+          "tipo": "explodeAoDerrotar",
+          "chance": 1,
+          "fracao": 0.2,
+          "raio": 1.5
+        }
+      ],
+      "forca": 3,
+      "precos": ["ondas_famintas", "casa_perseguidora", "divida"]
+    },
+    "pacto_do_porao": {
+      "nome": "Pacto do Porão",
+      "morador": "Homem do Porão",
+      "marcas": ["pacto"],
+      "poder": "+30 de Força ou Feitiço",
+      "efeitos": [
+        {
+          "tipo": "atributoPrincipal",
+          "soma": 30
+        }
+      ],
+      "forca": 3,
+      "precos": ["poste_apagado", "rua_sem_luz", "divida"]
+    },
+    "casca_grossa": {
+      "nome": "Casca Grossa",
+      "morador": "Tartaruga do Aquário",
+      "marcas": ["luz"],
+      "poder": "+25 de Resistência, mas -10% de velocidade",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "resistencia",
+          "soma": 25
+        },
+        {
+          "tipo": "atributo",
+          "atributo": "velocidade",
+          "mult": -0.1
+        }
+      ],
+      "forca": 1,
+      "precos": ["lanterna_fraca", "meia_noite_adiantada", "poste_apagado"]
+    },
+    "chave_mestra": {
+      "nome": "Chave Mestra",
+      "morador": "Chaveiro",
+      "marcas": ["doce"],
+      "poder": "Abre 1 porta trancada por rua com um baú de 120 doces",
+      "efeitos": [
+        {
+          "tipo": "bauTrancado",
+          "doces": 120
+        }
+      ],
+      "forca": 1,
+      "precos": ["banco_quebrado", "janelas_fechadas", "vizinhanca_atenta"]
+    },
+    "vagalume": {
+      "nome": "Vagalume",
+      "morador": "Menina do Pote",
+      "marcas": ["luz"],
+      "poder": "O pulso da lanterna cura 10% da Coragem",
+      "efeitos": [
+        {
+          "tipo": "pulsoCura",
+          "fracao": 0.1
+        }
+      ],
+      "forca": 1,
+      "precos": ["janelas_fechadas", "meia_noite_adiantada", "ondas_famintas"]
+    },
+    "janela_aberta": {
+      "nome": "Janela Aberta",
+      "morador": "Vizinha da Janela",
+      "marcas": ["luz"],
+      "poder": "Janelas acesas também curam como postes",
+      "efeitos": [
+        {
+          "tipo": "janelasCuram"
+        }
+      ],
+      "forca": 2,
+      "precos": ["poste_apagado", "vizinhanca_atenta", "divida"]
+    },
+    "lampada_no_bolso": {
+      "nome": "Lâmpada no Bolso",
+      "morador": "Eletricista",
+      "marcas": ["luz"],
+      "poder": "A lanterna ilumina 1 tile a mais",
+      "efeitos": [
+        {
+          "tipo": "raioLanterna",
+          "soma": 1
+        }
+      ],
+      "forca": 1,
+      "precos": ["banco_quebrado", "meia_noite_adiantada", "vizinhanca_atenta"]
+    },
+    "gato_no_telhado": {
+      "nome": "Gato no Telhado",
+      "morador": "Dona dos Gatos",
+      "marcas": ["sombra"],
+      "poder": "Sair da sombra dá 1 s de invisibilidade",
+      "efeitos": [
+        {
+          "tipo": "saiDaSombraInvisivel",
+          "duracao": 1
+        }
+      ],
+      "forca": 2,
+      "precos": ["vizinhanca_atenta", "ondas_famintas", "rua_sem_luz"]
+    },
+    "cortina_pesada": {
+      "nome": "Cortina Pesada",
+      "morador": "Costureira",
+      "marcas": ["sombra"],
+      "poder": "Na sombra, recebe 15% menos dano",
+      "efeitos": [
+        {
+          "tipo": "naSombra",
+          "atributo": "danoRecebido",
+          "mult": -0.15
+        }
+      ],
+      "forca": 1,
+      "precos": ["lanterna_fraca", "janelas_fechadas", "poste_apagado"]
+    },
+    "vela_apagada": {
+      "nome": "Vela Apagada",
+      "morador": "Sacristão",
+      "marcas": ["sombra", "pacto"],
+      "poder": "Começa cada rua com 1 poste amigo a menos e +20 de Força ou Feitiço",
+      "efeitos": [
+        {
+          "tipo": "postesApagados",
+          "n": 1
+        },
+        {
+          "tipo": "atributoPrincipal",
+          "soma": 20
+        }
+      ],
+      "forca": 2,
+      "precos": ["ondas_famintas", "vizinhanca_atenta", "casa_perseguidora"]
+    },
+    "pote_sem_fundo": {
+      "nome": "Pote sem Fundo",
+      "morador": "Confeiteiro",
+      "marcas": ["doce"],
+      "poder": "O Doce-isca dura o dobro e não custa doces 1 vez por rua",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "duracaoIsca",
+          "mult": 1
+        },
+        {
+          "tipo": "iscaGratisPorRua",
+          "n": 1
+        }
+      ],
+      "forca": 1,
+      "precos": ["lanterna_fraca", "meia_noite_adiantada", "ondas_famintas"]
+    },
+    "bala_de_coco": {
+      "nome": "Bala de Coco",
+      "morador": "Vendedora de Balas",
+      "marcas": ["doce"],
+      "poder": "Comprar no banco cura 10% da Coragem",
+      "efeitos": [
+        {
+          "tipo": "curaAoComprar",
+          "fracao": 0.1
+        }
+      ],
+      "forca": 1,
+      "precos": ["janelas_fechadas", "meia_noite_adiantada", "poste_apagado"]
+    },
+    "cofre_de_porquinho": {
+      "nome": "Cofre de Porquinho",
+      "morador": "Menino do Cofre",
+      "marcas": ["doce", "pacto"],
+      "poder": "+1 doce por inimigo, mas o banco cobra 20% a mais",
+      "efeitos": [
+        {
+          "tipo": "docesPorInimigo",
+          "soma": 1
+        },
+        {
+          "tipo": "precoDoBanco",
+          "mult": 0.2
+        }
+      ],
+      "forca": 1,
+      "precos": ["lanterna_fraca", "janelas_fechadas", "vizinhanca_atenta"]
+    },
+    "sino_da_igreja": {
+      "nome": "Sino da Igreja",
+      "morador": "Sineiro",
+      "marcas": ["eco"],
+      "poder": "O R também reinicia a recarga do E",
+      "efeitos": [
+        {
+          "tipo": "rReiniciaE"
+        }
+      ],
+      "forca": 2,
+      "precos": ["poste_apagado", "ondas_famintas", "divida"]
+    },
+    "disco_riscado": {
+      "nome": "Disco Riscado",
+      "morador": "DJ da Garagem",
+      "marcas": ["eco"],
+      "poder": "Auto-ataques reduzem 0,3 s das recargas",
+      "efeitos": [
+        {
+          "tipo": "autoReduzRecargas",
+          "segundos": 0.3
+        }
+      ],
+      "forca": 2,
+      "precos": ["vizinhanca_atenta", "poste_apagado", "casa_perseguidora"]
+    },
+    "semente_de_abobora": {
+      "nome": "Semente de Abóbora",
+      "morador": "Horteloa",
+      "marcas": ["abobora"],
+      "poder": "Explosões deixam o chão em chamas por 2 s",
+      "efeitos": [
+        {
+          "tipo": "chaoEmChamas",
+          "habilidade": "chamas_de_abobora"
+        }
+      ],
+      "forca": 1,
+      "precos": ["banco_quebrado", "lanterna_fraca", "ondas_famintas"]
+    },
+    "lanterna_de_abobora": {
+      "nome": "Lanterna de Abóbora",
+      "morador": "Artesão de Lanternas",
+      "marcas": ["abobora", "luz"],
+      "poder": "Explosões iluminam a área por 3 s",
+      "efeitos": [
+        {
+          "tipo": "explosoesIluminam",
+          "duracao": 3,
+          "raio": 2.5
+        }
+      ],
+      "forca": 1,
+      "precos": ["janelas_fechadas", "meia_noite_adiantada", "vizinhanca_atenta"]
+    },
+    "espantalho": {
+      "nome": "Espantalho",
+      "morador": "Fazendeiro",
+      "marcas": ["abobora"],
+      "poder": "Uma vez por rua, ao chegar a 20% de Coragem, explode e empurra todos",
+      "efeitos": [
+        {
+          "tipo": "espantalho",
+          "limiar": 0.2,
+          "raio": 3,
+          "empurrao": 2.5,
+          "dano": 60
+        }
+      ],
+      "forca": 2,
+      "precos": ["poste_apagado", "vizinhanca_atenta", "rua_sem_luz"]
+    },
+    "assinatura_em_sangue": {
+      "nome": "Assinatura em Sangue",
+      "morador": "Tabelião",
+      "marcas": ["pacto"],
+      "poder": "+30% de dano, mas o próximo trato vem com 2 preços",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "dano",
+          "mult": 0.3
+        },
+        {
+          "tipo": "proximoComDoisPrecos"
+        }
+      ],
+      "forca": 3,
+      "precos": ["divida", "casa_perseguidora", "rua_sem_luz"]
+    },
+    "divida_antiga": {
+      "nome": "Dívida Antiga",
+      "morador": "Agiota",
+      "marcas": ["pacto"],
+      "poder": "O Cobrador passa a soltar 100 doces ao ser derrotado",
+      "efeitos": [
+        {
+          "tipo": "cobradorSoltaDoces",
+          "doces": 100
+        }
+      ],
+      "forca": 1,
+      "precos": ["divida", "meia_noite_adiantada", "banco_quebrado"]
+    },
+    "recibo_rasgado": {
+      "nome": "Recibo Rasgado",
+      "morador": "Contador",
+      "marcas": ["pacto"],
+      "poder": "Uma vez por run, apaga o preço mais antigo",
+      "efeitos": [
+        {
+          "tipo": "apagaPrecoMaisAntigo"
+        }
+      ],
+      "forca": 2,
+      "precos": ["ondas_famintas", "vizinhanca_atenta", "casa_perseguidora"]
+    },
+    "colecao_de_chaves": {
+      "nome": "Coleção de Chaves",
+      "morador": "Colecionadora",
+      "marcas": ["doce"],
+      "poder": "Baús de quintal dão 1 item comum extra",
+      "efeitos": [
+        {
+          "tipo": "bauDaItem"
+        }
+      ],
+      "forca": 1,
+      "precos": ["banco_quebrado", "lanterna_fraca", "poste_apagado"]
+    }
+  },
+  "especiais": {
+    "chave_da_cidade": {
+      "nome": "Chave da Cidade",
+      "morador": "Prefeita",
+      "marcas": [],
+      "poder": "Um trato sem preço: +25% em todos os atributos",
+      "efeitos": [
+        {
+          "tipo": "todosAtributos",
+          "mult": 0.25
+        }
+      ],
+      "forca": 3,
+      "precos": []
+    }
+  },
+  "lendarios": {
+    "noite_sem_fim": {
+      "nome": "Noite Sem Fim",
+      "morador": "A Janela Vermelha",
+      "marcas": [],
+      "poder": "O Frenesi dura o dobro e o Susto não esvazia sozinho",
+      "efeitos": [
+        {
+          "tipo": "frenesiDobrado",
+          "mult": 2
+        }
+      ],
+      "forca": 3,
+      "precos": ["rua_sem_luz", "casa_perseguidora", "divida", "poste_apagado"]
+    },
+    "coroa_de_abobora": {
+      "nome": "Coroa de Abóbora",
+      "morador": "A Janela Vermelha",
+      "marcas": [],
+      "poder": "Toda explosão de abóbora dispara uma Q gratuita",
+      "efeitos": [
+        {
+          "tipo": "explosaoDisparaQ"
+        }
+      ],
+      "forca": 3,
+      "precos": ["rua_sem_luz", "casa_perseguidora", "divida", "ondas_famintas"]
+    },
+    "relogio_parado": {
+      "nome": "Relógio Parado",
+      "morador": "A Janela Vermelha",
+      "marcas": [],
+      "poder": "O Relógio da Meia-Noite para por 10 minutos",
+      "efeitos": [
+        {
+          "tipo": "relogioParado",
+          "minutos": 10
+        }
+      ],
+      "forca": 3,
+      "precos": ["rua_sem_luz", "casa_perseguidora", "divida", "vizinhanca_atenta"]
+    },
+    "espelho_do_mirante": {
+      "nome": "Espelho do Mirante",
+      "morador": "A Janela Vermelha",
+      "marcas": [],
+      "poder": "Toda habilidade é lançada também por um reflexo, com 40% do efeito",
+      "efeitos": [
+        {
+          "tipo": "reflexo",
+          "fracao": 0.4,
+          "atraso": 0.2
+        }
+      ],
+      "forca": 3,
+      "precos": ["rua_sem_luz", "casa_perseguidora", "divida", "poste_apagado"]
+    },
+    "chave_mestra_dourada": {
+      "nome": "Chave Mestra Dourada",
+      "morador": "A Janela Vermelha",
+      "marcas": [],
+      "poder": "Todos os baús são raros ou melhores",
+      "efeitos": [
+        {
+          "tipo": "bausMelhores"
+        }
+      ],
+      "forca": 3,
+      "precos": ["rua_sem_luz", "casa_perseguidora", "divida", "ondas_famintas"]
+    }
+  },
+  "conjuntos": {
+    "luz": {
+      "nome": "Luz",
+      "dois": {
+        "texto": "Postes amigos curam o dobro",
+        "efeitos": [
+          {
+            "tipo": "curaPostes",
+            "mult": 2
+          }
+        ]
+      },
+      "quatro": {
+        "nome": "Farol",
+        "texto": "A lanterna não gasta Luz e o pulso causa dano",
+        "efeitos": [
+          {
+            "tipo": "atributo",
+            "atributo": "luzSemCusto",
+            "soma": 1
+          },
+          {
+            "tipo": "pulsoCausaDano",
+            "base": 60,
+            "razao": 0.5
+          }
+        ]
+      }
+    },
+    "sombra": {
+      "nome": "Sombra",
+      "dois": {
+        "texto": "+10% de dano na sombra",
+        "efeitos": [
+          {
+            "tipo": "naSombra",
+            "atributo": "dano",
+            "mult": 0.1
+          }
+        ]
+      },
+      "quatro": {
+        "nome": "Noite Eterna",
+        "texto": "Ruas escuras viram vantagem: invisível a vigias em qualquer sombra",
+        "efeitos": [
+          {
+            "tipo": "noiteEterna"
+          }
+        ]
+      }
+    },
+    "doce": {
+      "nome": "Doce",
+      "dois": {
+        "texto": "Doces ×1,2",
+        "efeitos": [
+          {
+            "tipo": "atributo",
+            "atributo": "doces",
+            "mult": 0.2
+          }
+        ]
+      },
+      "quatro": {
+        "nome": "Fome de Doce",
+        "texto": "Cada 100 doces carregados dão +3% de dano (até 30%)",
+        "efeitos": [
+          {
+            "tipo": "fomeDeDoce",
+            "porCem": 0.03,
+            "maximo": 0.3
+          }
+        ]
+      }
+    },
+    "eco": {
+      "nome": "Eco",
+      "dois": {
+        "texto": "Habilidades têm 15% de chance de repetir",
+        "efeitos": [
+          {
+            "tipo": "chanceDeRepetir",
+            "chance": 0.15,
+            "fracao": 1,
+            "atraso": 0.25
+          }
+        ]
+      },
+      "quatro": {
+        "nome": "Coro",
+        "texto": "Toda 3ª habilidade se repete com 60% do efeito",
+        "efeitos": [
+          {
+            "tipo": "coro",
+            "aCada": 3,
+            "fracao": 0.6,
+            "atraso": 0.25
+          }
+        ]
+      }
+    },
+    "abobora": {
+      "nome": "Abóbora",
+      "dois": {
+        "texto": "Inimigos derrotados têm 20% de chance de explodir",
+        "efeitos": [
+          {
+            "tipo": "explodeAoDerrotar",
+            "chance": 0.2,
+            "fracao": 0.2,
+            "raio": 1.5
+          }
+        ]
+      },
+      "quatro": {
+        "nome": "Colheita",
+        "texto": "Toda explosão de abóbora enche +5 de Susto e pode encadear",
+        "efeitos": [
+          {
+            "tipo": "colheita",
+            "susto": 5
+          }
+        ]
+      }
+    },
+    "pacto": {
+      "nome": "Pacto",
+      "dois": {
+        "texto": "+5% de dano por preço ativo",
+        "efeitos": [
+          {
+            "tipo": "danoPorPreco",
+            "porPreco": 0.05
+          }
+        ]
+      },
+      "quatro": {
+        "nome": "Contrato Fechado",
+        "texto": "Cada preço ativo também reduz 4% da recarga (até 40%)",
+        "efeitos": [
+          {
+            "tipo": "recargaPorPreco",
+            "porPreco": 0.04,
+            "maximo": 0.4
+          }
+        ]
+      }
+    }
+  },
+  "medalha": {
+    "dano": 0.04,
+    "coragem": 0.04,
+    "docesRecusa": 80,
+    "paraChave": 4
+  },
+  "pechincha": 100,
+  "tratosPorFase": 1
+}

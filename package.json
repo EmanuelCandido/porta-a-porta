@@ -1,0 +1,49 @@
+{
+  "name": "porta-a-porta",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Emanuel Cândido",
+  "description": "Roguelite de ação isométrica para navegador com combate de habilidades Q, W, E e R.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build",
+    "bots": "vitest run --config vitest.bots.config.ts",
+    "medir": "npm run build && node scripts/medir.mjs",
+    "medir:gameplay": "npm run build && node scripts/medir-gameplay.mjs",
+    "empacotar": "npm run build && node scripts/empacotar.mjs",
+    "empacotar:linux": "npm run build && node scripts/empacotar-linux.mjs",
+    "test:windows": "node scripts/verificar-aplicativo.mjs",
+    "test:linux": "node scripts/verificar-aplicativo.mjs"
+  },
+  "dependencies": {
+    "phaser": "4.2.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^24.19.2",
+    "electron": "44.9.0",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}

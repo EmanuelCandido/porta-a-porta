@@ -1,0 +1,161 @@
+{
+  "raioInteracao": 1.3,
+  "nevoa": {
+    "celula": 2,
+    "raio": 7,
+    "aCadaTicks": 6
+  },
+  "marcos": [
+    { "fracao": 0.4, "doces": 30, "xp": 40 },
+    { "fracao": 0.7, "doces": 60, "xp": 80 }
+  ],
+  "campainha": {
+    "doces": [12, 26],
+    "itens": ["pirulito", "bala_efervescente", "doce_isca"],
+    "xpHistoria": 45,
+    "minijogo": {
+      "nivelDoce": 0,
+      "folgaDoce": 1.3,
+      "nivelTravessura": 2,
+      "multPerfeito": 1.5,
+      "textoFechada": "Errou o toque... ninguém abriu a porta."
+    },
+    "luz": { "largura": 0.9, "comprimento": 2, "abertura": 0.4 },
+    "travessura": {
+      "pestinhas": 3,
+      "atrasoS": 0.8,
+      "afastamento": 1.1,
+      "multDoces": 2
+    },
+    "pesosDoce": { "doces": 75, "historia": 25 },
+    "historias": [
+      "Dona Cida jura que o poste da esquina piscou três vezes sozinho.",
+      "Seu Juca conta que os lençóis do varal saem para passear à meia-noite.",
+      "A menina do sobrado viu uma abóbora brilhando atrás da obra.",
+      "O vizinho da torre diz que da caixa-d'água dá para ver o bairro inteiro.",
+      "Dizem que o Síndico guarda as chaves dos portões num bolso sem fundo.",
+      "Um gato preto atravessou a travessa e o relógio adiantou cinco minutos."
+    ]
+  },
+  "desconfiada": {
+    "raioRecusa": 5,
+    "folga": 1.5,
+    "especie": "casa_desperta",
+    "premios": { "perfeito": 45, "acerto": 30, "derrotada": 70 },
+    "multPorBairro": [1, 1.3, 1.6],
+    "chanceConsumivelPerfeito": 0.3,
+    "chanceItemDerrotada": 0.25,
+    "minijogos": {
+      "toque": {
+        "toques": [3, 4, 5],
+        "intervalosS": [0.45, 0.85],
+        "esperaS": 0.8,
+        "pausaS": 0.8,
+        "janelaS": [0.28, 0.24, 0.2],
+        "limiteS": 3
+      },
+      "olho": {
+        "setas": [3, 4, 5],
+        "mostrarS": [2.0, 2.3, 2.6],
+        "limiteS": 5,
+        "perfeitoPorSetaS": 0.55
+      },
+      "fresta": {
+        "vao": [0.26, 0.2, 0.16],
+        "velocidade": [0.65, 0.8, 0.95],
+        "margem": 0.08,
+        "perfeito": 0.34,
+        "limiteS": 5
+      },
+      "quem": { "silhuetas": 3, "introS": 0.8, "tempoS": [2.6, 2.2, 1.8], "perfeito": 0.4 }
+    },
+    "textos": {
+      "recusa": "Tem alguém aí fora... volte quando a rua acalmar.",
+      "perfeito": "Perfeito! O morador encheu o saco de doces.",
+      "acerto": "Acertou! Doces da Casa Desconfiada.",
+      "erro": "Errou! A casa acordou!",
+      "perdoado": "Errou... a casa só apagou a luz. Da próxima vez ela acorda!",
+      "derrotada": "A Casa Desperta desabou! Doces da casa inteira."
+    }
+  },
+  "segredo": {
+    "raioPegar": 0.8,
+    "raioVer": 3.2,
+    "doces": 35,
+    "xp": 30,
+    "susto": 12
+  },
+  "poste": {
+    "canalS": 1.2,
+    "xp": 20,
+    "raioRevelar": 10
+  },
+  "mirante": {
+    "canalS": 2,
+    "raioRevelar": 45,
+    "xp": 50
+  },
+  "quebraveis": {
+    "modelos": {
+      "lixeira": { "coragem": 30, "raio": 0.3, "doces": [2, 4], "material": "metal" },
+      "caixa_correio": { "coragem": 20, "raio": 0.22, "doces": [1, 3], "material": "metal" },
+      "abobora_decor": { "coragem": 15, "raio": 0.3, "doces": [2, 5], "material": "abobora" },
+      "floreira": { "coragem": 40, "raio": 0.65, "doces": [1, 3], "material": "madeira" },
+      "cone": { "coragem": 12, "raio": 0.2, "doces": [0, 2], "material": "plastico" },
+      "cavalete": { "coragem": 25, "raio": 0.62, "doces": [1, 3], "material": "madeira" },
+      "hidrante": {
+        "coragem": 35,
+        "raio": 0.25,
+        "doces": [0, 1],
+        "material": "metal",
+        "efeito": "jato"
+      },
+      "canteiro": {
+        "coragem": 60,
+        "raio": 0.8,
+        "doces": [4, 8],
+        "material": "madeira",
+        "efeito": "canteiro"
+      },
+      "espelho": {
+        "coragem": 150,
+        "raio": 0.6,
+        "doces": [6, 10],
+        "material": "vidro",
+        "efeito": "espelho"
+      },
+      "abobora_gigante": {
+        "coragem": 45,
+        "raio": 0.6,
+        "doces": [3, 6],
+        "material": "abobora",
+        "efeito": "explosao"
+      }
+    },
+    "chanceSurpresa": 0.06,
+    "chanceItem": 0.08,
+    "raioBrilho": 4
+  },
+  "armas": {
+    "alarme": { "modelos": ["carro"], "duracaoS": 6, "recargaS": 15, "raioCorpo": 1.15 },
+    "fio": {
+      "modelos": ["poste"],
+      "duracaoS": 5,
+      "recargaS": 20,
+      "raioCorpo": 0.3,
+      "raio": 1.8,
+      "intervaloS": 0.5,
+      "danoPorPulso": 20,
+      "lentidao": 0.4
+    },
+    "jato": { "duracaoS": 4, "raio": 2.2, "empurrao": 1.2, "intervaloS": 0.4 },
+    "explosao": { "avisoS": 0.6, "raio": 2.5, "dano": 120 },
+    "portao": { "coragem": 1, "raioCorpo": 0.6 }
+  },
+  "fins": {
+    "raioInteracao": 1.6,
+    "poco": { "preco": 30 },
+    "velas": { "tempoS": 8, "pestinhas": 3, "raioApagar": 0.7, "doces": 40, "xp": 60 },
+    "assombrada": { "ondas": [3, 4], "doces": 50 }
+  }
+}

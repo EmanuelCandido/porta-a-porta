@@ -1,0 +1,35 @@
+{
+  "niveis": [
+    {
+      "descricao": "Inimigos com +15% de Coragem",
+      "efeito": { "tipo": "inimigos", "coragem": 0.15 }
+    },
+    {
+      "descricao": "Postes Corrompidos atiram 30% mais rápido",
+      "efeito": { "tipo": "recargaPostes", "mult": 0.3 }
+    },
+    { "descricao": "A run começa com 1 preço extra", "efeito": { "tipo": "precoInicial", "n": 1 } },
+    {
+      "descricao": "Relógio da Meia-Noite 5 min adiantado",
+      "efeito": { "tipo": "relogioAdiantado", "minutos": 5 }
+    },
+    {
+      "descricao": "A Moradora do 13 espera quem chega sem tratos",
+      "efeito": { "tipo": "moradora" }
+    },
+    { "descricao": "Inimigos com +15% de dano", "efeito": { "tipo": "inimigos", "dano": 0.15 } },
+    {
+      "descricao": "Uma pestinha a mais em cada bueiro",
+      "efeito": { "tipo": "extraPorOnda", "n": 1 }
+    },
+    {
+      "descricao": "Itens do banco 25% mais caros",
+      "efeito": { "tipo": "precoDoBanco", "mult": 0.25 }
+    },
+    {
+      "descricao": "Os bueiros acordam de mais longe",
+      "efeito": { "tipo": "intervaloOndas", "segundos": 20 }
+    },
+    { "descricao": "Chefes com +25% de Coragem", "efeito": { "tipo": "chefes", "coragem": 0.25 } }
+  ]
+}

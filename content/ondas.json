@@ -1,0 +1,56 @@
+{
+  "modo": "pontos",
+  "pontos": {
+    "raioGatilho": 13,
+    "longeDaEntrada": 10,
+    "aCada": 2
+  },
+  "primeiraEm": 10,
+  "intervalo": 25,
+  "total": 6,
+  "porBairro": [3, 4, 5],
+  "intervaloEntreNascimentos": 0.6,
+  "composicao": [
+    {
+      "pestinha_lencol": 3,
+      "arremessador": 1,
+      "abobora_canhao": 0
+    },
+    {
+      "pestinha_lencol": 3,
+      "arremessador": 1,
+      "abobora_canhao": 1
+    },
+    {
+      "pestinha_lencol": 2,
+      "arremessador": 2,
+      "abobora_canhao": 2
+    }
+  ],
+  "primeiraSoLencois": true,
+  "flancoDesdeOnda": 3,
+  "bueirosPorOnda": 2,
+  "distanciaMinima": 13,
+  "distanciaMaxima": 32,
+  "encontros": {
+    "raioDespertar": 8,
+    "espalhar": 1.4
+  },
+  "vela": {
+    "especie": "pestinha_vela",
+    "n": 1,
+    "desdeOnda": 2,
+    "chancePorBairro": [0.3, 0.45, 0.6]
+  },
+  "espantalhos": {
+    "especie": "espantalho",
+    "n": 2,
+    "chancePorBairro": [0.5, 0.6, 0.7]
+  },
+  "enxame": {
+    "especie": "morceguinho",
+    "n": 5,
+    "desdeOnda": 2,
+    "chancePorBairro": [0.35, 0.5, 0.65]
+  }
+}

@@ -1,0 +1,1092 @@
+{
+  "habilidades": [
+    {
+      "id": "bruxinha_q",
+      "nome": "Vassoura Disparada",
+      "tecla": "Q",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 8,
+        "largura": 0.6,
+        "velocidade": 14,
+        "perfura": false
+      },
+      "custo": 40,
+      "recarga": [3, 3, 3, 3, 3],
+      "estouro": { "raio": 1.2, "fracaoDano": 0.4, "empurrao": 0.8 },
+      "lancamento": 0.25,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [60, 90, 120, 150, 180],
+          "razao": 0.6,
+          "atributo": "feitico"
+        }
+      ],
+      "cor": "jogador",
+      "descricao": "Vassoura em linha de 8 tiles: acerta o primeiro inimigo e estoura, empurrando quem estiver perto."
+    },
+    {
+      "id": "bruxinha_w",
+      "nome": "Poção Pegajosa",
+      "tecla": "W",
+      "forma": {
+        "tipo": "area",
+        "alcance": 7,
+        "raio": 2,
+        "atraso": 0.35,
+        "pulsos": 6,
+        "intervalo": 0.5
+      },
+      "custo": 60,
+      "recarga": [7, 7, 7, 7, 7],
+      "lancamento": 0.25,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [40, 60, 80, 100, 120],
+          "razao": 0.4,
+          "atributo": "feitico",
+          "porSegundo": true
+        },
+        {
+          "tipo": "lentidao",
+          "valor": 0.4,
+          "duracao": 0.6
+        }
+      ],
+      "cor": "magia",
+      "descricao": "Área de raio 2 que fica 3 s no chão, machuca e deixa lento em 40%."
+    },
+    {
+      "id": "bruxinha_e",
+      "nome": "Salto de Vassoura",
+      "tecla": "E",
+      "forma": {
+        "tipo": "dash",
+        "distancia": 4,
+        "velocidade": 20,
+        "atravessaCorpos": true
+      },
+      "custo": 50,
+      "recarga": [6, 5.5, 5, 4.5, 4],
+      "estouro": { "raio": 1.4, "fracaoDano": 0, "empurrao": 1 },
+      "lancamento": 0,
+      "efeitos": [],
+      "cor": "jogador",
+      "descricao": "Dash de 4 tiles na direção do cursor, atravessando inimigos; o pouso empurra quem estiver perto."
+    },
+    {
+      "id": "bruxinha_r",
+      "nome": "Chuva de Abóboras",
+      "tecla": "R",
+      "forma": {
+        "tipo": "area",
+        "alcance": 8,
+        "raio": 3,
+        "atraso": 0,
+        "pulsos": 3,
+        "intervalo": 0.5
+      },
+      "custo": 100,
+      "recarga": [40, 35, 30],
+      "lancamento": 0.8,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [150, 250, 350],
+          "razao": 0.8,
+          "atributo": "feitico"
+        }
+      ],
+      "cor": "jogador",
+      "descricao": "Depois de 0,8 s, 3 ondas de abóboras numa área de raio 3."
+    },
+    {
+      "id": "mergulho_morcego",
+      "nome": "Mergulho",
+      "tecla": "ataque",
+      "descricao": "O morceguinho mergulha em linha reta, anunciado no chão.",
+      "forma": { "tipo": "dash", "distancia": 6, "velocidade": 11, "atravessaCorpos": true },
+      "custo": 0,
+      "recarga": [0.1],
+      "lancamento": 0.5,
+      "efeitos": [{ "tipo": "dano", "base": [6], "razao": 0, "atributo": "forca" }],
+      "cor": "perigo",
+      "aviso": true
+    },
+    {
+      "id": "palha_espantalho",
+      "nome": "Palha",
+      "tecla": "ataque",
+      "descricao": "O espantalho joga um maço de palha em linha, anunciado no chão; deixa lento.",
+      "forma": { "tipo": "linha", "alcance": 6, "largura": 0.6, "velocidade": 5, "perfura": false },
+      "custo": 0,
+      "recarga": [2.6],
+      "lancamento": 0.5,
+      "aviso": true,
+      "efeitos": [
+        { "tipo": "dano", "base": [7], "razao": 0, "atributo": "forca" },
+        { "tipo": "lentidao", "valor": 0.35, "duracao": 1.5 }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "ovo",
+      "nome": "Ovo",
+      "tecla": "ataque",
+      "descricao": "Ovo jogado em linha reta, lento o bastante para desviar.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 7,
+        "largura": 0.4,
+        "velocidade": 6,
+        "perfura": false
+      },
+      "custo": 0,
+      "recarga": [1.8],
+      "lancamento": 0.35,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [9],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "explosao_abobora",
+      "nome": "Explosão",
+      "tecla": "ataque",
+      "descricao": "Para, anuncia por 1 s e explode em raio de 2 tiles.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 2,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [3.5],
+      "lancamento": 1,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [25],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "pulso_poste",
+      "nome": "Pulso roxo",
+      "tecla": "ataque",
+      "descricao": "O Poste Corrompido carrega por 0,7 s, anunciado no chão, e solta um pulso em volta de si que empurra para longe.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 2.2,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [5],
+      "lancamento": 0.7,
+      "aviso": true,
+      "efeitos": [
+        { "tipo": "dano", "base": [16], "razao": 0, "atributo": "forca" },
+        { "tipo": "empurrar", "distancia": 1.6, "modo": "longe" }
+      ],
+      "cor": "magia"
+    },
+    {
+      "id": "rolada_abobora",
+      "nome": "Rolada",
+      "tecla": "ataque",
+      "descricao": "A abóbora se encolhe por 0,6 s, anunciada no chão, e rola 4 tiles na direção do jogador.",
+      "forma": { "tipo": "dash", "distancia": 4, "velocidade": 8, "atravessaCorpos": false },
+      "custo": 0,
+      "recarga": [6],
+      "lancamento": 0.6,
+      "aviso": true,
+      "efeitos": [
+        { "tipo": "dano", "base": [10], "razao": 0, "atributo": "forca" },
+        { "tipo": "empurrar", "distancia": 1, "modo": "lado" }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "tiro_poste",
+      "nome": "Tiro roxo",
+      "tecla": "ataque",
+      "descricao": "O Poste Corrompido mira por 0,4 s e atira um projétil roxo.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 7.5,
+        "largura": 0.35,
+        "velocidade": 9,
+        "perfura": false
+      },
+      "custo": 0,
+      "recarga": [1],
+      "lancamento": 0.4,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [20],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "magia"
+    },
+    {
+      "id": "chamas_de_abobora",
+      "nome": "Chão em Chamas",
+      "tecla": "ataque",
+      "descricao": "Explosões de abóbora deixam o chão queimando por 2 s (Semente de Abóbora).",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.2,
+        "atraso": 0,
+        "pulsos": 4,
+        "intervalo": 0.5
+      },
+      "custo": 0,
+      "recarga": [0],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [15],
+          "razao": 0.1,
+          "atributo": "feitico",
+          "porSegundo": true
+        }
+      ],
+      "cor": "jogador"
+    },
+    {
+      "id": "investida_cao",
+      "nome": "Investida",
+      "tecla": "ataque",
+      "descricao": "Anuncia por 0,8 s e corre 5 tiles em linha reta, mordendo quem estiver no caminho.",
+      "forma": {
+        "tipo": "dash",
+        "distancia": 5,
+        "velocidade": 11,
+        "atravessaCorpos": false
+      },
+      "custo": 0,
+      "recarga": [4],
+      "lancamento": 0.8,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [30],
+          "razao": 0,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "empurrar",
+          "distancia": 1,
+          "modo": "lado"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "mordida_cao",
+      "nome": "Mordida",
+      "tecla": "ataque",
+      "descricao": "Morde em volta de si, anunciada por 0,45 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.2,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [1.6],
+      "lancamento": 0.45,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [16],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "pisao_casa",
+      "nome": "Pisão",
+      "tecla": "ataque",
+      "descricao": "A casa levanta e pisa: raio de 2,6 tiles, anunciado por 1,2 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 2.6,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [4],
+      "lancamento": 1.2,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [45],
+          "razao": 0,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "lentidao",
+          "valor": 0.3,
+          "duracao": 1.5
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "corrente_cobrador",
+      "nome": "Corrente",
+      "tecla": "ataque",
+      "descricao": "Arremessa uma corrente que puxa 3 tiles quem acertar.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 6.5,
+        "largura": 0.5,
+        "velocidade": 8,
+        "perfura": false
+      },
+      "custo": 0,
+      "recarga": [6],
+      "lancamento": 0.6,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [22],
+          "razao": 0,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "empurrar",
+          "distancia": 3,
+          "modo": "puxar",
+          "velocidade": 9
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "golpe_cobrador",
+      "nome": "Cobrança",
+      "tecla": "ataque",
+      "descricao": "Bate com o livro de contas, anunciado por 0,5 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.4,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [1.8],
+      "lancamento": 0.5,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [26],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "bote_sombra",
+      "nome": "Bote",
+      "tecla": "ataque",
+      "descricao": "A sombra salta em volta de si, anunciada por 0,45 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.3,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [1.5],
+      "lancamento": 0.45,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [24],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "cassetete_guarda",
+      "nome": "Cassetete",
+      "tecla": "ataque",
+      "descricao": "Golpe em volta, anunciado por 0,5 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.3,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [1.7],
+      "lancamento": 0.5,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [18],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "multa_sindico",
+      "nome": "Multa",
+      "tecla": "ataque",
+      "descricao": "Três multas em leque, anunciadas por 0,6 s.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 9,
+        "largura": 0.5,
+        "velocidade": 7,
+        "perfura": false
+      },
+      "leque": {
+        "n": 3,
+        "angulo": 24
+      },
+      "custo": 0,
+      "recarga": [2.6],
+      "lancamento": 0.6,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [16],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "portao_sindico",
+      "nome": "Portão",
+      "tecla": "ataque",
+      "descricao": "Fecha uma linha de grades que atravessa a praça por 6 s; anunciada por 1 s.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 16,
+        "largura": 0.7,
+        "velocidade": 0,
+        "perfura": true
+      },
+      "custo": 0,
+      "recarga": [15],
+      "lancamento": 1,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [15],
+          "razao": 0,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "empurrar",
+          "distancia": 1.2,
+          "modo": "lado"
+        }
+      ],
+      "cor": "perigo",
+      "leque": {
+        "n": 2,
+        "angulo": 180
+      }
+    },
+    {
+      "id": "vistoria_sindico",
+      "nome": "Vistoria",
+      "tecla": "ataque",
+      "descricao": "Área de 4 × 4 tiles vermelha por 1,2 s que atordoa quem estiver dentro.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 9,
+        "raio": 2,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "quadrada": true
+      },
+      "custo": 0,
+      "recarga": [7],
+      "lancamento": 1.2,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [20],
+          "razao": 0,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "atordoar",
+          "duracao": 1
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "lagrimas_viuva",
+      "nome": "Lágrimas",
+      "tecla": "ataque",
+      "descricao": "Uma lágrima cai onde o jogador está, anunciada por 0,8 s; vêm 4 em sequência.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 16,
+        "raio": 0.65,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0
+      },
+      "custo": 0,
+      "recarga": [0.1],
+      "lancamento": 0.8,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [8],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "investida_viuva",
+      "nome": "Investida",
+      "tecla": "ataque",
+      "descricao": "Corre 6 tiles na direção do jogador, anunciada por 0,7 s.",
+      "forma": {
+        "tipo": "dash",
+        "distancia": 6,
+        "velocidade": 12,
+        "atravessaCorpos": false
+      },
+      "custo": 0,
+      "recarga": [4],
+      "lancamento": 0.7,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [26],
+          "razao": 0,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "empurrar",
+          "distancia": 1,
+          "modo": "lado"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "garras_viuva",
+      "nome": "Garras do Véu",
+      "tecla": "ataque",
+      "descricao": "Golpe em volta de si, anunciado por 0,5 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.5,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [1.6],
+      "lancamento": 0.5,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [18],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "bote_sombra_viuva",
+      "nome": "Bote",
+      "tecla": "ataque",
+      "descricao": "A sombra da Viúva salta em volta de si, anunciada por 0,45 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 1.3,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0,
+        "centradaNoLancador": true
+      },
+      "custo": 0,
+      "recarga": [1.5],
+      "lancamento": 0.45,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [14],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "feixe_dono",
+      "nome": "Feixe da Janela",
+      "tecla": "ataque",
+      "descricao": "Uma janela atira um feixe de luz roxa pela praça, anunciado por 0,6 s; 5 em varrida.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 18,
+        "largura": 0.8,
+        "velocidade": 0,
+        "perfura": true
+      },
+      "custo": 0,
+      "recarga": [0.1],
+      "lancamento": 0.6,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [20],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "tijolo_dono",
+      "nome": "Tijolo da Chaminé",
+      "tecla": "ataque",
+      "descricao": "Um tijolo cai numa área anunciada por 0,9 s.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 30,
+        "raio": 1.1,
+        "atraso": 0,
+        "pulsos": 1,
+        "intervalo": 0
+      },
+      "custo": 0,
+      "recarga": [0.1],
+      "lancamento": 0.9,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [24],
+          "razao": 0,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "rampa_dono",
+      "nome": "Escada Rampa",
+      "tecla": "ataque",
+      "descricao": "A escada vira rampa: por 4 s, quem está diante da casa escorrega para longe dela.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 30,
+        "raio": 2,
+        "atraso": 0,
+        "pulsos": 16,
+        "intervalo": 0.25,
+        "quadrada": true
+      },
+      "custo": 0,
+      "recarga": [8],
+      "lancamento": 0.8,
+      "aviso": true,
+      "efeitos": [
+        {
+          "tipo": "empurrar",
+          "distancia": 0.45,
+          "modo": "longe"
+        }
+      ],
+      "cor": "perigo"
+    },
+    {
+      "id": "fantasma_q",
+      "nome": "Arranhão Gélido",
+      "tecla": "Q",
+      "descricao": "Corte em linha de 4 tiles que atravessa todos os inimigos.",
+      "forma": {
+        "tipo": "linha",
+        "alcance": 4,
+        "largura": 1,
+        "velocidade": 0,
+        "perfura": true
+      },
+      "custo": 30,
+      "recarga": [5, 5, 5, 5, 5],
+      "lancamento": 0.25,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [50, 80, 110, 140, 170],
+          "razao": 0.9,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "fantasma"
+    },
+    {
+      "id": "fantasma_w",
+      "nome": "Atravessar",
+      "tecla": "W",
+      "descricao": "Dash de 3 tiles que passa através de paredes e casas.",
+      "forma": {
+        "tipo": "dash",
+        "distancia": 3,
+        "velocidade": 18,
+        "atravessaCorpos": true,
+        "atravessaParedes": true
+      },
+      "custo": 40,
+      "recarga": [16, 14.5, 13, 11.5, 10],
+      "lancamento": 0,
+      "efeitos": [],
+      "cor": "fantasma"
+    },
+    {
+      "id": "fantasma_e",
+      "nome": "Lençol",
+      "tecla": "E",
+      "descricao": "Invisível por 3 s na sombra ou 1,5 s na luz, com 30% de velocidade.",
+      "forma": {
+        "tipo": "propria"
+      },
+      "custo": 60,
+      "recarga": [18, 16.5, 15, 13.5, 12],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "invisivel",
+          "em": "lancador",
+          "duracao": 3,
+          "duracaoNaLuz": 1.5
+        },
+        {
+          "tipo": "bonus",
+          "em": "lancador",
+          "atributo": "velocidade",
+          "mult": 0.3,
+          "duracao": 3
+        }
+      ],
+      "cor": "fantasma"
+    },
+    {
+      "id": "fantasma_r",
+      "nome": "Assombração",
+      "tecla": "R",
+      "descricao": "Marca um alvo a até 6 tiles; depois de 1 s aparece atrás dele e golpeia. Dobra abaixo de 30%; se o alvo cair, a recarga reinicia.",
+      "forma": {
+        "tipo": "alvo",
+        "alcance": 6,
+        "atraso": 1,
+        "aparecerAtras": true
+      },
+      "custo": 100,
+      "recarga": [80, 65, 50],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [200, 300, 400],
+          "razao": 1.2,
+          "atributo": "forca",
+          "multAbaixoDe": {
+            "fracao": 0.3,
+            "mult": 2
+          }
+        }
+      ],
+      "reiniciaAoAbater": true,
+      "cor": "fantasma"
+    },
+    {
+      "id": "esqueleto_q",
+      "nome": "Soco de Osso",
+      "tecla": "Q",
+      "descricao": "Golpe em cone curto que atordoa por 0,75 s.",
+      "forma": {
+        "tipo": "cone",
+        "alcance": 2,
+        "angulo": 70
+      },
+      "custo": 35,
+      "recarga": [7, 7, 7, 7, 7],
+      "lancamento": 0.25,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [70, 100, 130, 160, 190],
+          "razao": 0.7,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "atordoar",
+          "duracao": 0.75
+        }
+      ],
+      "cor": "jogador"
+    },
+    {
+      "id": "esqueleto_w",
+      "nome": "Escudo de Costelas",
+      "tecla": "W",
+      "descricao": "Escudo por 4 s; se não quebrar, devolve 50% do que sobrou em Coragem.",
+      "forma": {
+        "tipo": "propria"
+      },
+      "custo": 50,
+      "recarga": [14, 14, 14, 14, 14],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "escudo",
+          "em": "lancador",
+          "base": [80, 120, 160, 200, 240],
+          "razaoCoragemMax": 0.1,
+          "duracao": 4,
+          "devolve": 0.5
+        }
+      ],
+      "cor": "jogador"
+    },
+    {
+      "id": "esqueleto_e",
+      "nome": "Investida",
+      "tecla": "E",
+      "descricao": "Corre 5 tiles e empurra para o lado quem estiver no caminho.",
+      "forma": {
+        "tipo": "dash",
+        "distancia": 5,
+        "velocidade": 14,
+        "atravessaCorpos": true
+      },
+      "custo": 45,
+      "recarga": [12, 11, 10, 9, 8],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [60, 90, 120, 150, 180],
+          "razao": 0.5,
+          "atributo": "forca"
+        },
+        {
+          "tipo": "empurrar",
+          "distancia": 1.5,
+          "velocidade": 10,
+          "modo": "lado"
+        }
+      ],
+      "cor": "jogador"
+    },
+    {
+      "id": "esqueleto_r",
+      "nome": "Ossuário",
+      "tecla": "R",
+      "descricao": "Anel de ossos de raio 3 por 2,5 s: quem está dentro não sai e é provocado; o Esqueleto ganha 40 de Resistência. Ao fechar, machuca todos dentro.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 0,
+        "raio": 3,
+        "atraso": 0,
+        "pulsos": 5,
+        "intervalo": 0.5,
+        "centradaNoLancador": true
+      },
+      "custo": 100,
+      "recarga": [100, 85, 70],
+      "lancamento": 0.4,
+      "efeitos": [
+        {
+          "tipo": "provocar",
+          "duracao": 0.6
+        },
+        {
+          "tipo": "bonus",
+          "em": "lancador",
+          "atributo": "resistencia",
+          "soma": 40,
+          "duracao": 2.5
+        }
+      ],
+      "confina": true,
+      "aoFechar": [
+        {
+          "tipo": "dano",
+          "base": [100, 200, 300],
+          "razao": 0.6,
+          "atributo": "forca"
+        }
+      ],
+      "cor": "jogador"
+    },
+    {
+      "id": "vampirinho_q",
+      "nome": "Mordida",
+      "tecla": "Q",
+      "descricao": "Salta 2 tiles até o alvo e morde, curando 50% do dano causado.",
+      "forma": {
+        "tipo": "alvo",
+        "alcance": 3,
+        "salto": 2
+      },
+      "custo": 40,
+      "recarga": [6, 6, 6, 6, 6],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "dano",
+          "base": [60, 90, 120, 150, 180],
+          "razao": 0.8,
+          "atributo": "forca"
+        }
+      ],
+      "curaPorDano": 0.5,
+      "cor": "jogador"
+    },
+    {
+      "id": "vampirinho_w",
+      "nome": "Capa de Morcego",
+      "tecla": "W",
+      "descricao": "Vira morcegos por 0,5 s, sem levar dano nenhum, e reaparece a 3 tiles.",
+      "forma": {
+        "tipo": "dash",
+        "distancia": 3,
+        "velocidade": 6,
+        "atravessaCorpos": true,
+        "imune": 0.05
+      },
+      "custo": 50,
+      "recarga": [15, 13.75, 12.5, 11.25, 10],
+      "lancamento": 0,
+      "efeitos": [],
+      "cor": "jogador"
+    },
+    {
+      "id": "vampirinho_e",
+      "nome": "Névoa",
+      "tecla": "E",
+      "descricao": "Nuvem de raio 2,5 por 4 s que vira sombra; dentro dela, o Vampirinho recebe 30% menos dano.",
+      "forma": {
+        "tipo": "area",
+        "alcance": 6,
+        "raio": 2.5,
+        "atraso": 0,
+        "pulsos": 8,
+        "intervalo": 0.5
+      },
+      "custo": 60,
+      "recarga": [16, 16, 16, 16, 16],
+      "lancamento": 0,
+      "efeitos": [],
+      "afetaAliados": [
+        {
+          "tipo": "bonus",
+          "atributo": "danoRecebido",
+          "mult": -0.3,
+          "duracao": 0.6
+        }
+      ],
+      "sombra": true,
+      "cor": "jogador"
+    },
+    {
+      "id": "vampirinho_r",
+      "nome": "Banquete",
+      "tecla": "R",
+      "descricao": "Por 6 s, o roubo de vida sobe para 100% e cada golpe dá 5% de velocidade, até 30%.",
+      "forma": {
+        "tipo": "propria"
+      },
+      "custo": 100,
+      "recarga": [90, 75, 60],
+      "lancamento": 0,
+      "efeitos": [
+        {
+          "tipo": "banquete",
+          "em": "lancador",
+          "duracao": 6,
+          "rouboVida": 0.9,
+          "porGolpe": 0.05,
+          "maxVelocidade": 0.3
+        }
+      ],
+      "cor": "jogador"
+    }
+  ]
+}

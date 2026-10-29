@@ -1,0 +1,667 @@
+{
+  "inimigos": {
+    "morceguinho": {
+      "nome": "Morceguinho",
+      "comportamento": "morcego",
+      "coragem": 24,
+      "resistencia": 0,
+      "velocidade": 3.6,
+      "raio": 0.25,
+      "xp": 3,
+      "doces": 1,
+      "solido": false,
+      "ataques": ["mergulho_morcego"],
+      "param": {
+        "alturaPx": 46,
+        "orbita": 3.2,
+        "giroPorS": 1.1,
+        "recargaS": 2.8,
+        "baixoS": 1.4,
+        "alcanceMergulho": 6
+      }
+    },
+    "saco_surpresa": {
+      "nome": "Saco-Surpresa",
+      "comportamento": "saco",
+      "coragem": 70,
+      "resistencia": 5,
+      "velocidade": 3,
+      "raio": 0.32,
+      "xp": 8,
+      "doces": 4,
+      "solido": true,
+      "autoAtaque": {
+        "alcance": 0.8,
+        "porSegundo": 1.2,
+        "base": 7,
+        "razao": 0,
+        "atributo": "forca",
+        "projetil": null,
+        "preparo": 0.3
+      },
+      "ataques": [],
+      "param": {
+        "raioAcordar": 2,
+        "ataqueS": 3.5,
+        "fugaS": 4,
+        "distanciaFuga": 6
+      }
+    },
+    "espantalho": {
+      "nome": "Espantalho de Quintal",
+      "comportamento": "espantalho",
+      "coragem": 110,
+      "resistencia": 5,
+      "velocidade": 0,
+      "raio": 0.4,
+      "xp": 12,
+      "doces": 5,
+      "solido": true,
+      "ataques": ["palha_espantalho"],
+      "param": {
+        "visao": 7,
+        "trocaS": 3,
+        "raioTroca": 14,
+        "antecipacao": 0.5
+      },
+      "recua": false
+    },
+    "pestinha_vela": {
+      "nome": "Pestinha de Vela",
+      "comportamento": "vela",
+      "coragem": 45,
+      "resistencia": 0,
+      "velocidade": 2.4,
+      "raio": 0.32,
+      "xp": 9,
+      "doces": 4,
+      "solido": true,
+      "ataques": [],
+      "param": {
+        "distancia": 4.5,
+        "folga": 0.8,
+        "raioAura": 3,
+        "danoAura": 0.3,
+        "raioLuz": 1.6,
+        "fugaDe": 2.6,
+        "bonusFuga": 0.35
+      }
+    },
+    "pestinha_lencol": {
+      "nome": "Pestinha de Lençol",
+      "comportamento": "onda",
+      "coragem": 50,
+      "resistencia": 0,
+      "velocidade": 2.6,
+      "raio": 0.35,
+      "xp": 6,
+      "doces": 2,
+      "solido": true,
+      "autoAtaque": {
+        "alcance": 0.8,
+        "porSegundo": 1,
+        "base": 5,
+        "razao": 0,
+        "atributo": "forca",
+        "projetil": null,
+        "preparo": 0.35
+      },
+      "ataques": [],
+      "param": {}
+    },
+    "arremessador": {
+      "nome": "Arremessador de Ovos",
+      "comportamento": "arremessador",
+      "coragem": 40,
+      "resistencia": 0,
+      "velocidade": 2.4,
+      "raio": 0.32,
+      "xp": 7,
+      "doces": 2,
+      "solido": true,
+      "ataques": ["ovo"],
+      "param": {
+        "distancia": 5,
+        "folga": 0.8,
+        "alcanceTiro": 6.5,
+        "lentidaoNoRecuo": 0.45,
+        "antecipacao": 0.7,
+        "trocaLadoS": 1.8,
+        "lentidaoDeLado": 0.35
+      }
+    },
+    "abobora_canhao": {
+      "nome": "Abóbora-Canhão",
+      "comportamento": "canhao",
+      "coragem": 90,
+      "resistencia": 10,
+      "velocidade": 1.5,
+      "raio": 0.42,
+      "xp": 10,
+      "doces": 4,
+      "solido": true,
+      "ataques": ["explosao_abobora", "rolada_abobora"],
+      "param": {
+        "distanciaExplosao": 1.7,
+        "bonusParado": 0.5,
+        "segundosParado": 1,
+        "rolarDesde": 3,
+        "rolarAte": 6,
+        "antecipacao": 0.6
+      }
+    },
+    "poste_corrompido": {
+      "nome": "Poste Corrompido",
+      "recua": false,
+      "comportamento": "torre",
+      "coragem": 320,
+      "resistencia": 20,
+      "velocidade": 0,
+      "raio": 0.4,
+      "xp": 40,
+      "doces": 15,
+      "solido": true,
+      "ataques": ["tiro_poste", "pulso_poste"],
+      "param": {
+        "alcance": 5,
+        "rampa": 0.1,
+        "visaoNaSombra": 2.4,
+        "pestinhasPerto": 3,
+        "raioPestinhas": 4,
+        "reducaoDano": 0.5,
+        "raioIsca": 5,
+        "rampaMax": 0.5,
+        "rampaZeraS": 2.5,
+        "alertaS": 6,
+        "raioPulso": 2.2,
+        "antecipacao": 0.8,
+        "limiarAjuda": 0.5,
+        "pestinhasAjuda": 2
+      }
+    },
+    "cao_de_guarda": {
+      "nome": "Cão de Guarda",
+      "comportamento": "cao",
+      "coragem": 220,
+      "resistencia": 10,
+      "velocidade": 2.8,
+      "raio": 0.42,
+      "xp": 40,
+      "doces": 10,
+      "solido": true,
+      "ataques": ["investida_cao", "mordida_cao"],
+      "param": {
+        "alcanceVisao": 5,
+        "alcanceInvestida": 5,
+        "alcanceMordida": 1.3,
+        "coleira": 2,
+        "bonusVelocidade": 0.15,
+        "bonusS": 60,
+        "antecipacao": 0.6
+      },
+      "recua": false
+    },
+    "corvo": {
+      "nome": "Corvo da Árvore",
+      "comportamento": "corvo",
+      "coragem": 80,
+      "resistencia": 0,
+      "velocidade": 0,
+      "raio": 0.3,
+      "xp": 20,
+      "doces": 6,
+      "solido": false,
+      "ataques": [],
+      "param": {
+        "alcanceVisao": 6,
+        "raioAlarme": 6,
+        "recargaAlarme": 10,
+        "pestinhasPorAlarme": 2,
+        "visaoNaSombra": 2
+      },
+      "vigia": true
+    },
+    "gato_preto": {
+      "nome": "Gato Preto",
+      "comportamento": "gato",
+      "coragem": 150,
+      "resistencia": 0,
+      "velocidade": 3.3,
+      "raio": 0.3,
+      "xp": 30,
+      "doces": 8,
+      "solido": true,
+      "ataques": [],
+      "param": {
+        "distanciaFuga": 4,
+        "tempoParaSumir": 20
+      },
+      "recua": false
+    },
+    "casa_perseguidora": {
+      "nome": "Casa Perseguidora",
+      "comportamento": "casa",
+      "coragem": 900,
+      "resistencia": 25,
+      "velocidade": 1.5,
+      "raio": 1.5,
+      "xp": 120,
+      "doces": 40,
+      "solido": true,
+      "ataques": ["pisao_casa"],
+      "param": {
+        "alcancePisao": 2.2,
+        "limiarInvocar": 0.5,
+        "pestinhasInvocadas": 2,
+        "transformacaoS": 1.6,
+        "loteAteTiles": 14,
+        "loteLongeDoJogador": 8,
+        "saidaPresaS": 0.5
+      },
+      "elite": true,
+      "recua": false
+    },
+    "casa_desperta": {
+      "nome": "Casa Desperta",
+      "comportamento": "casa",
+      "coragem": 450,
+      "resistencia": 25,
+      "velocidade": 1.5,
+      "raio": 1.5,
+      "xp": 120,
+      "doces": 0,
+      "solido": true,
+      "ataques": ["pisao_casa"],
+      "param": {
+        "alcancePisao": 2.2,
+        "limiarInvocar": 0,
+        "pestinhasInvocadas": 0,
+        "transformacaoS": 1.6,
+        "fugaDistancia": 12,
+        "fugaS": 8,
+        "saidaPresaS": 0.5
+      },
+      "elite": true,
+      "recua": false
+    },
+    "vizinho_curioso": {
+      "nome": "Vizinho Curioso",
+      "comportamento": "vizinho",
+      "coragem": 400,
+      "resistencia": 10,
+      "velocidade": 1.4,
+      "raio": 0.38,
+      "xp": 120,
+      "doces": 30,
+      "solido": true,
+      "ataques": [],
+      "param": {
+        "alcanceVisao": 6,
+        "anguloVisao": 70,
+        "visaoNaSombra": 2,
+        "giroPorS": 40,
+        "bonusPestinhas": 0.3,
+        "bonusS": 10,
+        "velocidadeFuga": 3.2
+      },
+      "elite": true,
+      "vigia": true,
+      "recua": false
+    },
+    "cobrador": {
+      "nome": "Cobrador",
+      "comportamento": "cobrador",
+      "coragem": 550,
+      "resistencia": 20,
+      "velocidade": 2.2,
+      "raio": 0.42,
+      "xp": 120,
+      "doces": 40,
+      "solido": true,
+      "ataques": ["corrente_cobrador", "golpe_cobrador"],
+      "param": {
+        "alcanceCorrente": 6,
+        "alcanceGolpe": 1.4,
+        "danoPorTrato": 0.1,
+        "antecipacao": 0.5
+      },
+      "elite": true,
+      "recua": false
+    },
+    "morador_ofendido": {
+      "nome": "Morador Ofendido",
+      "comportamento": "cobrador",
+      "coragem": 800,
+      "resistencia": 20,
+      "velocidade": 2.2,
+      "raio": 0.42,
+      "xp": 120,
+      "doces": 120,
+      "solido": true,
+      "ataques": ["corrente_cobrador", "golpe_cobrador"],
+      "param": {
+        "alcanceCorrente": 6,
+        "alcanceGolpe": 1.4,
+        "danoPorTrato": 0.1,
+        "antecipacao": 0.5
+      },
+      "elite": true,
+      "recua": false
+    },
+    "sombra_rasteira": {
+      "nome": "Sombra Rasteira",
+      "comportamento": "sombra",
+      "coragem": 500,
+      "resistencia": 10,
+      "velocidade": 2.6,
+      "raio": 0.4,
+      "xp": 120,
+      "doces": 30,
+      "solido": true,
+      "ataques": ["bote_sombra"],
+      "param": {
+        "bonusNaSombra": 0.3,
+        "alcanceBote": 1.3,
+        "distanciaReaparecer": 4
+      },
+      "elite": true,
+      "daSombra": true,
+      "recua": false
+    },
+    "guarda_condominio": {
+      "nome": "Guarda de Condomínio",
+      "comportamento": "guarda",
+      "coragem": 300,
+      "resistencia": 15,
+      "velocidade": 2.4,
+      "raio": 0.4,
+      "xp": 25,
+      "doces": 6,
+      "solido": true,
+      "ataques": ["cassetete_guarda"],
+      "param": {
+        "alcanceGolpe": 1.3
+      },
+      "recua": false
+    },
+    "sindico_zeloso": {
+      "nome": "Síndico Zeloso",
+      "comportamento": "chefe",
+      "coragem": 5500,
+      "resistencia": 25,
+      "velocidade": 1.8,
+      "raio": 0.6,
+      "xp": 300,
+      "doces": 150,
+      "solido": true,
+      "ataques": ["multa_sindico", "portao_sindico", "vistoria_sindico"],
+      "param": {
+        "fase2": 0.5,
+        "guardas": 2,
+        "intervaloPortao": 15,
+        "duracaoPortao": 6,
+        "intervaloVistoria": 7,
+        "alcanceMulta": 8,
+        "distanciaIdeal": 4,
+        "protecao": 0.5,
+        "desprotegidoS": 4,
+        "atordoaCanteiroS": 0.8,
+        "antecipacao": 0.6,
+        "trocaLadoS": 2.5,
+        "atrasDosGuardas": 1.3
+      },
+      "chefe": true,
+      "recua": false
+    },
+    "viuva_do_mirante": {
+      "nome": "Viúva do Mirante",
+      "comportamento": "viuva",
+      "coragem": 5400,
+      "resistencia": 30,
+      "velocidade": 2.4,
+      "raio": 0.6,
+      "xp": 400,
+      "doces": 200,
+      "solido": true,
+      "ataques": ["lagrimas_viuva", "investida_viuva", "garras_viuva"],
+      "param": {
+        "fase2": 0.6,
+        "fase3": 0.25,
+        "lagrimasPorRajada": 4,
+        "pausaEntreRajadas": 2.2,
+        "pausaEntreRajadasNoEscuro": 3,
+        "sombrasACadaS": 10,
+        "sombrasMax": 2,
+        "distanciaDasSombras": 4,
+        "veuACadaS": 8,
+        "veuS": 2,
+        "alcanceGarras": 1.4,
+        "alcanceInvestida": 6,
+        "investidaDesde": 2.5,
+        "desce": 2.5,
+        "alturaNoMirante": 48,
+        "raioLuzVela": 2.8,
+        "raioAcenderVela": 1.5,
+        "antecipacao": 0.5,
+        "raioDoCerco": 1.4,
+        "atrasDoJogador": 1.6
+      },
+      "chefe": true,
+      "fases": ["No mirante", "Escuridão", "No chão"],
+      "recua": false
+    },
+    "sombra_da_viuva": {
+      "nome": "Sombra da Viúva",
+      "comportamento": "sombra",
+      "coragem": 120,
+      "resistencia": 10,
+      "velocidade": 2.6,
+      "raio": 0.4,
+      "xp": 15,
+      "doces": 4,
+      "solido": true,
+      "ataques": ["bote_sombra_viuva"],
+      "param": {
+        "bonusNaSombra": 0.3,
+        "alcanceBote": 1.3,
+        "distanciaReaparecer": 4
+      },
+      "daSombra": true,
+      "recua": false
+    },
+    "dono_do_bairro": {
+      "nome": "O Dono do Bairro",
+      "comportamento": "dono",
+      "coragem": 5200,
+      "resistencia": 40,
+      "velocidade": 0,
+      "raio": 2.1,
+      "xp": 500,
+      "doces": 300,
+      "solido": true,
+      "ataques": ["feixe_dono", "tijolo_dono", "rampa_dono"],
+      "param": {
+        "andar2": 0.66,
+        "andar3": 0.33,
+        "feixesPorVarrida": 5,
+        "aberturaDaVarrida": 60,
+        "pausaEntreVarridas": 2.5,
+        "pestinhasACadaS": 15,
+        "pestinhasPorVez": 2,
+        "pestinhasMax": 3,
+        "tijolosPorChuva": 3,
+        "espalharTijolos": 1.6,
+        "pausaEntreChuvas": 2,
+        "rampaACadaS": 9,
+        "rampaAFrente": 2.6,
+        "cobrancaACadaS": 8,
+        "barraAcimaPx": 120,
+        "coberturaGolpes": 3,
+        "coberturasMax": 6,
+        "coberturaRaio": 0.45,
+        "antecipacao": 1
+      },
+      "chefe": true,
+      "fases": ["Andar 1", "Andar 2", "Andar 3"],
+      "recua": false
+    },
+    "moradora_do_13": {
+      "nome": "A Moradora do 13",
+      "comportamento": "moradora",
+      "coragem": 4500,
+      "resistencia": 40,
+      "velocidade": 3.2,
+      "raio": 0.45,
+      "xp": 0,
+      "doces": 300,
+      "solido": true,
+      "ataques": [],
+      "param": {
+        "fatorAtributos": 0.75,
+        "fatorRecarga": 1.4,
+        "avisoMinimoS": 0.5,
+        "velocidadeMaxProjetil": 8.5,
+        "distancia": 4,
+        "pausaEntreHabilidades": 0.9,
+        "fase2": 0.5,
+        "fatorRecargaFase2": 0.7,
+        "atordoaEspelhoS": 0.8,
+        "matiz": 180,
+        "antecipacao": 0.5,
+        "trocaLadoS": 2.2
+      },
+      "chefe": true,
+      "fases": ["Espelho", "Reflexo partido"],
+      "recua": false
+    }
+  },
+  "escalaPorBairro": {
+    "coragem": [1, 1.4, 2.0],
+    "dano": [1, 1.05, 1.1]
+  },
+  "doceIsca": {
+    "duracao": 4,
+    "raio": 5,
+    "preco": 40
+  },
+  "doces": {
+    "raioColeta": 0.7,
+    "raioIma": 1.8,
+    "velocidadeIma": 7,
+    "vidaS": 45
+  },
+  "eliteReforcado": 0.3,
+  "elitesNaRua": {
+    "aosSegundos": 90,
+    "extrasAosSegundos": 20
+  },
+  "cobranca": {
+    "porEfeito": {
+      "postesApagados": "apagarPoste",
+      "ruaSemLuz": "apagarPoste",
+      "eliteExtra": "elite",
+      "intervaloOndas": "pestinhas"
+    },
+    "padrao": "areaEscura",
+    "pestinhas": 3,
+    "maxElites": 2,
+    "areaEscura": {
+      "raio": 2.5,
+      "duracaoS": 15
+    }
+  },
+  "reacoes": {
+    "cerco": {
+      "especies": ["pestinha_lencol"],
+      "raio": 6,
+      "anel": 2.2,
+      "vagas": 8,
+      "atacantesMax": 3,
+      "pesoEspera": 0.6,
+      "bonusAtacante": 2,
+      "turnoS": 3,
+      "giroPorS": 0.35,
+      "encostar": 0.95,
+      "contornarAte": 3.2,
+      "raioDeContorno": 1.7
+    },
+    "interromperPreparo": {
+      "recargaS": 0.5
+    },
+    "lanterna": {
+      "especies": ["pestinha_lencol"],
+      "medoS": 1.5
+    },
+    "aliadoCaiu": {
+      "raio": 3,
+      "segundos": 0.3
+    },
+    "vidaBaixa": {
+      "especies": ["arremessador"],
+      "fracao": 0.25,
+      "raioAliado": 10
+    },
+    "taticas": {
+      "separacao": {
+        "raio": 1.15,
+        "peso": 1.2
+      },
+      "flanco": {
+        "especies": ["pestinha_lencol", "guarda_condominio", "abobora_canhao"],
+        "desde": 8,
+        "ate": 2.4,
+        "peso": 0.85
+      },
+      "esquiva": {
+        "chance": {
+          "pestinha_lencol": 0.2,
+          "arremessador": 0.45,
+          "pestinha_vela": 0.5,
+          "guarda_condominio": 0.25,
+          "sindico_zeloso": 0.3
+        },
+        "recargaS": 2.5,
+        "distancia": 1.2,
+        "velocidade": 7,
+        "avisoS": 0.45
+      },
+      "areas": {
+        "especies": ["pestinha_lencol", "arremessador", "pestinha_vela", "abobora_canhao"],
+        "pulsosMin": 2
+      }
+    }
+  },
+  "sacosPorRua": [1, 3],
+  "encantos": {
+    "chance": 0.083,
+    "comportamentos": ["onda", "arremessador", "canhao", "saco", "morcego"],
+    "pesos": {
+      "apressado": 1,
+      "encouracado": 1,
+      "explosivo": 1,
+      "chamador": 1
+    },
+    "nomes": {
+      "apressado": "Apressado",
+      "encouracado": "Encouraçado",
+      "explosivo": "Explosivo",
+      "chamador": "Chamador"
+    },
+    "apressado": {
+      "velocidade": 0.4
+    },
+    "encouracado": {
+      "golpes": 3
+    },
+    "explosivo": {
+      "avisoS": 0.6,
+      "raio": 1.8,
+      "dano": 25
+    },
+    "chamador": {
+      "raioVer": 6,
+      "n": 2,
+      "especie": "pestinha_lencol"
+    }
+  }
+}

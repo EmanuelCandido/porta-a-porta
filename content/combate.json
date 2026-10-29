@@ -1,0 +1,58 @@
+{
+  "pressaMaxima": 40,
+  "danoCritico": 1.5,
+  "dotIntervaloDano": 0.5,
+  "recuo": { "distancia": 0.3, "velocidade": 6 },
+  "foraDeCombate": {
+    "segundos": 4,
+    "bonusVelocidade": 0.2
+  },
+  "estados": {
+    "chefeLentidao": 0.5,
+    "chefeFracaoDuracao": 0.5
+  },
+  "comandoGuardadoS": 0.15,
+  "fracaoRecargaInterrompida": 0.5,
+  "raioBuscaAlvo": 2,
+  "quaseAcertoTiles": 0.5,
+  "assistenciaMiraGraus": 10,
+  "ataqueManual": {
+    "arcoGraus": 100,
+    "alcanceExtra": 0.3,
+    "golpesNoCombo": 3,
+    "janelaComboS": 0.9,
+    "multUltimo": 1.6,
+    "empurraoUltimo": 0.7,
+    "alcanceProjetil": 7,
+    "assistenciaGraus": 20,
+    "lequeUltimo": { "n": 3, "angulo": 30 },
+    "energiaPorAcerto": 4
+  },
+  "aquisicaoTiles": 1.5,
+  "luz": {
+    "maxima": 100,
+    "custoPulso": 25,
+    "raioPulso": 3,
+    "duracaoPulso": 2,
+    "empurraoPulso": 2,
+    "recargaPorS": 10
+  },
+  "niveis": {
+    "maximo": 12,
+    "xpBase": 100,
+    "xpPorNivel": 60,
+    "coragemPorNivel": 0.08,
+    "atributoPorNivel": 2,
+    "niveisDoR": [4, 8, 12],
+    "postoMaximo": 5,
+    "postoMaximoR": 3,
+    "postoDaEvolucao": 3
+  },
+  "bonecoTreino": {
+    "coragem": 500,
+    "resistencia": 10,
+    "raio": 0.4,
+    "renascerS": 3,
+    "xp": 25
+  }
+}

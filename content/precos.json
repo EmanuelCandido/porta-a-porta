@@ -1,0 +1,132 @@
+{
+  "precos": {
+    "poste_apagado": {
+      "nome": "Poste Apagado",
+      "peso": "medio",
+      "bairro": "1 poste amigo de cada rua seguinte nasce apagado",
+      "combate": "Menos cura e mais terreno para a Sombra Rasteira",
+      "efeitos": [
+        {
+          "tipo": "postesApagados",
+          "n": 1
+        }
+      ]
+    },
+    "rua_sem_luz": {
+      "nome": "Rua Sem Luz",
+      "peso": "pesado",
+      "bairro": "A próxima rua não tem nenhum poste nem janela",
+      "combate": "Só criaturas da sombra, e a lanterna é a única luz",
+      "efeitos": [
+        {
+          "tipo": "ruaSemLuz"
+        }
+      ]
+    },
+    "casa_perseguidora": {
+      "nome": "Casa Perseguidora",
+      "peso": "pesado",
+      "bairro": "Uma casa ganha olhos e anda",
+      "combate": "Uma elite Casa Perseguidora extra em todas as ruas",
+      "efeitos": [
+        {
+          "tipo": "eliteExtra",
+          "elite": "casa_perseguidora"
+        }
+      ]
+    },
+    "janelas_fechadas": {
+      "nome": "Janelas Fechadas",
+      "peso": "leve",
+      "bairro": "Cada fase Porta a Porta passa a ter 1 casa acesa a menos",
+      "combate": "Menos tratos e escolhas mais pobres",
+      "efeitos": [
+        {
+          "tipo": "casasAMenos",
+          "n": 1
+        }
+      ]
+    },
+    "banco_quebrado": {
+      "nome": "Banco Quebrado",
+      "peso": "leve",
+      "bairro": "O banco some das fases Porta a Porta",
+      "combate": "Sem loja e sem cura entre as ruas",
+      "efeitos": [
+        {
+          "tipo": "semBanco"
+        }
+      ]
+    },
+    "vizinhanca_atenta": {
+      "nome": "Vizinhança Atenta",
+      "peso": "medio",
+      "bairro": "Mais janelas com olhos",
+      "combate": "+1 Vizinho Curioso por rua",
+      "efeitos": [
+        {
+          "tipo": "eliteExtra",
+          "elite": "vizinho_curioso"
+        }
+      ]
+    },
+    "divida": {
+      "nome": "Dívida",
+      "peso": "pesado",
+      "bairro": "O Cobrador passa a aparecer nas ruas",
+      "combate": "O dano dele cresce com cada trato",
+      "efeitos": [
+        {
+          "tipo": "eliteExtra",
+          "elite": "cobrador"
+        }
+      ]
+    },
+    "lanterna_fraca": {
+      "nome": "Lanterna Fraca",
+      "peso": "leve",
+      "bairro": "A lanterna perde 30 de Luz máxima",
+      "combate": "Menos pulsos e um círculo de luz menor",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "luzMax",
+          "soma": -30
+        },
+        {
+          "tipo": "raioLanterna",
+          "soma": -0.6
+        }
+      ]
+    },
+    "ondas_famintas": {
+      "nome": "Ondas Famintas",
+      "peso": "medio",
+      "bairro": "Os bueiros acordam de mais longe (11 tiles em vez de 9)",
+      "combate": "Mais pressão e mais doces",
+      "efeitos": [
+        {
+          "tipo": "intervaloOndas",
+          "segundos": 20
+        }
+      ]
+    },
+    "meia_noite_adiantada": {
+      "nome": "Meia-Noite Adiantada",
+      "peso": "leve",
+      "bairro": "O Relógio da Meia-Noite começa 2 min adiantado",
+      "combate": "Menos tempo antes do aumento de dificuldade",
+      "efeitos": [
+        {
+          "tipo": "relogioAdiantado",
+          "minutos": 2
+        }
+      ]
+    }
+  },
+  "pesos": {
+    "leve": 1,
+    "medio": 2,
+    "pesado": 3
+  }
+}

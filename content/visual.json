@@ -1,0 +1,1807 @@
+{
+  "desempenho": {
+    "chaveQualidade": "porta-a-porta:qualidade",
+    "qualidadeInicial": "alta",
+    "trabalhoPorQuadroMs": 2,
+    "trabalhoNaPreparacaoMs": 8,
+    "folgaEntidadesPx": 256,
+    "celulaObjetosTiles": 8,
+    "cacheModelosMB": 128,
+    "quadrosDeAcomodacao": 2,
+    "amostrasPorRua": 10800,
+    "ruasNoRelatorio": 10,
+    "intervaloInterfaceMs": 33,
+    "qualidades": {
+      "leve": {
+        "nome": "Leve",
+        "descricao": "Para computadores mais simples: sem sombras nas figuras, luz em meia resolução e menos partículas.",
+        "escalaLuz": 0.5,
+        "sombrasPorFigura": 0,
+        "direcoesMalha": 8,
+        "particulas": 0.4
+      },
+      "media": {
+        "nome": "Média",
+        "descricao": "O meio-termo: uma sombra por figura, luz em 75% da resolução e partículas reduzidas.",
+        "escalaLuz": 0.75,
+        "sombrasPorFigura": 1,
+        "direcoesMalha": 8,
+        "particulas": 0.7
+      },
+      "alta": {
+        "nome": "Alta",
+        "descricao": "O visual completo: todas as sombras, luz em resolução cheia e todas as partículas.",
+        "escalaLuz": 1,
+        "sombrasPorFigura": 3,
+        "direcoesMalha": 16,
+        "particulas": 1
+      }
+    },
+    "textos": {
+      "titulo": "Desempenho",
+      "preparando": "Preparando a noite…",
+      "preparandoDetalhe": "O bairro está quase pronto.",
+      "qualidade": "Qualidade",
+      "proximaRua": "A qualidade escolhida será aplicada ao entrar na próxima rua.",
+      "explicacao": "Leve reduz sombras decorativas e efeitos. Personagens, controles e avisos de ataques mantêm a leitura.",
+      "voltar": "Voltar",
+      "navegacao": "Esc · voltar   ↑ ↓ · escolher   Enter · confirmar"
+    }
+  },
+  "tela": {
+    "largura": 1280,
+    "altura": 720,
+    "larguraMin": 960,
+    "larguraMax": 1720
+  },
+  "tile": {
+    "largura": 64,
+    "altura": 32
+  },
+  "janelasAcesas": {
+    "cores": ["#E8C467", "#F0D58A", "#7FD3DC", "#D7E6F7", "#E3A95E", "#9EE0E6"],
+    "fracaoApagadas": 0.5,
+    "travessa": 0.58,
+    "caixilhoPx": 2,
+    "larguraParaDividir": 0.45
+  },
+  "alturaAndarPx": 48,
+  "camera": {
+    "entradaDoChefe": {
+      "tituloMs": 2600,
+      "focoMs": 1600
+    },
+    "zoomMin": 0.8,
+    "zoomMax": 1.2,
+    "zoomInicial": 1,
+    "passoZoomRoda": 0.1,
+    "velocidadePreviaPxPorS": 700,
+    "rigidezSeguirPorS": 6,
+    "olharAFrenteTiles": 2,
+    "rigidezOlharPorS": 3,
+    "folgaDoMapaTiles": 2
+  },
+  "paleta": {
+    "fundo": "#0B1424",
+    "chao": "#5A6276",
+    "topo": "#4E5468",
+    "faceEsquerda": "#3B4259",
+    "faceDireita": "#2D3347",
+    "sombra": {
+      "cor": "#000000",
+      "opacidade": 0.35
+    },
+    "luz": "#E4EEFF",
+    "borracha": "#202126",
+    "piso": {
+      "asfalto": "#474E60",
+      "calcada": "#6A7186",
+      "grama": "#4F5A64",
+      "praca": "#717890",
+      "terra": "#5E5C6A",
+      "faixa": "#9EA5BA",
+      "meioFio": "#787F94"
+    }
+  },
+  "acentos": {
+    "jogador": "#F28C28",
+    "magia": "#9B6CF2",
+    "fantasma": "#7CF2B0",
+    "perigo": "#E5484D",
+    "doce": "#F2D14B"
+  },
+  "facetas": {
+    "luz": [-0.5, 0.25, 1],
+    "faixas": 7
+  },
+  "coresAlternativas": {
+    "tingido": 0.35
+  },
+  "malhas": {
+    "tomTopo": 1.2,
+    "tomEsquerda": 1,
+    "tomDireita": 0.74,
+    "alturaPx": {
+      "bruxinha": 46,
+      "pestinha_lencol": 26,
+      "arremessador": 34,
+      "abobora_canhao": 32,
+      "sindico_zeloso": 45,
+      "cobrador": 50,
+      "guarda_condominio": 36,
+      "cao_de_guarda": 30,
+      "gato_preto": 20,
+      "corvo": 20,
+      "casa_perseguidora": 121.8,
+      "casa_perseguidora_q1": 93.6,
+      "casa_perseguidora_q2": 93.7,
+      "casa_perseguidora_q3": 104.2,
+      "casa_perseguidora_q4": 123.4,
+      "morceguinho": 22,
+      "saco_surpresa": 26,
+      "espantalho": 50,
+      "pestinha_vela": 28,
+      "dono_do_bairro": 216.7,
+      "dono_do_bairro_rosto": 216.7,
+      "vizinho_curioso": 32,
+      "sombra_rasteira": 14,
+      "poste_corrompido": 82,
+      "doce": 9,
+      "doce_isca": 28,
+      "abobora_dourada": 18,
+      "bau": 17,
+      "bau_aberto": 24,
+      "bau_raro": 18,
+      "fantasma": 44,
+      "esqueleto": 46,
+      "vampirinho": 50,
+      "morador_ofendido": 38,
+      "viuva_do_mirante": 58,
+      "sombra_da_viuva": 16,
+      "moradora_13_bruxinha": 46,
+      "moradora_13_fantasma": 44,
+      "moradora_13_esqueleto": 46,
+      "moradora_13_vampirinho": 50
+    },
+    "transformacoes": {
+      "casa_perseguidora": [
+        "casa_perseguidora_q1",
+        "casa_perseguidora_q2",
+        "casa_perseguidora_q3",
+        "casa_perseguidora_q4",
+        "casa_perseguidora"
+      ]
+    },
+    "degrausDoPasso": 3,
+    "posesPorQuadro": 3,
+    "esqueletos": {
+      "bruxinha": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "capsula": {
+                "a": [0.15, 0.29, 0.84],
+                "b": [0.46, 0.27, 0.45],
+                "raio": 0.09
+              }
+            }
+          ],
+          "pivo": [0.15, 0.29, 0.84],
+          "passoGraus": -22,
+          "golpeGraus": 60
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.05, -0.38, 0.82],
+                "max": [0.25, -0.12, 1.02]
+              }
+            },
+            {
+              "caixa": {
+                "min": [-1, -1, -0.01],
+                "max": [1, -0.38, 1.62]
+              }
+            }
+          ],
+          "pivo": [0.08, -0.13, 0.93],
+          "passoGraus": 12,
+          "golpeGraus": 20
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0, 0.075, -0.01],
+                "max": [0.42, 0.32, 0.42]
+              }
+            }
+          ],
+          "pivo": [0.22, 0.17, 0.42],
+          "passoGraus": 28
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0, -0.16, -0.01],
+                "max": [0.42, 0.075, 0.42]
+              }
+            }
+          ],
+          "pivo": [0.22, -0.03, 0.42],
+          "passoGraus": -28
+        }
+      ],
+      "arremessador": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.05, 0.3, 0.5],
+                "max": [0.5, 0.75, 1.1]
+              }
+            }
+          ],
+          "pivo": [0.1, 0.27, 0.65],
+          "passoGraus": -12,
+          "golpeGraus": 55
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.5, -0.75, 0.19],
+                "max": [0.5, -0.4, 1.05]
+              }
+            }
+          ],
+          "pivo": [0, -0.38, 0.8],
+          "passoGraus": 8
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.4, -0.1, -0.01],
+                "max": [0.5, 0.45, 0.19]
+              }
+            }
+          ],
+          "pivo": [0.12, 0.2, 0.35],
+          "passoGraus": 22
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.4, -0.6, -0.01],
+                "max": [0.5, -0.1, 0.19]
+              }
+            }
+          ],
+          "pivo": [0.12, -0.4, 0.35],
+          "passoGraus": -22
+        }
+      ],
+      "sindico_zeloso": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0.2, 0.38, 0.95],
+                "max": [0.8, 0.6, 1.42]
+              }
+            }
+          ],
+          "pivo": [0.2, 0.45, 1.0],
+          "passoGraus": 0,
+          "golpeGraus": 25
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.5, 0.03, -0.01],
+                "max": [0.4, 0.6, 0.17]
+              }
+            }
+          ],
+          "pivo": [-0.05, 0.36, 0.35],
+          "passoGraus": 20
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.5, -0.55, -0.01],
+                "max": [0.4, 0.03, 0.17]
+              }
+            }
+          ],
+          "pivo": [-0.05, -0.3, 0.35],
+          "passoGraus": -20
+        }
+      ],
+      "cobrador": [
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.4, -0.6, 0.08],
+                "max": [0.05, -0.32, 1.32]
+              }
+            }
+          ],
+          "pivo": [-0.24, -0.33, 1.28],
+          "passoGraus": 14,
+          "golpeGraus": 50
+        },
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.4, 0.33, 0.45],
+                "max": [0.2, 0.6, 1.32]
+              }
+            }
+          ],
+          "pivo": [-0.22, 0.36, 1.28],
+          "passoGraus": -10
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.4, 0.03, -0.01],
+                "max": [0.3, 0.4, 0.36]
+              }
+            }
+          ],
+          "pivo": [-0.08, 0.23, 0.62],
+          "passoGraus": 22
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.4, -0.32, -0.01],
+                "max": [0.3, 0.03, 0.36]
+              }
+            }
+          ],
+          "pivo": [-0.08, -0.17, 0.62],
+          "passoGraus": -22
+        }
+      ],
+      "guarda_condominio": [
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.6, -0.7, 0.62],
+                "max": [0.6, -0.25, 1.1]
+              }
+            },
+            {
+              "caixa": {
+                "min": [-0.6, -0.7, 0.4],
+                "max": [0.6, -0.34, 0.62]
+              }
+            }
+          ],
+          "pivo": [0, -0.3, 1.02],
+          "passoGraus": 14,
+          "golpeGraus": 55
+        },
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.2, 0.46, 0.55],
+                "max": [0.6, 0.7, 1.15]
+              }
+            },
+            {
+              "caixa": {
+                "min": [0.25, 0.3, 0.6],
+                "max": [0.6, 0.7, 1.0]
+              }
+            }
+          ],
+          "pivo": [0, 0.42, 1.02],
+          "passoGraus": -14
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.45, 0.12, -0.01],
+                "max": [0.45, 0.6, 0.42]
+              }
+            }
+          ],
+          "pivo": [0, 0.4, 0.55],
+          "passoGraus": 20
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.45, -0.45, -0.01],
+                "max": [0.45, 0.12, 0.42]
+              }
+            }
+          ],
+          "pivo": [0, -0.17, 0.55],
+          "passoGraus": -20
+        }
+      ],
+      "cao_de_guarda": [
+        {
+          "parte": "cabeca",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0.28, -0.5, 0.74],
+                "max": [1, 0.5, 1.6]
+              }
+            }
+          ],
+          "pivo": [0.35, 0, 0.82],
+          "passoGraus": 0,
+          "golpeGraus": -22
+        },
+        {
+          "parte": "frenteE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0, 0, -0.01],
+                "max": [0.6, 0.4, 0.37]
+              }
+            }
+          ],
+          "pivo": [0.36, 0.19, 0.4],
+          "passoGraus": 24
+        },
+        {
+          "parte": "frenteD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0, -0.4, -0.01],
+                "max": [0.6, 0, 0.37]
+              }
+            }
+          ],
+          "pivo": [0.36, -0.19, 0.4],
+          "passoGraus": -24
+        },
+        {
+          "parte": "trasE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.7, 0, -0.01],
+                "max": [0, 0.4, 0.37]
+              }
+            }
+          ],
+          "pivo": [-0.4, 0.19, 0.45],
+          "passoGraus": -24
+        },
+        {
+          "parte": "trasD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.7, -0.4, -0.01],
+                "max": [0, 0, 0.37]
+              }
+            }
+          ],
+          "pivo": [-0.4, -0.19, 0.45],
+          "passoGraus": 24
+        }
+      ],
+      "gato_preto": [
+        {
+          "parte": "cabeca",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0.28, -0.5, 0.74],
+                "max": [1, 0.5, 1.6]
+              }
+            }
+          ],
+          "pivo": [0.35, 0, 0.82],
+          "passoGraus": 0,
+          "golpeGraus": -22
+        },
+        {
+          "parte": "frenteE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0, 0, -0.01],
+                "max": [0.6, 0.4, 0.37]
+              }
+            }
+          ],
+          "pivo": [0.36, 0.19, 0.4],
+          "passoGraus": 24
+        },
+        {
+          "parte": "frenteD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [0, -0.4, -0.01],
+                "max": [0.6, 0, 0.37]
+              }
+            }
+          ],
+          "pivo": [0.36, -0.19, 0.4],
+          "passoGraus": -24
+        },
+        {
+          "parte": "trasE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.7, 0, -0.01],
+                "max": [0, 0.4, 0.37]
+              }
+            }
+          ],
+          "pivo": [-0.4, 0.19, 0.45],
+          "passoGraus": -24
+        },
+        {
+          "parte": "trasD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.7, -0.4, -0.01],
+                "max": [0, 0, 0.37]
+              }
+            }
+          ],
+          "pivo": [-0.4, -0.19, 0.45],
+          "passoGraus": 24
+        }
+      ],
+      "vizinho_curioso": [
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.5, 0, -0.01],
+                "max": [0.2, 0.45, 0.74]
+              }
+            }
+          ],
+          "pivo": [-0.16, 0.2, 0.85],
+          "passoGraus": 20
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "caixa": {
+                "min": [-0.5, -0.45, -0.01],
+                "max": [0.2, 0, 0.74]
+              }
+            }
+          ],
+          "pivo": [-0.16, -0.2, 0.85],
+          "passoGraus": -20
+        }
+      ],
+      "esqueleto": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": [
+                "Osso_do_braco",
+                "Junta_do_cotovelo",
+                "Osso_do_antebraco",
+                "Palma",
+                "Dedo_0",
+                "Dedo_1",
+                "Dedo_2",
+                "Polegar"
+              ],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Osso_do_braco"],
+            "lado": "E"
+          },
+          "passoGraus": -24,
+          "golpeGraus": 60
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": [
+                "Osso_do_braco",
+                "Junta_do_cotovelo",
+                "Osso_do_antebraco",
+                "Palma",
+                "Dedo_0",
+                "Dedo_1",
+                "Dedo_2",
+                "Polegar"
+              ],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Osso_do_braco"],
+            "lado": "D"
+          },
+          "passoGraus": 24,
+          "golpeGraus": 20
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "pecas": ["Coxa", "Joelho", "Canela", "Pe", "Ponta_do_pe"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Coxa"],
+            "lado": "E"
+          },
+          "passoGraus": 28
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "pecas": ["Coxa", "Joelho", "Canela", "Pe", "Ponta_do_pe"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Coxa"],
+            "lado": "D"
+          },
+          "passoGraus": -28
+        }
+      ],
+      "vampirinho": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": ["Manga", "Punho", "Dedo_do_punho"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Manga"],
+            "lado": "E"
+          },
+          "passoGraus": -22,
+          "golpeGraus": 60
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": ["Manga", "Punho", "Dedo_do_punho"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Manga"],
+            "lado": "D"
+          },
+          "passoGraus": 22,
+          "golpeGraus": 20
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "pecas": ["Calca", "Cano_da_bota", "Bota"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Calca"],
+            "lado": "E"
+          },
+          "passoGraus": 26
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "pecas": ["Calca", "Cano_da_bota", "Bota"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Calca"],
+            "lado": "D"
+          },
+          "passoGraus": -26
+        }
+      ],
+      "fantasma": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": ["Aba_lateral"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Aba_lateral"],
+            "lado": "E"
+          },
+          "passoGraus": -16,
+          "golpeGraus": 55
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": ["Aba_lateral"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Aba_lateral"],
+            "lado": "D"
+          },
+          "passoGraus": 16,
+          "golpeGraus": 15
+        }
+      ],
+      "morador_ofendido": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": ["Manga", "Manga_arregacada", "Antebraco", "Mao", "Dedo"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Manga"],
+            "lado": "E"
+          },
+          "passoGraus": -20,
+          "golpeGraus": 55
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": ["Manga", "Manga_arregacada", "Antebraco", "Mao", "Dedo"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Manga"],
+            "lado": "D"
+          },
+          "passoGraus": 20,
+          "golpeGraus": 25
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "pecas": [
+                "Bermuda",
+                "Barra_da_bermuda",
+                "Canela",
+                "Sola_do_chinelo",
+                "Frente_do_chinelo"
+              ],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Bermuda"],
+            "lado": "E"
+          },
+          "passoGraus": 24
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "pecas": [
+                "Bermuda",
+                "Barra_da_bermuda",
+                "Canela",
+                "Sola_do_chinelo",
+                "Frente_do_chinelo"
+              ],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Bermuda"],
+            "lado": "D"
+          },
+          "passoGraus": -24
+        }
+      ],
+      "viuva_do_mirante": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": [
+                "Braco",
+                "Antebraco",
+                "Pulso",
+                "Palma_fina",
+                "Garra_0",
+                "Garra_1",
+                "Garra_2"
+              ],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Braco"],
+            "lado": "E"
+          },
+          "passoGraus": -10,
+          "golpeGraus": 50
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": [
+                "Braco",
+                "Antebraco",
+                "Pulso",
+                "Palma_fina",
+                "Garra_0",
+                "Garra_1",
+                "Garra_2"
+              ],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Braco"],
+            "lado": "D"
+          },
+          "passoGraus": 10,
+          "golpeGraus": 35
+        }
+      ],
+      "sombra_da_viuva": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": ["Braco_rasteiro", "Garra"],
+              "lado": "E"
+            }
+          ],
+          "pivo": [0.35, 0.3, 0.42],
+          "passoGraus": -8,
+          "golpeGraus": 30
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": ["Braco_rasteiro", "Garra"],
+              "lado": "D"
+            }
+          ],
+          "pivo": [0.35, -0.3, 0.42],
+          "passoGraus": 8,
+          "golpeGraus": 30
+        }
+      ],
+      "pestinha_vela": [
+        {
+          "parte": "bracos",
+          "regioes": [
+            {
+              "pecas": [
+                "Manga_superior",
+                "Punho_da_manga",
+                "Mao",
+                "Dedo",
+                "Prato_da_vela",
+                "Vela",
+                "Chama",
+                "Pavio",
+                "Pingo_de_cera"
+              ]
+            }
+          ],
+          "pivo": [0, 0, 1.25],
+          "passoGraus": 5,
+          "golpeGraus": 25
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "pecas": ["Perna", "Bota"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Perna"],
+            "lado": "E"
+          },
+          "passoGraus": 24
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "pecas": ["Perna", "Bota"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Perna"],
+            "lado": "D"
+          },
+          "passoGraus": -24
+        }
+      ],
+      "morceguinho": [
+        {
+          "parte": "asaE",
+          "regioes": [
+            {
+              "pecas": [
+                "Braco_da_asa",
+                "Antebraco_da_asa",
+                "Punho_da_asa",
+                "Dedo_estrutural",
+                "Membrana_da_asa",
+                "Borda_superior",
+                "Polegar_em_gancho"
+              ],
+              "lado": "E"
+            }
+          ],
+          "pivo": [-0.15, 0.3, 1.1],
+          "passoGraus": 30,
+          "golpeGraus": 40,
+          "plano": "lado"
+        },
+        {
+          "parte": "asaD",
+          "regioes": [
+            {
+              "pecas": [
+                "Braco_da_asa",
+                "Antebraco_da_asa",
+                "Punho_da_asa",
+                "Dedo_estrutural",
+                "Membrana_da_asa",
+                "Borda_superior",
+                "Polegar_em_gancho"
+              ],
+              "lado": "D"
+            }
+          ],
+          "pivo": [-0.15, -0.3, 1.1],
+          "passoGraus": -30,
+          "golpeGraus": -40,
+          "plano": "lado"
+        },
+        {
+          "parte": "pernaE",
+          "regioes": [
+            {
+              "pecas": ["Patinha", "Tornozelo", "Garra_da_pata"],
+              "lado": "E"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Tornozelo"],
+            "lado": "E"
+          },
+          "passoGraus": 20
+        },
+        {
+          "parte": "pernaD",
+          "regioes": [
+            {
+              "pecas": ["Patinha", "Tornozelo", "Garra_da_pata"],
+              "lado": "D"
+            }
+          ],
+          "pivo": {
+            "topoDe": ["Tornozelo"],
+            "lado": "D"
+          },
+          "passoGraus": -20
+        }
+      ],
+      "espantalho": [
+        {
+          "parte": "bracoE",
+          "regioes": [
+            {
+              "pecas": ["Manga", "Palha_da_manga", "Ponta_rasgada_da_manga"],
+              "lado": "E"
+            }
+          ],
+          "pivo": [0, 0.3, 1.42],
+          "passoGraus": 12,
+          "golpeGraus": 25,
+          "plano": "lado"
+        },
+        {
+          "parte": "bracoD",
+          "regioes": [
+            {
+              "pecas": ["Manga", "Palha_da_manga", "Ponta_rasgada_da_manga"],
+              "lado": "D"
+            }
+          ],
+          "pivo": [0, -0.3, 1.42],
+          "passoGraus": -12,
+          "golpeGraus": -25,
+          "plano": "lado"
+        }
+      ],
+      "saco_surpresa": [
+        {
+          "parte": "tampa",
+          "regioes": [
+            {
+              "pecas": [
+                "Tampa_chanfrada",
+                "Interior_da_tampa",
+                "Mascara_da_tampa",
+                "Olho_da_tampa",
+                "Dente_superior",
+                "Alca_da_tampa"
+              ]
+            }
+          ],
+          "pivo": [-0.42, 0, 1.44],
+          "passoGraus": 4,
+          "golpeGraus": 35
+        },
+        {
+          "parte": "frenteE",
+          "regioes": [
+            {
+              "pecas": ["Perna_curta", "Pe"],
+              "lado": "E",
+              "x": "frente"
+            }
+          ],
+          "pivo": [0.3, 0.4, 0.35],
+          "passoGraus": 22
+        },
+        {
+          "parte": "frenteD",
+          "regioes": [
+            {
+              "pecas": ["Perna_curta", "Pe"],
+              "lado": "D",
+              "x": "frente"
+            }
+          ],
+          "pivo": [0.3, -0.4, 0.35],
+          "passoGraus": -22
+        },
+        {
+          "parte": "trasE",
+          "regioes": [
+            {
+              "pecas": ["Perna_curta", "Pe"],
+              "lado": "E",
+              "x": "tras"
+            }
+          ],
+          "pivo": [-0.25, 0.4, 0.35],
+          "passoGraus": -22
+        },
+        {
+          "parte": "trasD",
+          "regioes": [
+            {
+              "pecas": ["Perna_curta", "Pe"],
+              "lado": "D",
+              "x": "tras"
+            }
+          ],
+          "pivo": [-0.25, -0.4, 0.35],
+          "passoGraus": 22
+        }
+      ]
+    },
+    "esqueletoIgual": {
+      "moradora_13_bruxinha": "bruxinha",
+      "moradora_13_fantasma": "fantasma",
+      "moradora_13_esqueleto": "esqueleto",
+      "moradora_13_vampirinho": "vampirinho"
+    }
+  },
+  "tons": {
+    "roupa": {
+      "topo": "#5A5B64",
+      "faceEsquerda": "#45464E",
+      "faceDireita": "#34353C"
+    },
+    "escuro": {
+      "topo": "#3E3F46",
+      "faceEsquerda": "#303137",
+      "faceDireita": "#24252A"
+    },
+    "claro": {
+      "topo": "#80818B",
+      "faceEsquerda": "#686973",
+      "faceDireita": "#52535C"
+    },
+    "item": {
+      "topo": "#9496A0",
+      "faceEsquerda": "#73747E",
+      "faceDireita": "#575861"
+    },
+    "lencol": {
+      "topo": "#CDCFD7",
+      "faceEsquerda": "#ACAEB8",
+      "faceDireita": "#8C8E98"
+    },
+    "ovo": {
+      "topo": "#EEF1F6",
+      "faceEsquerda": "#D2D5DD",
+      "faceDireita": "#B4B7C1"
+    },
+    "papel": {
+      "topo": "#EEF1F6",
+      "faceEsquerda": "#E2E5EC",
+      "faceDireita": "#D5D8E0"
+    },
+    "vidro": {
+      "topo": "#D5D8E0",
+      "faceEsquerda": "#BCBFC9",
+      "faceDireita": "#A0A3AE"
+    },
+    "breu": {
+      "topo": "#222328",
+      "faceEsquerda": "#1B1C21",
+      "faceDireita": "#16171C"
+    },
+    "laranja": {
+      "topo": "#F8AD5C",
+      "faceEsquerda": "#F28C28",
+      "faceDireita": "#DD7A1F"
+    },
+    "roxo": {
+      "topo": "#B796F7",
+      "faceEsquerda": "#9B6CF2",
+      "faceDireita": "#7A4FCB"
+    },
+    "amarelo": {
+      "topo": "#F7E27D",
+      "faceEsquerda": "#F2D14B",
+      "faceDireita": "#CDAB33"
+    },
+    "amareloFundo": {
+      "topo": "#DDBC3E",
+      "faceEsquerda": "#D2B137",
+      "faceDireita": "#AF9027"
+    },
+    "verde": {
+      "topo": "#A9F6CC",
+      "faceEsquerda": "#7CF2B0",
+      "faceDireita": "#57C78C"
+    }
+  },
+  "volumes": {
+    "limiarTopo": 0.5,
+    "resolucaoTexturaMax": 2
+  },
+  "sombraProjetada": {
+    "direcao": [-0.4, 1],
+    "tilesPorPx": 0.01
+  },
+  "luzNaTela": {
+    "ladosPoligono": 20,
+    "escuridao": {
+      "cor": "#071226",
+      "opacidade": 0.78
+    },
+    "tintNoEscuro": "#5F6E98",
+    "brilhoProprio": {
+      "especies": ["moradora_do_13", "bruxinha", "fantasma", "esqueleto", "vampirinho"],
+      "luzMinima": 0.8,
+      "raio": 1.3,
+      "alfa": 0.28
+    },
+    "queda": {
+      "pleno": 0.3,
+      "naBorda": 0.25,
+      "alem": 0.1
+    },
+    "pocas": {
+      "poste": {
+        "cor": "#C7D9FF",
+        "alfa": 0.2
+      },
+      "janela": {
+        "cor": "#F2E6CC",
+        "alfa": 0.16
+      },
+      "pulso": {
+        "cor": "#EEF1F6",
+        "alfa": 0.26
+      }
+    },
+    "lampada": {
+      "raio": 0.8,
+      "alfa": 0.35,
+      "alturaPx": 67
+    },
+    "cone": {
+      "cor": "#C7D9FF",
+      "alfa": 0.22,
+      "larguraTopo": 0.35,
+      "larguraBase": 2.6
+    },
+    "neblina": {
+      "cor": "#1A2740",
+      "alfa": 0.94,
+      "transicaoTiles": 3
+    },
+    "atmosfera": {
+      "neblina": {
+        "cor": "#3A5C86",
+        "alfa": 0.08
+      },
+      "bordas": {
+        "cor": "#030812",
+        "alfa": 0.65
+      }
+    },
+    "feixe": {
+      "queda": {
+        "pleno": 0.25,
+        "naBorda": 0.35,
+        "alem": 0.3
+      },
+      "suaveInicio": 0.35,
+      "forcaPorAndar": 0.7
+    },
+    "sombras": {
+      "forca": 0.8,
+      "penumbraPx": 2.5,
+      "alturaJanelaPx": 26,
+      "alturaPulsoPx": 32,
+      "porFigura": 3,
+      "larguraFigura": 0.55,
+      "porQuadro": 6,
+      "comprimentoMaxFigura": 2.5,
+      "minimo": 0.08,
+      "dosObjetos": true
+    },
+    "posteCorrompido": {
+      "opacidadeHalo": 0.3,
+      "periodoPiscaMs": 1300,
+      "alfaMinimo": 0.25
+    }
+  },
+  "marcadorDestino": {
+    "raio": 0.35,
+    "duracaoMs": 450,
+    "espessuraPx": 2
+  },
+  "marcaDeInteracao": {
+    "alcanceTiles": 15,
+    "alturaPx": 82,
+    "raioPx": 12,
+    "balancoPx": 3,
+    "periodoMs": 1100,
+    "anelTiles": 0.7,
+    "pulsoAnel": 0.12,
+    "escalaPerto": 1.35
+  },
+  "combateNaTela": {
+    "pausa": {
+      "acerto": 0.05,
+      "critico": 0.08,
+      "poste": 0.08,
+      "golpeFinal": 0.04,
+      "estouro": 0.05
+    },
+    "tremor": {
+      "explosaoPx": 3,
+      "estouroPx": 2,
+      "rPx": 5,
+      "postePx": 6,
+      "chefePx": 10,
+      "duracaoMs": 180
+    },
+    "claraoPoste": {
+      "duracaoS": 1,
+      "forca": 0.8
+    },
+    "trato": {
+      "duracaoS": 1,
+      "fatorZoom": 0.85,
+      "textoPreco": "O preço nas próximas ruas: {precos}",
+      "textoSemPreco": "Trato aceito sem preço.",
+      "raioCasa": 8,
+      "raioPostes": 14,
+      "postesRuaSemLuz": 6,
+      "iconeLadoPx": 56,
+      "sobePx": 70,
+      "iconeS": 2.4
+    },
+    "mira": {
+      "alfaArea": 0.22,
+      "alfaContorno": 0.85,
+      "espessuraPx": 2
+    },
+    "projetil": {
+      "alturaPx": 14,
+      "comprimento": 0.7,
+      "largura": 0.24,
+      "rastro": 3
+    },
+    "area": {
+      "alfa": 0.22,
+      "alfaContorno": 0.8
+    },
+    "particula": {
+      "tamanhoPx": 4,
+      "duracaoMs": 350,
+      "velocidadePxPorS": 90
+    },
+    "abobora": {
+      "porOnda": 7,
+      "tamanhoPx": 8,
+      "quedaAlturaPx": 90,
+      "duracaoMs": 280
+    },
+    "explosao": {
+      "duracaoMs": 380,
+      "alfa": 0.55
+    },
+    "encantos": {
+      "cores": {
+        "apressado": "#7CF2B0",
+        "encouracado": "#EEF1F6",
+        "explosivo": "#F28C28",
+        "chamador": "#9B6CF2"
+      },
+      "rotuloAcimaPx": 3
+    },
+    "quebraveis": {
+      "tremorPx": 2,
+      "tremorMs": 50,
+      "lascas": 3,
+      "pedacos": 9,
+      "pedacoPx": 5,
+      "cores": {
+        "metal": ["#9A9CA8", "#6F707C", "#C4C6CF"],
+        "madeira": ["#7E7468", "#5E5650", "#9A8E80"],
+        "abobora": ["#F28C28", "#C9671A", "#F2D14B"],
+        "plastico": ["#B8BAC4", "#8A8C97", "#E5E7EE"],
+        "vidro": ["#D8DBE4", "#EEF1F6", "#A9ACB8"]
+      },
+      "brilho": {
+        "raioPx": 4,
+        "alturaPx": 26,
+        "periodoMs": 900,
+        "alfa": 0.85
+      }
+    },
+    "feiticos": {
+      "estrela": {
+        "raioPx": 8,
+        "giroPorS": 9,
+        "rastro": 4
+      },
+      "brilhoAcerto": {
+        "raioPx": 14,
+        "duracaoMs": 200
+      },
+      "vassoura": {
+        "cabo": 0.55,
+        "palha": 0.34,
+        "larguraPalha": 0.36,
+        "folhasPorS": 40,
+        "folhaMs": 520
+      },
+      "estouro": {
+        "faiscas": 14,
+        "duracaoMs": 480,
+        "velocidadePxPorS": 170
+      },
+      "pocao": {
+        "arcoPx": 70,
+        "frascoPx": 10,
+        "cacos": 9,
+        "bolhasPorS": 14,
+        "bolhaMs": 650,
+        "bolhaPx": 4.5
+      },
+      "salto": {
+        "estrelasPorS": 70,
+        "estrelaMs": 520,
+        "decolagem": 10
+      },
+      "chuva": {
+        "queimadoS": 3,
+        "queimadoAlfa": 0.45,
+        "sementes": 5
+      }
+    },
+    "numeroDano": {
+      "subidaPx": 28,
+      "duracaoMs": 600,
+      "fontePx": 14,
+      "acimaPx": 34,
+      "escalaCritico": 1.35,
+      "escalaFrenesi": 1.3
+    },
+    "piscarMs": 90,
+    "barraInimigo": {
+      "larguraPx": 30,
+      "alturaPx": 4,
+      "acimaPx": 40,
+      "fundo": "#2C2D33"
+    }
+  },
+  "interface": {
+    "alfaPlaca": 0.88,
+    "tema": {
+      "painel": "#0D1424",
+      "painelClaro": "#172238",
+      "borda": "#2C3F63",
+      "filete": "#A9BFE6",
+      "sombra": "#02050C",
+      "cartao": "#121C30",
+      "cartaoFoco": "#1C2A44"
+    },
+    "margemPx": 16,
+    "animacao": {
+      "entradaMs": 320,
+      "saidaMs": 260,
+      "zoomEntrada": 1.04,
+      "deslizePx": 16,
+      "escalonamentoMs": 45,
+      "escalonamentoMaxMs": 420,
+      "mesmaLevaMs": 120,
+      "focoMs": 150,
+      "pulsoFocoMs": 700,
+      "pulaMs": 180,
+      "letraMs": 55,
+      "brilhoMs": 900,
+      "brilhoPausaMs": 3200,
+      "contagemMs": 900,
+      "fecharMs": 520,
+      "abrirMs": 600,
+      "fundo": {
+        "semente": 13,
+        "ceuTopo": "#16243F",
+        "ceuBase": "#070B15",
+        "halo": "rgba(150,180,255,0.16)",
+        "lua": "#DDE6FF",
+        "luaX": 0.92,
+        "luaY": 0.78,
+        "raioLua": 30,
+        "telhados": "#04070D",
+        "alturaTelhados": 80,
+        "particulas": 46,
+        "corParticula": "#A9BFE6",
+        "velocidade": 14,
+        "morcegoACadaMs": 9000,
+        "morcegoVooMs": 4200
+      }
+    },
+    "pausaFimMs": 2600,
+    "botaoDoFimMs": 1500,
+    "passagem": {
+      "andarMs": 1500,
+      "fecharMs": 1000,
+      "abrirMs": 750,
+      "entrarMs": 800
+    },
+    "botao": {
+      "tamanhoPx": 60,
+      "espacoPx": 10
+    },
+    "titulo": {
+      "semente": 7,
+      "zoom": 1,
+      "velocidadeTilesPorS": 1.4,
+      "modSemente": 1000000,
+      "logo": {
+        "arquivo": "interface/titulo/porta-a-porta.png",
+        "larguraPx": 420,
+        "xPx": 54,
+        "yPx": -4
+      },
+      "fraseYPx": 250,
+      "menuYPx": 296
+    },
+    "artes": {
+      "pasta": "interface",
+      "itens": [
+        "chapeu_pontudo",
+        "taco_de_beisebol",
+        "capa_grossa",
+        "tenis_de_luzinha",
+        "ampulheta",
+        "pote_de_mel",
+        "pirulito",
+        "bala_efervescente",
+        "doce_isca",
+        "lanterna_de_pilha",
+        "meia_de_la",
+        "estilingue",
+        "moeda_da_sorte",
+        "cachecol_listrado"
+      ],
+      "habilidades": [
+        "bruxinha_q",
+        "bruxinha_w",
+        "bruxinha_e",
+        "bruxinha_r",
+        "fantasma_q",
+        "fantasma_w",
+        "fantasma_e",
+        "fantasma_r",
+        "esqueleto_q",
+        "esqueleto_w",
+        "esqueleto_e",
+        "esqueleto_r",
+        "vampirinho_q",
+        "vampirinho_w",
+        "vampirinho_e",
+        "vampirinho_r"
+      ],
+      "passivas": {
+        "bruxinha": "caldeirao",
+        "fantasma": "arrepio",
+        "esqueleto": "remontar",
+        "vampirinho": "sede"
+      },
+      "retratos": ["bruxinha", "fantasma", "esqueleto", "vampirinho"],
+      "evolucoes": [
+        "abobora_gigante",
+        "atropelo",
+        "capa_longa",
+        "cemiterio",
+        "corrente_de_almas",
+        "corte_duplo",
+        "desabamento",
+        "duas_paredes",
+        "escudo_duplo",
+        "espinhos",
+        "fratura",
+        "gelo",
+        "lencol_longo",
+        "lencol_vazio",
+        "mordida_dupla",
+        "nevoa_densa",
+        "nevoa_faminta",
+        "osso_quebrado",
+        "passagem_fria",
+        "pesadelo",
+        "pocao_explosiva",
+        "pocao_grudenta",
+        "pouso_leve",
+        "rastro_de_faiscas",
+        "retorno",
+        "revoada",
+        "ricochete",
+        "sangria",
+        "sem_fim",
+        "tempestade",
+        "transfusao",
+        "vassoura_pesada"
+      ],
+      "tratos": [
+        "assinatura_em_sangue",
+        "bala_de_coco",
+        "casca_grossa",
+        "chave_da_cidade",
+        "chave_mestra",
+        "cofre_de_porquinho",
+        "colecao_de_chaves",
+        "corrente_de_abobora",
+        "cortina_pesada",
+        "dentes_afiados",
+        "disco_riscado",
+        "divida_antiga",
+        "eco",
+        "espantalho",
+        "gato_no_telhado",
+        "ima_de_doces",
+        "janela_aberta",
+        "lampada_no_bolso",
+        "lanterna_de_abobora",
+        "lua_no_bolso",
+        "mira_torta",
+        "pacto_do_porao",
+        "pote_sem_fundo",
+        "recibo_rasgado",
+        "relogio_de_bolso",
+        "segundo_folego",
+        "semente_de_abobora",
+        "sino_da_igreja",
+        "sombra_amiga",
+        "vagalume",
+        "vela_apagada"
+      ],
+      "precos": [
+        "banco_quebrado",
+        "casa_perseguidora",
+        "divida",
+        "janelas_fechadas",
+        "lanterna_fraca",
+        "meia_noite_adiantada",
+        "ondas_famintas",
+        "poste_apagado",
+        "rua_sem_luz",
+        "vizinhanca_atenta"
+      ],
+      "marcas": ["abobora", "doce", "eco", "luz", "pacto", "sombra"],
+      "condicoes": [
+        "apagao",
+        "chuva_de_doces",
+        "festa",
+        "lua_vermelha",
+        "neblina",
+        "noite_comum",
+        "silencio",
+        "ventania"
+      ],
+      "hud": [
+        "bloqueado",
+        "coragem",
+        "energia",
+        "experiencia",
+        "frenesi",
+        "luz",
+        "medalha",
+        "onda",
+        "pedido",
+        "portao_aberto",
+        "portao_fechado",
+        "poste_caido",
+        "poste_corrompido",
+        "relogio",
+        "reroll",
+        "susto"
+      ],
+      "escalaPoder": 0.92
+    }
+  },
+  "vida": {
+    "fumaca": {
+      "aCadaS": 0.45,
+      "vidaS": 3.2,
+      "subidaPx": 46,
+      "tamanhoPx": 6,
+      "alfa": 0.5,
+      "cor": "#A3A6B0",
+      "maxChamines": 10
+    },
+    "folhas": {
+      "quantas": 14,
+      "tamanhoPx": 4,
+      "vento": 0.9,
+      "cor": "#8A8C97"
+    },
+    "morcegos": {
+      "aCadaS": [16, 30],
+      "bando": [3, 6],
+      "duracaoS": 5,
+      "tamanhoPx": 9
+    },
+    "criancas": {
+      "maximo": 3,
+      "aCadaS": 7,
+      "velocidade": 1.1,
+      "fugaVelocidade": 3.2,
+      "fugaS": 1.4,
+      "raioLuta": 8,
+      "matizes": [0, 110, 220]
+    },
+    "gatos": {
+      "maximo": 2,
+      "raioPular": 3.5,
+      "saltoS": 0.5,
+      "fugaS": 1.6,
+      "fugaVelocidade": 4,
+      "alturaPx": {
+        "muro": 56,
+        "cerca": 18,
+        "cerca_viva": 16
+      }
+    },
+    "janelas": {
+      "aCadaS": 6
+    }
+  },
+  "animacao": {
+    "bobPx": 3,
+    "passosPorTile": 2.2,
+    "respiracao": 0.025,
+    "respiracaoPorS": 1.6,
+    "golpeEscala": 0.16,
+    "golpeMs": 280,
+    "preparoAgacha": 0.1,
+    "preparoRecuo": 0.18,
+    "preparoTremor": 0.035,
+    "morteMs": 420,
+    "flutuarPx": 4,
+    "flutuarPorS": 1.3,
+    "alfaInvisivelJogador": 0.4,
+    "alfaInvisivelInimigo": 0.12,
+    "inclinacao": 0.09,
+    "rigidezInclinacao": 9,
+    "achatarNoPasso": 0.07,
+    "tremer": {
+      "inclinacao": 0.07,
+      "porS": 11
+    },
+    "direcoesMalha": 16,
+    "giroGrausPorS": 900,
+    "golpeFracaoEstica": 0.3,
+    "golpeInclina": 0.14,
+    "atingidoMs": 200,
+    "atingidoAchata": 0.1,
+    "atingidoInclina": 0.12,
+    "tontoInclina": 0.12,
+    "tontoPorS": 2.4,
+    "balancoParado": 0.014,
+    "poeira": {
+      "tamanhoPx": 3,
+      "duracaoMs": 320,
+      "velocidadePxPorS": 22
+    }
+  }
+}

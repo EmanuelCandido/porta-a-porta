@@ -1,0 +1,142 @@
+{
+  "maestria": {
+    "pontosPorXp": 0.1,
+    "pontosPorChefe": 60,
+    "pontosPorVitoria": 150,
+    "niveis": [400, 1100, 2200, 3600, 5400],
+    "titulos": {
+      "bruxinha": "Bruxa-Mestra da Vila",
+      "fantasma": "Assombração do Quarteirão",
+      "esqueleto": "Ossada Inquebrável",
+      "vampirinho": "Conde da Alameda"
+    },
+    "recompensas": [
+      "Despertares do R liberados",
+      "Cor alternativa da fantasia",
+      "Começo alternativo: 1 entre 3 tratos sem preço antes da 1-1",
+      "Passiva alternativa",
+      "Título e moldura dourada no Diário"
+    ],
+    "comeco": {
+      "ofertas": 3
+    }
+  },
+  "diario": {
+    "paginas": {
+      "tratos": {
+        "nome": "Tratos",
+        "doces": 120
+      },
+      "precos": {
+        "nome": "Preços",
+        "doces": 80
+      },
+      "conjuntos": {
+        "nome": "Conjuntos",
+        "doces": 100
+      },
+      "inimigos": {
+        "nome": "Inimigos",
+        "doces": 100
+      },
+      "condicoes": {
+        "nome": "Condições da noite",
+        "doces": 60
+      },
+      "encontros": {
+        "nome": "Encontros raros",
+        "doces": 80
+      },
+      "evolucoes": {
+        "nome": "Evoluções",
+        "doces": 150
+      }
+    },
+    "encontros": {
+      "gato_preto": {
+        "nome": "Gato Preto",
+        "dica": "Um bichano no quintal que dá um trato a mais"
+      },
+      "crianca_perdida": {
+        "nome": "Criança Perdida",
+        "dica": "Alguém pequeno chora longe de casa"
+      },
+      "festa_na_garagem": {
+        "nome": "Festa na Garagem",
+        "dica": "Música alta atrás de uma garagem fechada"
+      },
+      "carrinho_de_pipoca": {
+        "nome": "Carrinho de Pipoca",
+        "dica": "Um sininho e cheiro de pipoca no caminho"
+      },
+      "janela_vermelha": {
+        "nome": "Janela Vermelha",
+        "dica": "Uma janela que só acende em vermelho"
+      }
+    }
+  },
+  "moradores": {
+    "pechinchaLembrado": 0.5,
+    "recusasParaOfender": 3,
+    "ruaDoOfendido": 1,
+    "especieOfendido": "morador_ofendido",
+    "cumprimentos": [
+      "Que bom te ver de novo!",
+      "Voltou! Eu sabia que voltaria.",
+      "Para você, um precinho camarada.",
+      "Lembro de você da outra noite."
+    ],
+    "ofendido": [
+      "Três vezes você bateu e foi embora!",
+      "Agora quem não abre a porta sou eu!",
+      "Vai ter que levar o trato à força!"
+    ]
+  },
+  "desafios": {
+    "doces": 200,
+    "lista": [
+      {
+        "id": "so_abobora",
+        "nome": "Só Abóbora",
+        "descricao": "As portas só oferecem tratos de Abóbora",
+        "marca": "abobora"
+      },
+      {
+        "id": "noite_de_neblina",
+        "nome": "Noite de Neblina",
+        "descricao": "Todas as ruas com Neblina",
+        "condicao": "neblina"
+      },
+      {
+        "id": "so_sombra",
+        "nome": "Só Sombra",
+        "descricao": "As portas só oferecem tratos de Sombra",
+        "marca": "sombra"
+      },
+      {
+        "id": "lua_vermelha",
+        "nome": "Lua Vermelha",
+        "descricao": "Todas as ruas sob a Lua Vermelha",
+        "condicao": "lua_vermelha"
+      },
+      {
+        "id": "so_pacto",
+        "nome": "Só Pacto",
+        "descricao": "As portas só oferecem tratos de Pacto",
+        "marca": "pacto"
+      },
+      {
+        "id": "lua_cheia_tres",
+        "nome": "Lua Cheia 3",
+        "descricao": "A run inteira na Lua Cheia 3",
+        "lua": 3
+      },
+      {
+        "id": "ventania",
+        "nome": "Noite de Ventania",
+        "descricao": "Todas as ruas com Ventania",
+        "condicao": "ventania"
+      }
+    ]
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "evolucoes": {
+    "bruxinha_q": [
+      {
+        "id": "ricochete",
+        "nome": "Ricochete",
+        "descricao": "Ao acertar, a vassoura salta para mais 2 inimigos a até 3 tiles, com 60% do dano.",
+        "muda": {
+          "ricochete": {
+            "alvos": 2,
+            "raio": 3,
+            "fracao": 0.6
+          }
+        }
+      },
+      {
+        "id": "vassoura_pesada",
+        "nome": "Vassoura Pesada",
+        "descricao": "Atravessa todos os inimigos e empurra cada um 1 tile, mas a recarga sobe 2 s.",
+        "muda": {
+          "forma": {
+            "perfura": true
+          },
+          "empurraAoAcertar": 1
+        },
+        "recargaExtra": 2
+      }
+    ],
+    "bruxinha_w": [
+      {
+        "id": "pocao_explosiva",
+        "nome": "Poção Explosiva",
+        "descricao": "Ao sumir, a poça explode com 150% do dano por segundo.",
+        "explodeAoFechar": 1.5
+      },
+      {
+        "id": "pocao_grudenta",
+        "nome": "Poção Grudenta",
+        "descricao": "Quem fica 1,5 s dentro da poça fica enraizado por 1 s.",
+        "muda": {
+          "enraizaSeFicar": {
+            "segundos": 1.5,
+            "duracao": 1
+          }
+        }
+      }
+    ],
+    "bruxinha_e": [
+      {
+        "id": "rastro_de_faiscas",
+        "nome": "Rastro de Faíscas",
+        "descricao": "O salto deixa uma linha de faíscas que machuca por 2 s.",
+        "muda": {
+          "rastro": {
+            "largura": 0.8,
+            "duracao": 2,
+            "intervalo": 0.25,
+            "efeitos": [
+              {
+                "tipo": "dano",
+                "base": [30, 40, 50, 60, 70],
+                "razao": 0.3,
+                "atributo": "feitico",
+                "porSegundo": true
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "pouso_leve",
+        "nome": "Pouso Leve",
+        "descricao": "Os 2 s seguintes ao salto dão 30% de velocidade, e a próxima Q sai sem custo.",
+        "efeitos": [
+          {
+            "tipo": "bonus",
+            "em": "lancador",
+            "atributo": "velocidade",
+            "mult": 0.3,
+            "duracao": 2
+          },
+          {
+            "tipo": "gratis",
+            "em": "lancador",
+            "tecla": "Q"
+          }
+        ]
+      }
+    ],
+    "bruxinha_r": [
+      {
+        "id": "tempestade",
+        "nome": "Despertar: Tempestade",
+        "descricao": "5 ondas de abóboras em vez de 3, e a área segue o cursor.",
+        "muda": {
+          "forma": {
+            "pulsos": 5,
+            "segueCursor": true
+          }
+        }
+      },
+      {
+        "id": "abobora_gigante",
+        "nome": "Despertar: Abóbora Gigante",
+        "descricao": "Uma única queda com 400% do dano, que atordoa por 1,5 s.",
+        "muda": {
+          "forma": {
+            "pulsos": 1
+          }
+        },
+        "multDano": 4,
+        "efeitos": [
+          {
+            "tipo": "atordoar",
+            "duracao": 1.5
+          }
+        ]
+      }
+    ],
+    "fantasma_q": [
+      {
+        "id": "corte_duplo",
+        "nome": "Corte Duplo",
+        "descricao": "A Q pode ser usada de novo em até 2 s, com 50% do dano.",
+        "muda": {
+          "relancamento": {
+            "janela": 2,
+            "fracaoDano": 0.5
+          }
+        }
+      },
+      {
+        "id": "gelo",
+        "nome": "Gelo",
+        "descricao": "O corte deixa lento em 40% por 1,5 s.",
+        "efeitos": [
+          {
+            "tipo": "lentidao",
+            "valor": 0.4,
+            "duracao": 1.5
+          }
+        ]
+      }
+    ],
+    "fantasma_w": [
+      {
+        "id": "passagem_fria",
+        "nome": "Passagem Fria",
+        "descricao": "Quem estiver no caminho fica com Medo por 1 s.",
+        "efeitos": [
+          {
+            "tipo": "medo",
+            "duracao": 1
+          }
+        ]
+      },
+      {
+        "id": "duas_paredes",
+        "nome": "Duas Paredes",
+        "descricao": "Acumula 2 cargas.",
+        "muda": {
+          "cargas": 2
+        }
+      }
+    ],
+    "fantasma_e": [
+      {
+        "id": "lencol_longo",
+        "nome": "Lençol Longo",
+        "descricao": "Dura 2 s a mais e se renova ao derrotar um inimigo enquanto ativo.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "invisivel",
+              "em": "lancador",
+              "duracao": 5,
+              "duracaoNaLuz": 3.5,
+              "renovaAoAbater": true
+            },
+            {
+              "tipo": "bonus",
+              "em": "lancador",
+              "atributo": "velocidade",
+              "mult": 0.3,
+              "duracao": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "lencol_vazio",
+        "nome": "Lençol Vazio",
+        "descricao": "Ao sair da invisibilidade, o primeiro golpe causa 80% a mais.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "invisivel",
+              "em": "lancador",
+              "duracao": 3,
+              "duracaoNaLuz": 1.5,
+              "aoSair": {
+                "mult": 0.8,
+                "duracao": 2
+              }
+            },
+            {
+              "tipo": "bonus",
+              "em": "lancador",
+              "atributo": "velocidade",
+              "mult": 0.3,
+              "duracao": 3
+            }
+          ]
+        }
+      }
+    ],
+    "fantasma_r": [
+      {
+        "id": "corrente_de_almas",
+        "nome": "Despertar: Corrente de Almas",
+        "descricao": "Se o alvo cair, salta sozinho para o inimigo mais fraco a até 6 tiles.",
+        "muda": {
+          "saltaAoAbater": {
+            "raio": 6
+          }
+        }
+      },
+      {
+        "id": "pesadelo",
+        "nome": "Despertar: Pesadelo",
+        "descricao": "O alvo fica com Medo por 2 s antes do golpe.",
+        "muda": {
+          "medoAntes": 2
+        }
+      }
+    ],
+    "esqueleto_q": [
+      {
+        "id": "osso_quebrado",
+        "nome": "Osso Quebrado",
+        "descricao": "O cone dobra de tamanho.",
+        "muda": {
+          "forma": {
+            "alcance": 4
+          }
+        }
+      },
+      {
+        "id": "fratura",
+        "nome": "Fratura",
+        "descricao": "O alvo recebe 20% a mais de dano por 4 s.",
+        "efeitos": [
+          {
+            "tipo": "fragil",
+            "valor": 0.2,
+            "duracao": 4
+          }
+        ]
+      }
+    ],
+    "esqueleto_w": [
+      {
+        "id": "espinhos",
+        "nome": "Espinhos",
+        "descricao": "Quem bate no escudo recebe 30% do dano de volta.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "escudo",
+              "em": "lancador",
+              "base": [80, 120, 160, 200, 240],
+              "razaoCoragemMax": 0.1,
+              "duracao": 4,
+              "devolve": 0.5,
+              "espinhos": 0.3
+            }
+          ]
+        }
+      },
+      {
+        "id": "escudo_duplo",
+        "nome": "Escudo Duplo",
+        "descricao": "2 cargas, com 60% do escudo cada.",
+        "muda": {
+          "cargas": 2,
+          "efeitos": [
+            {
+              "tipo": "escudo",
+              "em": "lancador",
+              "base": [80, 120, 160, 200, 240],
+              "razaoCoragemMax": 0.1,
+              "duracao": 4,
+              "devolve": 0.5,
+              "fracao": 0.6
+            }
+          ]
+        }
+      }
+    ],
+    "esqueleto_e": [
+      {
+        "id": "atropelo",
+        "nome": "Atropelo",
+        "descricao": "Atordoa por 0,5 s quem for empurrado contra uma casa.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "dano",
+              "base": [60, 90, 120, 150, 180],
+              "razao": 0.5,
+              "atributo": "forca"
+            },
+            {
+              "tipo": "empurrar",
+              "distancia": 1.5,
+              "velocidade": 10,
+              "modo": "lado",
+              "atordoaNaParede": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "id": "retorno",
+        "nome": "Retorno",
+        "descricao": "Apertar E de novo em até 3 s volta ao ponto de partida.",
+        "muda": {
+          "retorno": {
+            "janela": 3
+          }
+        }
+      }
+    ],
+    "esqueleto_r": [
+      {
+        "id": "cemiterio",
+        "nome": "Despertar: Cemitério",
+        "descricao": "O anel dura 4 s e cura 3% da Coragem por segundo ao Esqueleto dentro dele.",
+        "muda": {
+          "forma": {
+            "pulsos": 8
+          },
+          "afetaAliados": [
+            {
+              "tipo": "cura",
+              "percentual": 0.03,
+              "porSegundo": true
+            }
+          ],
+          "efeitos": [
+            {
+              "tipo": "provocar",
+              "duracao": 0.6
+            },
+            {
+              "tipo": "bonus",
+              "em": "lancador",
+              "atributo": "resistencia",
+              "soma": 40,
+              "duracao": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "desabamento",
+        "nome": "Despertar: Desabamento",
+        "descricao": "Ao fechar, o anel causa também 15% da Coragem máxima do Esqueleto.",
+        "muda": {
+          "aoFechar": [
+            {
+              "tipo": "dano",
+              "base": [100, 200, 300],
+              "razao": 0.6,
+              "atributo": "forca",
+              "razaoCoragemMax": 0.15
+            }
+          ]
+        }
+      }
+    ],
+    "vampirinho_q": [
+      {
+        "id": "mordida_dupla",
+        "nome": "Mordida Dupla",
+        "descricao": "Morde 2 vezes, com 60% do dano cada.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "dano",
+              "base": [36, 54, 72, 90, 108],
+              "razao": 0.48,
+              "atributo": "forca"
+            },
+            {
+              "tipo": "dano",
+              "base": [36, 54, 72, 90, 108],
+              "razao": 0.48,
+              "atributo": "forca"
+            }
+          ]
+        }
+      },
+      {
+        "id": "sangria",
+        "nome": "Sangria",
+        "descricao": "A mordida sangra por 3 s, com mais 50% do golpe.",
+        "efeitos": [
+          {
+            "tipo": "dot",
+            "base": [60, 90, 120, 150, 180],
+            "razao": 0.8,
+            "atributo": "forca",
+            "fracao": 0.5,
+            "duracao": 3
+          }
+        ]
+      }
+    ],
+    "vampirinho_w": [
+      {
+        "id": "revoada",
+        "nome": "Revoada",
+        "descricao": "Os morcegos machucam quem estiver no caminho.",
+        "efeitos": [
+          {
+            "tipo": "dano",
+            "base": [40, 60, 80, 100, 120],
+            "razao": 0.4,
+            "atributo": "forca"
+          }
+        ]
+      },
+      {
+        "id": "capa_longa",
+        "nome": "Capa Longa",
+        "descricao": "Voa 5 tiles e fica 0,8 s imune.",
+        "muda": {
+          "forma": {
+            "distancia": 5,
+            "imune": 0.8
+          }
+        }
+      }
+    ],
+    "vampirinho_e": [
+      {
+        "id": "nevoa_faminta",
+        "nome": "Névoa Faminta",
+        "descricao": "Inimigos dentro perdem 2% da Coragem por segundo.",
+        "efeitos": [
+          {
+            "tipo": "dano",
+            "base": [0, 0, 0, 0, 0],
+            "razao": 0,
+            "atributo": "forca",
+            "porSegundo": true,
+            "percentualDoAlvo": 0.02,
+            "verdadeiro": true
+          }
+        ]
+      },
+      {
+        "id": "nevoa_densa",
+        "nome": "Névoa Densa",
+        "descricao": "Inimigos dentro ficam 30% mais lentos.",
+        "efeitos": [
+          {
+            "tipo": "lentidao",
+            "valor": 0.3,
+            "duracao": 0.6
+          }
+        ]
+      }
+    ],
+    "vampirinho_r": [
+      {
+        "id": "sem_fim",
+        "nome": "Despertar: Sem Fim",
+        "descricao": "Cada inimigo derrotado durante o Banquete o prolonga em 1 s.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "banquete",
+              "em": "lancador",
+              "duracao": 6,
+              "rouboVida": 0.9,
+              "porGolpe": 0.05,
+              "maxVelocidade": 0.3,
+              "prolongaAoAbater": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "transfusao",
+        "nome": "Despertar: Transfusão",
+        "descricao": "Ao terminar, o Banquete cura 30% da Coragem máxima.",
+        "muda": {
+          "efeitos": [
+            {
+              "tipo": "banquete",
+              "em": "lancador",
+              "duracao": 6,
+              "rouboVida": 0.9,
+              "porGolpe": 0.05,
+              "maxVelocidade": 0.3,
+              "curaAoFim": 0.3
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

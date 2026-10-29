@@ -1,0 +1,216 @@
+{
+  "itens": {
+    "chapeu_pontudo": {
+      "nome": "Chapéu Pontudo",
+      "preco": 250,
+      "tipo": "item",
+      "descricao": "+15 de Feitiço",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "feitico",
+          "soma": 15
+        }
+      ],
+      "inicial": true
+    },
+    "taco_de_beisebol": {
+      "nome": "Taco de Beisebol",
+      "preco": 250,
+      "tipo": "item",
+      "descricao": "+15 de Força",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "forca",
+          "soma": 15
+        }
+      ],
+      "inicial": true
+    },
+    "capa_grossa": {
+      "nome": "Capa Grossa",
+      "preco": 200,
+      "tipo": "item",
+      "descricao": "+12 de Resistência",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "resistencia",
+          "soma": 12
+        }
+      ],
+      "inicial": true
+    },
+    "tenis_de_luzinha": {
+      "nome": "Tênis de Luzinha",
+      "preco": 200,
+      "tipo": "item",
+      "descricao": "+10% de velocidade",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "velocidade",
+          "mult": 0.1
+        }
+      ],
+      "inicial": true
+    },
+    "ampulheta": {
+      "nome": "Ampulheta",
+      "preco": 300,
+      "tipo": "item",
+      "descricao": "+12 de Pressa",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "pressa",
+          "soma": 12
+        }
+      ],
+      "inicial": false
+    },
+    "pote_de_mel": {
+      "nome": "Pote de Mel",
+      "preco": 350,
+      "tipo": "item",
+      "descricao": "+10% de roubo de vida",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "rouboVida",
+          "soma": 0.1
+        }
+      ],
+      "inicial": false
+    },
+    "pirulito": {
+      "nome": "Pirulito",
+      "preco": 60,
+      "tipo": "consumivel",
+      "descricao": "Cura 25% da Coragem em 3 s",
+      "efeitos": [
+        {
+          "tipo": "curaAoLongo",
+          "fracao": 0.25,
+          "duracao": 3
+        }
+      ],
+      "inicial": true
+    },
+    "bala_efervescente": {
+      "nome": "Bala Efervescente",
+      "preco": 80,
+      "tipo": "consumivel",
+      "descricao": "Recupera 50 de Energia",
+      "efeitos": [
+        {
+          "tipo": "energia",
+          "soma": 50
+        }
+      ],
+      "inicial": true
+    },
+    "doce_isca": {
+      "nome": "Doce-isca",
+      "preco": 40,
+      "tipo": "consumivel",
+      "descricao": "Atrai inimigos e Postes por 4 s num raio de 5 tiles",
+      "efeitos": [
+        {
+          "tipo": "isca"
+        }
+      ],
+      "inicial": true
+    },
+    "lanterna_de_pilha": {
+      "nome": "Lanterna de Pilha",
+      "preco": 220,
+      "tipo": "item",
+      "descricao": "+30 de Luz máxima e a Luz recarrega 50% mais rápido",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "luzMax",
+          "soma": 30
+        },
+        {
+          "tipo": "atributo",
+          "atributo": "recargaLuz",
+          "mult": 0.5
+        }
+      ],
+      "inicial": false
+    },
+    "meia_de_la": {
+      "nome": "Meia de Lã",
+      "preco": 220,
+      "tipo": "item",
+      "descricao": "+12% de Coragem máxima",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "coragemMax",
+          "mult": 0.12
+        }
+      ],
+      "inicial": false
+    },
+    "estilingue": {
+      "nome": "Estilingue",
+      "preco": 240,
+      "tipo": "item",
+      "descricao": "Auto-ataques +20% de dano e +10% de velocidade de ataque",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "danoAutoAtaque",
+          "mult": 0.2
+        },
+        {
+          "tipo": "atributo",
+          "atributo": "velocidadeAtaque",
+          "mult": 0.1
+        }
+      ],
+      "inicial": false
+    },
+    "moeda_da_sorte": {
+      "nome": "Moeda da Sorte",
+      "preco": 280,
+      "tipo": "item",
+      "descricao": "+10% de chance de crítico",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "critico",
+          "soma": 0.1
+        }
+      ],
+      "inicial": false
+    },
+    "cachecol_listrado": {
+      "nome": "Cachecol Listrado",
+      "preco": 260,
+      "tipo": "item",
+      "descricao": "+8 de Resistência e +6 de Pressa",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "atributo": "resistencia",
+          "soma": 8
+        },
+        {
+          "tipo": "atributo",
+          "atributo": "pressa",
+          "soma": 6
+        }
+      ],
+      "inicial": false
+    }
+  },
+  "maxItens": 5,
+  "maxConsumiveis": 2,
+  "curaDoBanco": 0.3,
+  "pilhaMaxima": 3
+}

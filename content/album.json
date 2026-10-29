@@ -1,0 +1,92 @@
+{
+  "save": { "chave": "porta-a-porta:save", "versao": 1 },
+  "campeoes": {
+    "fantasma": { "preco": 300 },
+    "esqueleto": { "preco": 400 },
+    "vampirinho": { "preco": 500 }
+  },
+  "tratosIniciais": [
+    "relogio_de_bolso",
+    "dentes_afiados",
+    "segundo_folego",
+    "mira_torta",
+    "lua_no_bolso",
+    "sombra_amiga",
+    "eco",
+    "ima_de_doces",
+    "corrente_de_abobora",
+    "pacto_do_porao",
+    "casca_grossa",
+    "chave_mestra"
+  ],
+  "paginas": [
+    {
+      "id": "pagina_luz",
+      "nome": "Página da Luz",
+      "preco": 60,
+      "tratos": ["vagalume", "janela_aberta", "lampada_no_bolso"]
+    },
+    {
+      "id": "pagina_sombra",
+      "nome": "Página da Sombra",
+      "preco": 60,
+      "tratos": ["gato_no_telhado", "cortina_pesada", "vela_apagada"]
+    },
+    {
+      "id": "pagina_doce",
+      "nome": "Página do Doce",
+      "preco": 60,
+      "tratos": ["pote_sem_fundo", "bala_de_coco", "colecao_de_chaves"]
+    },
+    {
+      "id": "pagina_abobora",
+      "nome": "Página da Abóbora",
+      "preco": 70,
+      "tratos": ["semente_de_abobora", "lanterna_de_abobora", "espantalho"]
+    },
+    {
+      "id": "pagina_eco",
+      "nome": "Página do Eco",
+      "preco": 70,
+      "tratos": ["sino_da_igreja", "disco_riscado", "cofre_de_porquinho"]
+    },
+    {
+      "id": "pagina_pacto",
+      "nome": "Página do Pacto",
+      "preco": 80,
+      "tratos": ["assinatura_em_sangue", "divida_antiga", "recibo_rasgado"]
+    }
+  ],
+  "itens": {
+    "lanterna_de_pilha": { "preco": 40 },
+    "meia_de_la": { "preco": 40 },
+    "estilingue": { "preco": 45 },
+    "cachecol_listrado": { "preco": 50 },
+    "moeda_da_sorte": { "preco": 55 },
+    "ampulheta": { "preco": 60 },
+    "pote_de_mel": { "preco": 70 }
+  },
+  "bonus": {
+    "coragem": { "precos": [50, 100], "mult": 0.05 },
+    "doces": { "precos": [40, 80], "soma": 50 },
+    "reroll": { "precos": [50, 100], "soma": 1 }
+  },
+  "cores": {
+    "bruxinha": [
+      { "id": "bruxinha_pantano", "nome": "Bruxa do Pântano", "matiz": 118, "preco": 80 },
+      { "id": "bruxinha_meia_noite", "nome": "Bruxa da Meia-Noite", "matiz": -128, "preco": 80 }
+    ],
+    "fantasma": [
+      { "id": "fantasma_vela", "nome": "Fantasma de Vela", "matiz": -100, "preco": 80 },
+      { "id": "fantasma_ametista", "nome": "Fantasma Ametista", "matiz": 115, "preco": 80 }
+    ],
+    "esqueleto": [
+      { "id": "esqueleto_lodo", "nome": "Esqueleto do Lodo", "matiz": 118, "preco": 80 },
+      { "id": "esqueleto_violeta", "nome": "Esqueleto Violeta", "matiz": -128, "preco": 80 }
+    ],
+    "vampirinho": [
+      { "id": "vampirinho_brasa", "nome": "Vampirinho Brasa", "matiz": 40, "preco": 80 },
+      { "id": "vampirinho_noturno", "nome": "Vampirinho Noturno", "matiz": -100, "preco": 80 }
+    ]
+  }
+}

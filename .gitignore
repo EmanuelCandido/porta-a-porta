@@ -1,0 +1,11 @@
+node_modules/
+dist/
+entregas/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+*.log
+.DS_Store
+Thumbs.db

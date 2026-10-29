@@ -1,0 +1,156 @@
+{
+  "condicoes": {
+    "noite_comum": {
+      "nome": "Noite Comum",
+      "frase": "Nada de diferente no ar.",
+      "rara": false,
+      "peso": 4
+    },
+    "neblina": {
+      "nome": "Neblina",
+      "frase": "Visão de 4 tiles: os inimigos só aparecem de perto.",
+      "rara": false,
+      "peso": 1,
+      "visao": 4
+    },
+    "lua_vermelha": {
+      "nome": "Lua Vermelha",
+      "frase": "Inimigos com +20% de dano, e doces em dobro.",
+      "rara": false,
+      "peso": 1,
+      "multDanoInimigo": 1.2,
+      "multDoces": 2
+    },
+    "ventania": {
+      "nome": "Ventania",
+      "frase": "Projéteis inimigos fazem curva; a cada minuto um poste apaga por 20 s.",
+      "rara": false,
+      "peso": 1,
+      "curvaProjeteis": 35,
+      "apagaPosteACadaS": 60,
+      "posteApagadoS": 20
+    },
+    "festa": {
+      "nome": "Festa no Quarteirão",
+      "frase": "Cada bueiro solta +2 pestinhas, e +50% de XP.",
+      "rara": false,
+      "peso": 1,
+      "extraPorOnda": 2,
+      "multXp": 1.5
+    },
+    "silencio": {
+      "nome": "Silêncio",
+      "frase": "Corvos dormindo, e os vigias enxergam metade.",
+      "rara": false,
+      "peso": 1,
+      "silencio": true
+    },
+    "chuva_de_doces": {
+      "nome": "Chuva de Doces",
+      "frase": "2 baús extras, e o Gato Preto aparece com certeza.",
+      "rara": true,
+      "peso": 1,
+      "bausExtras": 2,
+      "gatoCerto": true
+    },
+    "apagao": {
+      "nome": "Apagão Parcial",
+      "frase": "Metade das janelas apagadas; os postes curam o dobro.",
+      "rara": true,
+      "peso": 1,
+      "janelasApagadas": 0.5,
+      "multCuraPostes": 2
+    }
+  },
+  "recompensas": {
+    "bau_raro": {
+      "nome": "Baú raro",
+      "frase": "Um baú raro logo na entrada da rua."
+    },
+    "casa_extra": {
+      "nome": "+1 casa",
+      "frase": "Uma casa acesa a mais na próxima porta."
+    },
+    "reroll": {
+      "nome": "Reroll de preço",
+      "frase": "Uma pechincha de graça."
+    },
+    "doces_em_dobro": {
+      "nome": "Doces em dobro",
+      "frase": "Tudo que cair na rua vale o dobro."
+    },
+    "item_comum": {
+      "nome": "Item comum",
+      "frase": "Um item comum ao vencer a rua."
+    }
+  },
+  "pedidos": {
+    "postes_rapidos": {
+      "texto": "Derrube o Poste 2 em até 20 s depois do Poste 1",
+      "recompensa": "reroll",
+      "segundos": 20
+    },
+    "sem_lanterna": {
+      "texto": "Termine a rua sem usar a lanterna",
+      "recompensa": "casa_extra"
+    },
+    "abate_multiplo": {
+      "texto": "Derrote 6 pestinhas com uma única habilidade",
+      "recompensa": "doces",
+      "n": 6,
+      "doces": 60
+    },
+    "frenesi_duplo": {
+      "texto": "Entre em Frenesi 2 vezes",
+      "recompensa": "preco_leve",
+      "n": 2
+    },
+    "pouco_dano": {
+      "texto": "Termine a rua sem perder mais de 30% da Coragem",
+      "recompensa": "item_comum",
+      "fracao": 0.3
+    },
+    "selvagem": {
+      "texto": "Derrote o selvagem de um quintal",
+      "recompensa": "portao_extra"
+    },
+    "interrupcoes": {
+      "texto": "Interrompa 3 ataques com aviso vermelho",
+      "recompensa": "susto",
+      "n": 3,
+      "susto": 25
+    },
+    "explorador": {
+      "texto": "Revele 60% do mapa do bairro",
+      "recompensa": "item_comum",
+      "fracao": 0.6
+    },
+    "abobora_dourada": {
+      "texto": "Encontre 2 Abóboras Douradas",
+      "recompensa": "reroll",
+      "n": 2
+    },
+    "campainhas": {
+      "texto": "Toque 4 campainhas das ruas de trás",
+      "recompensa": "doces",
+      "n": 4,
+      "doces": 60
+    },
+    "religar": {
+      "texto": "Religue 2 postes apagados",
+      "recompensa": "casa_extra",
+      "n": 2
+    }
+  },
+  "textosRecompensaPedido": {
+    "reroll": "1 reroll de preço grátis",
+    "casa_extra": "+1 casa acesa na próxima porta",
+    "doces": "60 doces",
+    "preco_leve": "O próximo trato vem com o preço mais leve",
+    "item_comum": "Item comum aleatório",
+    "portao_extra": "O próximo portão mostra 3 caminhos",
+    "susto": "+25 de Susto no começo da próxima rua"
+  },
+  "portoes": 2,
+  "rarasPorBairro": 1
+}

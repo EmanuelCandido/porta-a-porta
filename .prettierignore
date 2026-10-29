@@ -1,0 +1,14 @@
+dist
+entregas
+coverage
+test-results
+playwright-report
+node_modules
+package-lock.json
+docs/GDD.pdf
+docs/estilo
+docs/GAMEPLAY.pdf
+
+# Malhas geradas por scripts/converter-glb.py
+src/render/malhas/
+.claude

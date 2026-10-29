@@ -1,0 +1,3669 @@
+{
+  "casa_terrea": {
+    "pegada": {
+      "largura": 3,
+      "profundidade": 3.75
+    },
+    "colisao": [
+      {
+        "x0": 0.35,
+        "y0": 0,
+        "x1": 2.55,
+        "y1": 1.45
+      },
+      {
+        "x0": 0,
+        "y0": 1.45,
+        "x1": 2.55,
+        "y1": 3.75
+      },
+      {
+        "x0": 2.55,
+        "y0": 1.85,
+        "x1": 2.95,
+        "y1": 3
+      }
+    ],
+    "janelas": [
+      {
+        "x": 1.25,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.55,
+        "y": 3.35,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 0.7,
+        "y": 3.75,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.8,
+        "y": 3.75,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 2.225,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 3.175,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.67,
+        "y": 2.6,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.3,
+        "andar": 1
+      },
+      {
+        "x": 2.95,
+        "y": 2.425,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.95,
+        "andar": 0
+      },
+      {
+        "x": 2.75,
+        "y": 3,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.26,
+        "andar": 0
+      }
+    ]
+  },
+  "sobrado": {
+    "pegada": {
+      "largura": 2.75,
+      "profundidade": 2.6
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0,
+        "x1": 2.2,
+        "y1": 2.6
+      },
+      {
+        "x0": 2.2,
+        "y0": 0.12,
+        "x1": 2.75,
+        "y1": 1.35
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.2,
+        "y": 1.025,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.35,
+        "andar": 0
+      },
+      {
+        "x": 2.2,
+        "y": 0.385,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.33,
+        "andar": 2
+      },
+      {
+        "x": 0.55,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 1.55,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 0.8,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 1.8,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 0.55,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 1.55,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 0,
+        "y": 0.8,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 0,
+        "y": 1.8,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 0.9,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 0.55,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 1.55,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 0,
+        "y": 0.8,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 0,
+        "y": 1.8,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 0.9,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 2.6,
+        "y": 1.825,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.69,
+        "andar": 1
+      },
+      {
+        "x": 2.4,
+        "y": 2.3,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.24,
+        "andar": 1
+      },
+      {
+        "x": 2.4,
+        "y": 1.35,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.24,
+        "andar": 1
+      },
+      {
+        "x": 2.6,
+        "y": 1.825,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.69,
+        "andar": 2
+      },
+      {
+        "x": 2.4,
+        "y": 2.3,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.24,
+        "andar": 2
+      },
+      {
+        "x": 2.4,
+        "y": 1.35,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.24,
+        "andar": 2
+      }
+    ]
+  },
+  "casa_grande": {
+    "pegada": {
+      "largura": 3.85,
+      "profundidade": 4.6
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0,
+        "x1": 2.7,
+        "y1": 1.4
+      },
+      {
+        "x0": 0,
+        "y0": 1.4,
+        "x1": 2.6,
+        "y1": 4.2
+      },
+      {
+        "x0": 2.6,
+        "y0": 2.2,
+        "x1": 3.8,
+        "y1": 3.4
+      },
+      {
+        "x0": -0.38,
+        "y0": 2.6,
+        "x1": 0,
+        "y1": 3
+      }
+    ],
+    "janelas": [
+      {
+        "x": 1.35,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.6,
+        "y": 1.825,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.6,
+        "y": 3.775,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 1.225,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.075,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 2.225,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 3.425,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 1.3,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.36,
+        "andar": 1
+      },
+      {
+        "x": 3.8,
+        "y": 3.19,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.22,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 3.4,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 3.85,
+        "y": 2.8,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.28,
+        "andar": 1
+      }
+    ]
+  },
+  "poste": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.39,
+        "y0": 0.39,
+        "x1": 0.61,
+        "y1": 0.61
+      }
+    ]
+  },
+  "lixeira": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.33,
+        "y0": 0.33,
+        "x1": 0.67,
+        "y1": 0.67
+      }
+    ]
+  },
+  "arvore": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.42,
+        "y0": 0.42,
+        "x1": 0.58,
+        "y1": 0.58
+      }
+    ]
+  },
+  "banco": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1.4
+    },
+    "colisao": [
+      {
+        "x0": 0.36,
+        "y0": 0.08,
+        "x1": 0.66,
+        "y1": 1.32
+      }
+    ]
+  },
+  "bruxinha": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "fantasma": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "esqueleto": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "vampirinho": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "pestinha_lencol": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "cerca": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 0.3
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0.08,
+        "x1": 1,
+        "y1": 0.22
+      }
+    ]
+  },
+  "bueiro": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "pilar": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.22,
+        "y0": 0.22,
+        "x1": 0.78,
+        "y1": 0.78
+      }
+    ]
+  },
+  "grade": {
+    "pegada": {
+      "largura": 0.3,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.05,
+        "y0": 0,
+        "x1": 0.25,
+        "y1": 1
+      }
+    ]
+  },
+  "arremessador": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "abobora_canhao": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "poste_corrompido": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "poste_caido": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "doce": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "doce_isca": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "bau": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "bau_aberto": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "bau_raro": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "cao_de_guarda": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "corvo": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "gato_preto": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_perseguidora": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_perseguidora_q1": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_perseguidora_q2": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_perseguidora_q3": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_perseguidora_q4": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "vizinho_curioso": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "cobrador": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "sombra_rasteira": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "guarda_condominio": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "sindico_zeloso": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "grade_movel": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_varanda": {
+    "pegada": {
+      "largura": 3.9,
+      "profundidade": 3.25
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0.2,
+        "x1": 2.8,
+        "y1": 3
+      },
+      {
+        "x0": 2.8,
+        "y0": 0.32,
+        "x1": 3.5,
+        "y1": 2.85
+      },
+      {
+        "x0": 0,
+        "y0": 2.3,
+        "x1": 0.3,
+        "y1": 2.64
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.8,
+        "y": 0.73,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.62,
+        "andar": 0
+      },
+      {
+        "x": 2.8,
+        "y": 2.4,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 0.85,
+        "y": 3,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.925,
+        "y": 3,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.55,
+        "andar": 0
+      }
+    ]
+  },
+  "geminado": {
+    "pegada": {
+      "largura": 3,
+      "profundidade": 4.2
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0,
+        "x1": 2.6,
+        "y1": 2.1
+      },
+      {
+        "x0": 0.3,
+        "y0": 2.1,
+        "x1": 2.75,
+        "y1": 4.2
+      },
+      {
+        "x0": 0,
+        "y0": 0.55,
+        "x1": 0.28,
+        "y1": 0.9
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.6,
+        "y": 1.575,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 2.6,
+        "y": 0.575,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 2.6,
+        "y": 1.55,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.6,
+        "andar": 1
+      },
+      {
+        "x": 1.25,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0.3,
+        "y": 0.85,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.25,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 0.3,
+        "y": 0.85,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 2.75,
+        "y": 2.675,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 2.75,
+        "y": 2.675,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 2.75,
+        "y": 3.725,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 1.1,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.05,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0.3,
+        "y": 3.25,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.1,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 2.05,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 0.3,
+        "y": 3.25,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      }
+    ]
+  },
+  "chale": {
+    "pegada": {
+      "largura": 3.4,
+      "profundidade": 2.8
+    },
+    "colisao": [
+      {
+        "x0": 0.35,
+        "y0": 0,
+        "x1": 3,
+        "y1": 2.8
+      },
+      {
+        "x0": 0,
+        "y0": 1.6,
+        "x1": 0.33,
+        "y1": 1.95
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3,
+        "y": 0.725,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.35,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 2.075,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.35,
+        "andar": 0
+      },
+      {
+        "x": 0.35,
+        "y": 1.4,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 0
+      }
+    ]
+  },
+  "casa_torre": {
+    "pegada": {
+      "largura": 3.9,
+      "profundidade": 3.6
+    },
+    "colisao": [
+      {
+        "x0": 0.35,
+        "y0": 0,
+        "x1": 2.95,
+        "y1": 2.6
+      },
+      {
+        "x0": 0.35,
+        "y0": 2.6,
+        "x1": 2.25,
+        "y1": 3.55
+      },
+      {
+        "x0": 2.6,
+        "y0": 2.4,
+        "x1": 3.7,
+        "y1": 3.5
+      },
+      {
+        "x0": 0,
+        "y0": 1,
+        "x1": 0.33,
+        "y1": 1.35
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.95,
+        "y": 0.575,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.95,
+        "y": 1.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.95,
+        "y": 0.575,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 2.95,
+        "y": 1.225,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 2.95,
+        "y": 1.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 1.25,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0.35,
+        "y": 1.05,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.25,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 0.35,
+        "y": 1.05,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 1.05,
+        "y": 3.55,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.825,
+        "y": 3.55,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 3.704,
+        "y": 2.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.26,
+        "andar": 0
+      },
+      {
+        "x": 3.15,
+        "y": 3.504,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.26,
+        "andar": 0
+      },
+      {
+        "x": 3.704,
+        "y": 2.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.26,
+        "andar": 1
+      },
+      {
+        "x": 3.15,
+        "y": 3.504,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.26,
+        "andar": 1
+      }
+    ]
+  },
+  "loja": {
+    "pegada": {
+      "largura": 3.6,
+      "profundidade": 3.6
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0,
+        "x1": 3,
+        "y1": 3.6
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3,
+        "y": 0.55,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 1.25,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 1.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 2.825,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 0.6,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 3,
+        "y": 1.5,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 3,
+        "y": 2.4,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 1.05,
+        "y": 3.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.05,
+        "y": 3.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0.3,
+        "y": 1.45,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.05,
+        "y": 3.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 2.05,
+        "y": 3.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 0.3,
+        "y": 1.45,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      }
+    ]
+  },
+  "predio": {
+    "pegada": {
+      "largura": 4.2,
+      "profundidade": 5
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0,
+        "x1": 3.6,
+        "y1": 5
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3.6,
+        "y": 0.9,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.9,
+        "andar": 0
+      },
+      {
+        "x": 3.6,
+        "y": 4.05,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.9,
+        "andar": 0
+      },
+      {
+        "x": 3.6,
+        "y": 2.5,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 0
+      },
+      {
+        "x": 3.6,
+        "y": 0.75,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 3.6,
+        "y": 3.05,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 3.6,
+        "y": 4.25,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 3.6,
+        "y": 0.75,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 3.6,
+        "y": 1.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 3.6,
+        "y": 4.25,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 2
+      },
+      {
+        "x": 3.6,
+        "y": 0.75,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 3
+      },
+      {
+        "x": 3.6,
+        "y": 1.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 3
+      },
+      {
+        "x": 3.6,
+        "y": 3.05,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 3
+      },
+      {
+        "x": 3.6,
+        "y": 0.75,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 4
+      },
+      {
+        "x": 3.6,
+        "y": 1.95,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 4
+      },
+      {
+        "x": 3.6,
+        "y": 3.05,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 4
+      },
+      {
+        "x": 3.6,
+        "y": 4.25,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 4
+      },
+      {
+        "x": 0.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 0.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 1.75,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0,
+        "y": 3.25,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 0.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 1.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 1.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 0,
+        "y": 1.75,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 0,
+        "y": 3.25,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 0.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 2
+      },
+      {
+        "x": 0.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 2
+      },
+      {
+        "x": 1.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 2
+      },
+      {
+        "x": 1.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 2
+      },
+      {
+        "x": 2.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 2
+      },
+      {
+        "x": 2.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 2
+      },
+      {
+        "x": 0,
+        "y": 3.25,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 2
+      },
+      {
+        "x": 0.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 3
+      },
+      {
+        "x": 0.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 3
+      },
+      {
+        "x": 1.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 3
+      },
+      {
+        "x": 1.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 3
+      },
+      {
+        "x": 2.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 3
+      },
+      {
+        "x": 2.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 3
+      },
+      {
+        "x": 0,
+        "y": 1.75,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 3
+      },
+      {
+        "x": 0,
+        "y": 3.25,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 3
+      },
+      {
+        "x": 1.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 4
+      },
+      {
+        "x": 1.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 4
+      },
+      {
+        "x": 2.625,
+        "y": 5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 4
+      },
+      {
+        "x": 2.625,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.45,
+        "andar": 4
+      },
+      {
+        "x": 0,
+        "y": 1.75,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 4
+      }
+    ]
+  },
+  "igreja": {
+    "pegada": {
+      "largura": 6,
+      "profundidade": 4
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0.5,
+        "x1": 4.6,
+        "y1": 3.5
+      },
+      {
+        "x0": 4.6,
+        "y0": 1.35,
+        "x1": 5.8,
+        "y1": 2.65
+      }
+    ],
+    "janelas": [
+      {
+        "x": 1,
+        "y": 3.5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 1,
+        "y": 0.5,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 2,
+        "y": 3.5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 2,
+        "y": 0.5,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 3.5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 0.5,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 4,
+        "y": 3.5,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 4,
+        "y": 0.5,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 5.8,
+        "y": 2,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.3,
+        "andar": 1
+      }
+    ]
+  },
+  "escola": {
+    "pegada": {
+      "largura": 4,
+      "profundidade": 8
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0,
+        "x1": 3.2,
+        "y1": 8
+      },
+      {
+        "x0": 3.2,
+        "y0": 3.3,
+        "x1": 3.85,
+        "y1": 4.7
+      },
+      {
+        "x0": 3.75,
+        "y0": 0.6,
+        "x1": 3.81,
+        "y1": 0.66
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3.2,
+        "y": 0.525,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 0.525,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 1.495,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 2.465,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 2.465,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 3.435,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 5.375,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 5.375,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 6.345,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 6.345,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 7.315,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 0.8,
+        "y": 8,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 2.2,
+        "y": 8,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 0.8,
+        "y": 8,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.6,
+        "andar": 1
+      },
+      {
+        "x": 2.2,
+        "y": 8,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.6,
+        "andar": 1
+      }
+    ]
+  },
+  "galpao": {
+    "pegada": {
+      "largura": 5,
+      "profundidade": 4.2
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0,
+        "x1": 4.8,
+        "y1": 4.2
+      },
+      {
+        "x0": 4.8,
+        "y0": 0.6,
+        "x1": 5,
+        "y1": 3.6
+      }
+    ],
+    "janelas": [
+      {
+        "x": 1.1,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 1,
+        "andar": 0
+      },
+      {
+        "x": 2.5,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 1,
+        "andar": 0
+      },
+      {
+        "x": 3.9,
+        "y": 4.2,
+        "nx": 0,
+        "ny": 1,
+        "largura": 1,
+        "andar": 0
+      },
+      {
+        "x": 1.733,
+        "y": 2.1,
+        "nx": 1,
+        "ny": 0,
+        "largura": 3.6,
+        "andar": 1
+      },
+      {
+        "x": 4.8,
+        "y": 2.1,
+        "nx": 1,
+        "ny": 0,
+        "largura": 3.6,
+        "andar": 1
+      }
+    ]
+  },
+  "caixa_dagua": {
+    "pegada": {
+      "largura": 2.4,
+      "profundidade": 2.4
+    },
+    "colisao": [
+      {
+        "x0": 0.4,
+        "y0": 0.4,
+        "x1": 0.55,
+        "y1": 0.55
+      },
+      {
+        "x0": 1.85,
+        "y0": 0.4,
+        "x1": 2,
+        "y1": 0.55
+      },
+      {
+        "x0": 0.4,
+        "y0": 1.85,
+        "x1": 0.55,
+        "y1": 2
+      },
+      {
+        "x0": 1.85,
+        "y0": 1.85,
+        "x1": 2,
+        "y1": 2
+      }
+    ],
+    "janelas": []
+  },
+  "chafariz": {
+    "pegada": {
+      "largura": 3,
+      "profundidade": 3
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0.3,
+        "x1": 2.7,
+        "y1": 2.7
+      }
+    ],
+    "janelas": []
+  },
+  "coreto": {
+    "pegada": {
+      "largura": 3.7,
+      "profundidade": 3.7
+    },
+    "colisao": [
+      {
+        "x0": 0.5,
+        "y0": 0.5,
+        "x1": 3.1,
+        "y1": 3.1
+      }
+    ],
+    "janelas": []
+  },
+  "balanco": {
+    "pegada": {
+      "largura": 1.2,
+      "profundidade": 2.2
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0.05,
+        "x1": 1,
+        "y1": 0.15
+      },
+      {
+        "x0": 0.2,
+        "y0": 2.05,
+        "x1": 1,
+        "y1": 2.15
+      }
+    ],
+    "janelas": []
+  },
+  "escorregador": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 2.6
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0.1,
+        "x1": 0.7,
+        "y1": 2.5
+      }
+    ],
+    "janelas": []
+  },
+  "floreira": {
+    "pegada": {
+      "largura": 1.2,
+      "profundidade": 0.6
+    },
+    "colisao": [
+      {
+        "x0": 0.05,
+        "y0": 0.05,
+        "x1": 1.15,
+        "y1": 0.55
+      }
+    ],
+    "janelas": []
+  },
+  "arbusto": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0.2,
+        "x1": 0.8,
+        "y1": 0.8
+      }
+    ],
+    "janelas": []
+  },
+  "pinheiro": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.45,
+        "y0": 0.45,
+        "x1": 0.55,
+        "y1": 0.55
+      }
+    ],
+    "janelas": []
+  },
+  "arvore_seca": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.45,
+        "y0": 0.45,
+        "x1": 0.56,
+        "y1": 0.56
+      }
+    ],
+    "janelas": []
+  },
+  "carro": {
+    "pegada": {
+      "largura": 3.05,
+      "profundidade": 1.45
+    },
+    "colisao": [
+      {
+        "x0": 0.45,
+        "y0": 0.22,
+        "x1": 2.6,
+        "y1": 1.22
+      }
+    ],
+    "janelas": []
+  },
+  "hidrante": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.4,
+        "y0": 0.4,
+        "x1": 0.6,
+        "y1": 0.6
+      }
+    ],
+    "janelas": []
+  },
+  "caixa_correio": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.4,
+        "y0": 0.42,
+        "x1": 0.62,
+        "y1": 0.58
+      }
+    ],
+    "janelas": []
+  },
+  "orelhao": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.42,
+        "y0": 0.42,
+        "x1": 0.58,
+        "y1": 0.6
+      }
+    ],
+    "janelas": []
+  },
+  "ponto_onibus": {
+    "pegada": {
+      "largura": 1.1,
+      "profundidade": 3.05
+    },
+    "colisao": [
+      {
+        "x0": 0.12,
+        "y0": 0.42,
+        "x1": 0.65,
+        "y1": 2.38
+      },
+      {
+        "x0": 0.72,
+        "y0": 2.54,
+        "x1": 0.84,
+        "y1": 2.94
+      }
+    ],
+    "janelas": [
+      {
+        "x": 0.18,
+        "y": 0.87,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.62,
+        "andar": 0
+      }
+    ]
+  },
+  "banca": {
+    "pegada": {
+      "largura": 1.96,
+      "profundidade": 2.15
+    },
+    "colisao": [
+      {
+        "x0": 0.12,
+        "y0": 0.12,
+        "x1": 1.82,
+        "y1": 1.9
+      }
+    ],
+    "janelas": [
+      {
+        "x": 1.55,
+        "y": 1.01,
+        "nx": 1,
+        "ny": 0,
+        "largura": 1.42,
+        "andar": 0
+      }
+    ]
+  },
+  "cacamba": {
+    "pegada": {
+      "largura": 1.8,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0.1,
+        "x1": 1.7,
+        "y1": 0.9
+      }
+    ],
+    "janelas": []
+  },
+  "semaforo": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.46,
+        "y0": 0.46,
+        "x1": 0.54,
+        "y1": 0.54
+      }
+    ],
+    "janelas": []
+  },
+  "placa_rua": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.46,
+        "y0": 0.46,
+        "x1": 0.54,
+        "y1": 0.54
+      }
+    ],
+    "janelas": []
+  },
+  "muro": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 0.3
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0.02,
+        "x1": 1,
+        "y1": 0.28
+      }
+    ],
+    "janelas": []
+  },
+  "tapume": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 0.2
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0.05,
+        "x1": 1,
+        "y1": 0.15
+      }
+    ],
+    "janelas": []
+  },
+  "cavalete": {
+    "pegada": {
+      "largura": 1.2,
+      "profundidade": 0.4
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0.15,
+        "x1": 1.2,
+        "y1": 0.25
+      }
+    ],
+    "janelas": []
+  },
+  "cone": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.38,
+        "y0": 0.38,
+        "x1": 0.62,
+        "y1": 0.62
+      }
+    ],
+    "janelas": []
+  },
+  "pilha_tijolos": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [],
+    "janelas": []
+  },
+  "patamar": {
+    "pegada": {
+      "largura": 3.2,
+      "profundidade": 7
+    },
+    "colisao": [],
+    "janelas": []
+  },
+  "espelho": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1.2
+    },
+    "colisao": [
+      {
+        "x0": 0.4,
+        "y0": 0.1,
+        "x1": 0.6,
+        "y1": 1.1
+      }
+    ],
+    "janelas": []
+  },
+  "arco": {
+    "pegada": {
+      "largura": 0.8,
+      "profundidade": 7
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0,
+        "x1": 0.7,
+        "y1": 0.6
+      },
+      {
+        "x0": 0.1,
+        "y0": 6.4,
+        "x1": 0.7,
+        "y1": 7
+      }
+    ],
+    "janelas": []
+  },
+  "portico": {
+    "pegada": {
+      "largura": 0.8,
+      "profundidade": 11.2
+    },
+    "colisao": [
+      {
+        "x0": 0.05,
+        "y0": 0,
+        "x1": 0.75,
+        "y1": 0.7
+      },
+      {
+        "x0": 0.05,
+        "y0": 10.5,
+        "x1": 0.75,
+        "y1": 11.2
+      }
+    ],
+    "janelas": []
+  },
+  "poco": {
+    "pegada": {
+      "largura": 1.4,
+      "profundidade": 1.4
+    },
+    "colisao": [
+      {
+        "x0": 0.25,
+        "y0": 0.25,
+        "x1": 1.15,
+        "y1": 1.15
+      }
+    ],
+    "janelas": []
+  },
+  "vela": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [],
+    "janelas": []
+  },
+  "guarita": {
+    "pegada": {
+      "largura": 1.6,
+      "profundidade": 1.6
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0.1,
+        "x1": 1.5,
+        "y1": 1.5
+      }
+    ],
+    "janelas": [
+      {
+        "x": 1.5,
+        "y": 0.8,
+        "nx": 1,
+        "ny": 0,
+        "largura": 1,
+        "andar": 0
+      }
+    ]
+  },
+  "canteiro": {
+    "pegada": {
+      "largura": 1.6,
+      "profundidade": 0.8
+    },
+    "colisao": [
+      {
+        "x0": 0.08,
+        "y0": 0.08,
+        "x1": 1.52,
+        "y1": 0.72
+      }
+    ],
+    "janelas": []
+  },
+  "cancela": {
+    "pegada": {
+      "largura": 4,
+      "profundidade": 0.4
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0.12,
+        "x1": 4,
+        "y1": 0.28
+      }
+    ],
+    "janelas": []
+  },
+  "saco_surpresa": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "morceguinho": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "espantalho": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "pestinha_vela": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "abobora_gigante": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0.2,
+        "x1": 0.8,
+        "y1": 0.8
+      }
+    ],
+    "janelas": []
+  },
+  "aldrava": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [],
+    "janelas": []
+  },
+  "abobora_decor": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [],
+    "janelas": []
+  },
+  "lapide": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [],
+    "janelas": []
+  },
+  "varal": {
+    "pegada": {
+      "largura": 0.4,
+      "profundidade": 2.2
+    },
+    "colisao": [
+      {
+        "x0": 0.17,
+        "y0": 0.05,
+        "x1": 0.23,
+        "y1": 0.11
+      },
+      {
+        "x0": 0.17,
+        "y0": 2.09,
+        "x1": 0.23,
+        "y1": 2.15
+      }
+    ],
+    "janelas": []
+  },
+  "cerca_viva": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 0.5
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0.05,
+        "x1": 1,
+        "y1": 0.45
+      }
+    ],
+    "janelas": []
+  },
+  "morro": {
+    "pegada": {
+      "largura": 3,
+      "profundidade": 3
+    },
+    "colisao": [
+      {
+        "x0": 0.25,
+        "y0": 0.25,
+        "x1": 2.75,
+        "y1": 2.75
+      }
+    ],
+    "janelas": []
+  },
+  "pedra": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0.32,
+        "x1": 0.7,
+        "y1": 0.72
+      }
+    ],
+    "janelas": []
+  },
+  "barreira": {
+    "pegada": {
+      "largura": 2,
+      "profundidade": 0.6
+    },
+    "colisao": [
+      {
+        "x0": 0.02,
+        "y0": 0.06,
+        "x1": 1.98,
+        "y1": 0.54
+      }
+    ],
+    "janelas": []
+  },
+  "buraco": {
+    "pegada": {
+      "largura": 2,
+      "profundidade": 2
+    },
+    "colisao": [
+      {
+        "x0": 0.3,
+        "y0": 0.3,
+        "x1": 1.7,
+        "y1": 1.7
+      }
+    ],
+    "janelas": []
+  },
+  "placa_obra": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": [
+      {
+        "x0": 0.44,
+        "y0": 0.14,
+        "x1": 0.56,
+        "y1": 0.86
+      }
+    ],
+    "janelas": []
+  },
+  "abobora_dourada": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "viuva_do_mirante": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "mirante": {
+    "pegada": {
+      "largura": 4.6,
+      "profundidade": 4
+    },
+    "colisao": [
+      {
+        "x0": 0,
+        "y0": 0,
+        "x1": 3.2,
+        "y1": 4
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3.2,
+        "y": 1.65,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 3.2,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.45,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.75,
+        "y": 4,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 3.2,
+        "y": 1.65,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.4,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 3.2,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 1.45,
+        "y": 0,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 1.75,
+        "y": 4,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 2,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 2
+      },
+      {
+        "x": 3.2,
+        "y": 0.675,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.35,
+        "andar": 2
+      },
+      {
+        "x": 3.2,
+        "y": 3.325,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.35,
+        "andar": 2
+      },
+      {
+        "x": 2.2,
+        "y": 2,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 3
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "nx": -1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 3
+      },
+      {
+        "x": 1.6,
+        "y": 2.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 3
+      },
+      {
+        "x": 1.6,
+        "y": 1.4,
+        "nx": 0,
+        "ny": -1,
+        "largura": 0.5,
+        "andar": 3
+      }
+    ]
+  },
+  "dono_do_bairro": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "dono_do_bairro_rosto": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "bau_amaldicoado": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "crianca_perdida": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "carrinho_pipoca": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "casa_sotao": {
+    "pegada": {
+      "largura": 3.3,
+      "profundidade": 3.35
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0.1,
+        "x1": 2.65,
+        "y1": 3.1
+      },
+      {
+        "x0": 0,
+        "y0": 2.45,
+        "x1": 0.3,
+        "y1": 2.79
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.65,
+        "y": 0.55,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.65,
+        "y": 2.56,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.52,
+        "andar": 0
+      },
+      {
+        "x": 0.7,
+        "y": 3.1,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.85,
+        "y": 3.1,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 3.05,
+        "y": 1.525,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.61,
+        "andar": 1
+      }
+    ]
+  },
+  "casa_laje": {
+    "pegada": {
+      "largura": 3.3,
+      "profundidade": 3.4
+    },
+    "colisao": [
+      {
+        "x0": 0.15,
+        "y0": 0.1,
+        "x1": 2.75,
+        "y1": 3.25
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.75,
+        "y": 0.77,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.74,
+        "andar": 0
+      },
+      {
+        "x": 2.75,
+        "y": 2.35,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 0
+      },
+      {
+        "x": 0.825,
+        "y": 3.25,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 1.94,
+        "y": 3.25,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 0
+      }
+    ]
+  },
+  "geminadas": {
+    "pegada": {
+      "largura": 3.1,
+      "profundidade": 3.9
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0,
+        "x1": 2.55,
+        "y1": 3.7
+      },
+      {
+        "x0": 0,
+        "y0": 0.5,
+        "x1": 0.3,
+        "y1": 0.84
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.55,
+        "y": 1.175,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 2.55,
+        "y": 0.435,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.43,
+        "andar": 1
+      },
+      {
+        "x": 2.55,
+        "y": 1.25,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.46,
+        "andar": 1
+      },
+      {
+        "x": 2.55,
+        "y": 3.025,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 0
+      },
+      {
+        "x": 2.55,
+        "y": 2.285,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.43,
+        "andar": 1
+      },
+      {
+        "x": 2.55,
+        "y": 3.1,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.46,
+        "andar": 1
+      },
+      {
+        "x": 0.875,
+        "y": 3.7,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.45,
+        "andar": 1
+      },
+      {
+        "x": 1.885,
+        "y": 3.7,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.47,
+        "andar": 1
+      }
+    ]
+  },
+  "sobrado_atelie": {
+    "pegada": {
+      "largura": 3.4,
+      "profundidade": 3.45
+    },
+    "colisao": [
+      {
+        "x0": 0.15,
+        "y0": 0.05,
+        "x1": 2.75,
+        "y1": 3.25
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.75,
+        "y": 1.435,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.57,
+        "andar": 0
+      },
+      {
+        "x": 2.75,
+        "y": 2.42,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.6,
+        "andar": 0
+      },
+      {
+        "x": 2.75,
+        "y": 0.6,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.44,
+        "andar": 1
+      },
+      {
+        "x": 2.75,
+        "y": 1.515,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.53,
+        "andar": 1
+      },
+      {
+        "x": 2.75,
+        "y": 2.515,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.53,
+        "andar": 1
+      },
+      {
+        "x": 0.85,
+        "y": 3.25,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 1.95,
+        "y": 3.25,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 1.58,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 1
+      },
+      {
+        "x": 3.2,
+        "y": 2.44,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.72,
+        "andar": 1
+      }
+    ]
+  },
+  "vilinha": {
+    "pegada": {
+      "largura": 2.95,
+      "profundidade": 4.4
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0,
+        "x1": 2.48,
+        "y1": 4.28
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.48,
+        "y": 0.97,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.38,
+        "andar": 0
+      },
+      {
+        "x": 2.48,
+        "y": 2.4,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.38,
+        "andar": 0
+      },
+      {
+        "x": 2.48,
+        "y": 3.83,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.38,
+        "andar": 0
+      },
+      {
+        "x": 0.85,
+        "y": 4.28,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 1.8,
+        "y": 4.28,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.5,
+        "andar": 0
+      }
+    ]
+  },
+  "padaria": {
+    "pegada": {
+      "largura": 3.75,
+      "profundidade": 3.9
+    },
+    "colisao": [
+      {
+        "x0": 0.15,
+        "y0": 0.1,
+        "x1": 3,
+        "y1": 3.7
+      },
+      {
+        "x0": 0,
+        "y0": 2.9,
+        "x1": 0.3,
+        "y1": 3.24
+      },
+      {
+        "x0": 3.44,
+        "y0": 3.04,
+        "x1": 3.57,
+        "y1": 3.45
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3,
+        "y": 0.67,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 1.52,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 2.37,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.7,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 0.725,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3,
+        "y": 1.825,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 3,
+        "y": 2.925,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.55,
+        "andar": 1
+      },
+      {
+        "x": 0.735,
+        "y": 3.7,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.57,
+        "andar": 1
+      },
+      {
+        "x": 1.875,
+        "y": 3.7,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.65,
+        "andar": 1
+      },
+      {
+        "x": 1.425,
+        "y": 3.7,
+        "nx": 0,
+        "ny": 1,
+        "largura": 1.95,
+        "andar": 0
+      }
+    ]
+  },
+  "mercado": {
+    "pegada": {
+      "largura": 3.88,
+      "profundidade": 3.85
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0.1,
+        "x1": 3,
+        "y1": 3.6
+      },
+      {
+        "x0": 3.1,
+        "y0": 0.4,
+        "x1": 3.78,
+        "y1": 1.05
+      },
+      {
+        "x0": 3.5,
+        "y0": 2.66,
+        "x1": 3.58,
+        "y1": 3.24
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3,
+        "y": 0.78,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.84,
+        "andar": 0
+      },
+      {
+        "x": 3,
+        "y": 1.79,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.82,
+        "andar": 0
+      },
+      {
+        "x": 0.95,
+        "y": 3.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.7,
+        "andar": 0
+      },
+      {
+        "x": 2.075,
+        "y": 3.6,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.75,
+        "andar": 0
+      }
+    ]
+  },
+  "oficina": {
+    "pegada": {
+      "largura": 3.9,
+      "profundidade": 4.3
+    },
+    "colisao": [
+      {
+        "x0": 0.2,
+        "y0": 0.1,
+        "x1": 3.15,
+        "y1": 4
+      },
+      {
+        "x0": 3.23,
+        "y0": 3.5,
+        "x1": 3.67,
+        "y1": 3.94
+      }
+    ],
+    "janelas": [
+      {
+        "x": 0.925,
+        "y": 4,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.75,
+        "andar": 0
+      },
+      {
+        "x": 2.11,
+        "y": 4,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.78,
+        "andar": 0
+      }
+    ]
+  },
+  "cinema": {
+    "pegada": {
+      "largura": 4.1,
+      "profundidade": 4.25
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0.1,
+        "x1": 3.1,
+        "y1": 4
+      },
+      {
+        "x0": 3.1,
+        "y0": 1.3,
+        "x1": 3.3,
+        "y1": 2.8
+      }
+    ],
+    "janelas": [
+      {
+        "x": 3.3,
+        "y": 2.04,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.8,
+        "andar": 0
+      },
+      {
+        "x": 3.3,
+        "y": 1.69,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.16,
+        "andar": 1
+      },
+      {
+        "x": 3.3,
+        "y": 2.07,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.16,
+        "andar": 1
+      },
+      {
+        "x": 3.3,
+        "y": 2.45,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.16,
+        "andar": 1
+      }
+    ]
+  },
+  "edificio": {
+    "pegada": {
+      "largura": 3.55,
+      "profundidade": 4.15
+    },
+    "colisao": [
+      {
+        "x0": 0.15,
+        "y0": 0.1,
+        "x1": 2.95,
+        "y1": 3.9
+      }
+    ],
+    "janelas": [
+      {
+        "x": 2.95,
+        "y": 0.65,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 2.95,
+        "y": 1.425,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.95,
+        "y": 2.625,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.45,
+        "andar": 0
+      },
+      {
+        "x": 2.95,
+        "y": 3.38,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 0
+      },
+      {
+        "x": 0.91,
+        "y": 3.9,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 0
+      },
+      {
+        "x": 1.98,
+        "y": 3.9,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 0
+      },
+      {
+        "x": 0.91,
+        "y": 3.9,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 1
+      },
+      {
+        "x": 1.98,
+        "y": 3.9,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 1
+      },
+      {
+        "x": 2.95,
+        "y": 0.65,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 2
+      },
+      {
+        "x": 2.95,
+        "y": 1.55,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 2
+      },
+      {
+        "x": 2.95,
+        "y": 2.6,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 2
+      },
+      {
+        "x": 2.95,
+        "y": 3.38,
+        "nx": 1,
+        "ny": 0,
+        "largura": 0.5,
+        "andar": 2
+      },
+      {
+        "x": 0.91,
+        "y": 3.9,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 2
+      },
+      {
+        "x": 1.98,
+        "y": 3.9,
+        "nx": 0,
+        "ny": 1,
+        "largura": 0.52,
+        "andar": 2
+      }
+    ]
+  },
+  "onibus": {
+    "pegada": {
+      "largura": 4.1,
+      "profundidade": 1.55
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0.15,
+        "x1": 4,
+        "y1": 1.4
+      }
+    ],
+    "janelas": []
+  },
+  "carrinho_de_rua": {
+    "pegada": {
+      "largura": 1.6,
+      "profundidade": 1.73
+    },
+    "colisao": [
+      {
+        "x0": 0.15,
+        "y0": 0.1,
+        "x1": 1.48,
+        "y1": 1.55
+      }
+    ],
+    "janelas": []
+  },
+  "pracinha": {
+    "pegada": {
+      "largura": 1.55,
+      "profundidade": 1.65
+    },
+    "colisao": [
+      {
+        "x0": 0.1,
+        "y0": 0.1,
+        "x1": 1.39,
+        "y1": 1.5
+      }
+    ],
+    "janelas": []
+  },
+  "morador_ofendido": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "sombra_da_viuva": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "moradora_13_bruxinha": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "moradora_13_fantasma": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "moradora_13_esqueleto": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  },
+  "moradora_13_vampirinho": {
+    "pegada": {
+      "largura": 1,
+      "profundidade": 1
+    },
+    "colisao": []
+  }
+}
